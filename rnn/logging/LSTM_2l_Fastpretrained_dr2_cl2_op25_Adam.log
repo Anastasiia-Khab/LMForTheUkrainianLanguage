@@ -1,0 +1,3405 @@
+DEBUG:root:Current device 1 
+DEBUG:root:Loading data ...
+DEBUG:root:DONE loading data ...
+DEBUG:root:Net:
+RnnLm(
+  (embedding): Embedding(300000, 300)
+  (lstm): LSTM(300, 500, num_layers=2, dropout=0.2)
+  (fc1): Linear(in_features=500, out_features=300000, bias=True)
+)
+DEBUG:root:Parameter embedding.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 300]) 
+DEBUG:root:Parameter False 
+DEBUG:root:Parameter lstm.weight_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 300]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.bias 
+DEBUG:root:Parameter shape torch.Size([300000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter embedding.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 300]) 
+DEBUG:root:Parameter False 
+DEBUG:root:Parameter lstm.weight_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 300]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.bias 
+DEBUG:root:Parameter shape torch.Size([300000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Number parameters 153908000
+DEBUG:root:Scheduler.get_lr() [0.001]
+DEBUG:root:START EPOCH now = 2020-01-05 20:10:48.906298
+DEBUG:root:Training epoch 0
+INFO:root:	Batch 0, loss 12.608, perplexity 298829.08
+INFO:root:	Batch 604, loss 7.333, perplexity 1530.25
+DEBUG:root:Current device 1 
+DEBUG:root:Loading data ...
+DEBUG:root:DONE loading data ...
+DEBUG:root:Net:
+RnnLm(
+  (embedding): Embedding(300000, 300)
+  (lstm): LSTM(300, 500, num_layers=2, dropout=0.2)
+  (fc1): Linear(in_features=500, out_features=300000, bias=True)
+)
+DEBUG:root:Parameter embedding.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 300]) 
+DEBUG:root:Parameter False 
+DEBUG:root:Parameter lstm.weight_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 300]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.bias 
+DEBUG:root:Parameter shape torch.Size([300000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter embedding.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 300]) 
+DEBUG:root:Parameter False 
+DEBUG:root:Parameter lstm.weight_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 300]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.bias 
+DEBUG:root:Parameter shape torch.Size([300000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Number parameters 153908000
+DEBUG:root:Scheduler.get_lr() [0.001]
+DEBUG:root:START EPOCH now = 2020-01-05 20:14:01.178178
+DEBUG:root:Training epoch 0
+INFO:root:	Batch 0, loss 12.609, perplexity 299299.59
+INFO:root:	Batch 602, loss 7.209, perplexity 1351.49
+INFO:root:	Batch 1211, loss 6.619, perplexity 749.01
+INFO:root:	Batch 1792, loss 6.772, perplexity 873.46
+INFO:root:	Batch 2399, loss 6.342, perplexity 567.74
+INFO:root:	Batch 2968, loss 6.349, perplexity 571.85
+INFO:root:	Batch 3523, loss 6.236, perplexity 510.56
+INFO:root:	Batch 4095, loss 6.078, perplexity 436.22
+INFO:root:	Batch 4689, loss 5.916, perplexity 370.85
+INFO:root:	Batch 5274, loss 5.789, perplexity 326.80
+INFO:root:	Batch 5876, loss 5.772, perplexity 321.21
+INFO:root:	Batch 6471, loss 5.755, perplexity 315.64
+INFO:root:	Batch 7075, loss 5.632, perplexity 279.23
+INFO:root:	Batch 7658, loss 5.483, perplexity 240.49
+INFO:root:	Batch 8266, loss 5.698, perplexity 298.24
+INFO:root:	Batch 8856, loss 5.347, perplexity 210.03
+INFO:root:	Batch 9442, loss 5.549, perplexity 257.08
+INFO:root:	Batch 10047, loss 5.580, perplexity 265.08
+INFO:root:	Batch 10651, loss 5.525, perplexity 250.98
+INFO:root:	Batch 11230, loss 5.879, perplexity 357.57
+INFO:root:	Batch 11832, loss 5.834, perplexity 341.63
+INFO:root:	Batch 12413, loss 5.395, perplexity 220.41
+INFO:root:	Batch 13014, loss 5.574, perplexity 263.53
+INFO:root:	Batch 13627, loss 5.640, perplexity 281.38
+INFO:root:	Batch 14207, loss 5.324, perplexity 205.27
+INFO:root:	Batch 14787, loss 5.035, perplexity 153.74
+INFO:root:	Batch 15385, loss 5.347, perplexity 210.05
+INFO:root:	Batch 15965, loss 5.294, perplexity 199.22
+INFO:root:	Batch 16570, loss 5.323, perplexity 204.96
+INFO:root:	Batch 17138, loss 5.412, perplexity 224.12
+INFO:root:	Batch 17732, loss 5.177, perplexity 177.07
+INFO:root:	Batch 18335, loss 5.859, perplexity 350.29
+INFO:root:	Batch 18932, loss 5.185, perplexity 178.60
+INFO:root:	Batch 19503, loss 5.552, perplexity 257.73
+INFO:root:	Batch 20106, loss 5.475, perplexity 238.64
+INFO:root:	Batch 20665, loss 5.492, perplexity 242.77
+INFO:root:	Batch 21269, loss 5.460, perplexity 235.13
+INFO:root:	Batch 21857, loss 5.072, perplexity 159.44
+INFO:root:	Batch 22453, loss 5.111, perplexity 165.90
+INFO:root:	Batch 23054, loss 5.662, perplexity 287.66
+INFO:root:	Batch 23655, loss 5.434, perplexity 229.07
+INFO:root:	Batch 24264, loss 4.832, perplexity 125.48
+INFO:root:	Batch 24846, loss 4.891, perplexity 133.15
+INFO:root:	Batch 25450, loss 5.358, perplexity 212.29
+INFO:root:	Batch 26041, loss 5.514, perplexity 248.05
+INFO:root:	Batch 26648, loss 5.097, perplexity 163.47
+INFO:root:	Batch 27236, loss 5.394, perplexity 220.13
+INFO:root:	Batch 27842, loss 5.207, perplexity 182.58
+INFO:root:	Batch 28439, loss 5.281, perplexity 196.64
+INFO:root:	Batch 29030, loss 5.341, perplexity 208.68
+INFO:root:	Batch 29632, loss 5.136, perplexity 170.09
+INFO:root:	Batch 30235, loss 4.934, perplexity 138.97
+INFO:root:	Batch 30830, loss 4.996, perplexity 147.89
+INFO:root:	Batch 31402, loss 5.130, perplexity 168.96
+INFO:root:	Batch 31988, loss 5.014, perplexity 150.48
+INFO:root:	Batch 32596, loss 4.948, perplexity 140.83
+INFO:root:	Batch 33206, loss 4.950, perplexity 141.13
+INFO:root:	Batch 33776, loss 5.305, perplexity 201.25
+INFO:root:	Batch 34384, loss 5.152, perplexity 172.79
+INFO:root:	Batch 34989, loss 5.303, perplexity 200.90
+INFO:root:	Batch 35554, loss 4.831, perplexity 125.38
+INFO:root:	Batch 36161, loss 5.302, perplexity 200.81
+INFO:root:	Batch 36769, loss 5.077, perplexity 160.32
+INFO:root:	Batch 37337, loss 5.278, perplexity 196.07
+INFO:root:	Batch 37908, loss 5.051, perplexity 156.18
+INFO:root:	Batch 38478, loss 5.078, perplexity 160.43
+INFO:root:	Batch 39036, loss 5.284, perplexity 197.17
+INFO:root:	Batch 39605, loss 5.093, perplexity 162.95
+INFO:root:	Batch 40187, loss 5.381, perplexity 217.21
+INFO:root:	Batch 40797, loss 4.985, perplexity 146.14
+INFO:root:	Batch 41414, loss 5.088, perplexity 162.13
+INFO:root:	Batch 41978, loss 4.903, perplexity 134.75
+INFO:root:	Batch 42592, loss 5.169, perplexity 175.74
+INFO:root:	Batch 43187, loss 4.797, perplexity 121.20
+INFO:root:	Batch 43770, loss 5.051, perplexity 156.18
+INFO:root:	Batch 44347, loss 5.148, perplexity 172.12
+INFO:root:	Batch 44946, loss 5.183, perplexity 178.16
+INFO:root:	Batch 45552, loss 5.203, perplexity 181.84
+INFO:root:	Batch 46158, loss 5.374, perplexity 215.82
+INFO:root:	Batch 46749, loss 4.749, perplexity 115.44
+INFO:root:	Batch 47336, loss 5.546, perplexity 256.14
+INFO:root:	Batch 47938, loss 4.989, perplexity 146.79
+INFO:root:	Batch 48544, loss 5.158, perplexity 173.85
+INFO:root:	Batch 49148, loss 4.838, perplexity 126.23
+INFO:root:	Batch 49734, loss 4.985, perplexity 146.26
+INFO:root:	Batch 50341, loss 5.018, perplexity 151.15
+INFO:root:	Batch 50905, loss 4.789, perplexity 120.20
+INFO:root:	Batch 51476, loss 5.056, perplexity 157.04
+INFO:root:	Batch 52085, loss 5.491, perplexity 242.53
+INFO:root:	Batch 52664, loss 5.103, perplexity 164.55
+INFO:root:	Batch 53233, loss 5.116, perplexity 166.60
+INFO:root:	Batch 53812, loss 4.604, perplexity 99.85
+INFO:root:	Batch 54383, loss 4.858, perplexity 128.76
+INFO:root:	Batch 54991, loss 4.762, perplexity 116.97
+INFO:root:	Batch 55580, loss 4.876, perplexity 131.10
+INFO:root:	Batch 56184, loss 4.842, perplexity 126.73
+INFO:root:	Batch 56789, loss 5.034, perplexity 153.52
+INFO:root:	Batch 57357, loss 4.877, perplexity 131.18
+INFO:root:	Batch 57963, loss 4.961, perplexity 142.79
+INFO:root:	Batch 58563, loss 5.031, perplexity 153.10
+INFO:root:	Batch 59180, loss 5.087, perplexity 161.82
+INFO:root:	Batch 59769, loss 4.715, perplexity 111.58
+INFO:root:	Batch 60374, loss 4.963, perplexity 143.01
+INFO:root:	Batch 60969, loss 5.191, perplexity 179.71
+INFO:root:	Batch 61541, loss 4.501, perplexity 90.11
+INFO:root:	Batch 62138, loss 5.018, perplexity 151.07
+INFO:root:	Batch 62728, loss 4.972, perplexity 144.33
+INFO:root:	Batch 63331, loss 4.780, perplexity 119.06
+INFO:root:	Batch 63902, loss 4.781, perplexity 119.25
+INFO:root:	Batch 64505, loss 4.817, perplexity 123.58
+INFO:root:	Batch 65109, loss 5.054, perplexity 156.66
+INFO:root:	Batch 65697, loss 4.840, perplexity 126.42
+INFO:root:	Batch 66302, loss 4.682, perplexity 108.00
+INFO:root:	Batch 66901, loss 4.894, perplexity 133.54
+INFO:root:	Batch 67521, loss 5.107, perplexity 165.21
+INFO:root:	Batch 68089, loss 4.826, perplexity 124.66
+INFO:root:	Batch 68682, loss 4.829, perplexity 125.07
+INFO:root:	Batch 69262, loss 4.550, perplexity 94.64
+INFO:root:	Batch 69868, loss 5.084, perplexity 161.39
+INFO:root:	Batch 70469, loss 5.014, perplexity 150.55
+INFO:root:	Batch 71035, loss 4.994, perplexity 147.51
+INFO:root:	Batch 71638, loss 5.007, perplexity 149.43
+INFO:root:	Batch 72199, loss 4.575, perplexity 97.02
+INFO:root:	Batch 72804, loss 4.665, perplexity 106.19
+INFO:root:	Batch 73386, loss 5.057, perplexity 157.09
+INFO:root:	Batch 73989, loss 4.936, perplexity 139.22
+INFO:root:	Batch 74559, loss 5.317, perplexity 203.81
+INFO:root:	Batch 75160, loss 5.045, perplexity 155.27
+INFO:root:	Batch 75747, loss 4.955, perplexity 141.93
+INFO:root:	Batch 76349, loss 5.144, perplexity 171.44
+INFO:root:	Batch 76934, loss 5.029, perplexity 152.79
+INFO:root:	Batch 77527, loss 5.139, perplexity 170.63
+INFO:root:	Batch 78129, loss 4.426, perplexity 83.61
+INFO:root:	Batch 78697, loss 4.589, perplexity 98.44
+INFO:root:	Batch 79296, loss 5.016, perplexity 150.77
+INFO:root:	Batch 79901, loss 5.289, perplexity 198.20
+INFO:root:	Batch 80465, loss 4.826, perplexity 124.65
+INFO:root:	Batch 81059, loss 4.793, perplexity 120.65
+INFO:root:	Batch 81670, loss 4.927, perplexity 137.94
+INFO:root:	Batch 82275, loss 5.128, perplexity 168.65
+INFO:root:	Batch 82881, loss 4.777, perplexity 118.78
+INFO:root:	Batch 83473, loss 4.725, perplexity 112.69
+INFO:root:	Batch 84087, loss 4.984, perplexity 146.10
+INFO:root:	Batch 84647, loss 4.596, perplexity 99.10
+INFO:root:	Batch 85250, loss 4.808, perplexity 122.49
+INFO:root:	Batch 85824, loss 4.989, perplexity 146.82
+INFO:root:	Batch 86435, loss 4.863, perplexity 129.46
+INFO:root:	Batch 87014, loss 4.912, perplexity 135.96
+INFO:root:	Batch 87628, loss 5.041, perplexity 154.67
+INFO:root:	Batch 88226, loss 5.090, perplexity 162.45
+INFO:root:	Batch 88833, loss 4.717, perplexity 111.84
+INFO:root:	Batch 89441, loss 4.728, perplexity 113.03
+INFO:root:	Batch 90040, loss 4.671, perplexity 106.80
+INFO:root:	Batch 90642, loss 4.593, perplexity 98.80
+INFO:root:	Batch 91256, loss 4.456, perplexity 86.15
+INFO:root:	Batch 91844, loss 5.154, perplexity 173.10
+INFO:root:	Batch 92450, loss 4.993, perplexity 147.37
+INFO:root:	Batch 93057, loss 4.789, perplexity 120.14
+INFO:root:	Batch 93632, loss 4.912, perplexity 135.89
+INFO:root:	Batch 94235, loss 4.928, perplexity 138.10
+INFO:root:	Batch 94840, loss 5.067, perplexity 158.63
+INFO:root:	Batch 95447, loss 4.715, perplexity 111.62
+INFO:root:	Batch 96026, loss 4.653, perplexity 104.95
+INFO:root:	Batch 96615, loss 5.328, perplexity 206.10
+INFO:root:	Batch 97239, loss 4.869, perplexity 130.19
+INFO:root:	Batch 97823, loss 4.896, perplexity 133.75
+INFO:root:	Batch 98395, loss 4.604, perplexity 99.86
+INFO:root:	Batch 99008, loss 4.804, perplexity 121.99
+INFO:root:	Batch 99583, loss 5.034, perplexity 153.54
+INFO:root:	Batch 100188, loss 4.579, perplexity 97.44
+INFO:root:	Batch 100768, loss 4.825, perplexity 124.52
+INFO:root:	Batch 101372, loss 5.320, perplexity 204.46
+INFO:root:	Batch 101977, loss 4.749, perplexity 115.49
+INFO:root:	Batch 102566, loss 5.183, perplexity 178.15
+INFO:root:	Batch 103170, loss 4.738, perplexity 114.19
+INFO:root:	Batch 103763, loss 5.103, perplexity 164.58
+INFO:root:	Batch 104356, loss 5.077, perplexity 160.28
+INFO:root:	Batch 104963, loss 5.178, perplexity 177.26
+INFO:root:	Batch 105532, loss 5.011, perplexity 150.05
+INFO:root:	Batch 106130, loss 4.930, perplexity 138.32
+INFO:root:	Batch 106735, loss 4.582, perplexity 97.67
+INFO:root:	Batch 107337, loss 4.962, perplexity 142.93
+INFO:root:	Batch 107916, loss 4.776, perplexity 118.64
+INFO:root:	Batch 108516, loss 5.073, perplexity 159.58
+INFO:root:	Batch 109127, loss 4.932, perplexity 138.63
+INFO:root:	Batch 109701, loss 4.632, perplexity 102.73
+INFO:root:	Batch 110292, loss 4.861, perplexity 129.12
+INFO:root:	Batch 110898, loss 4.670, perplexity 106.73
+INFO:root:	Batch 111473, loss 5.070, perplexity 159.11
+INFO:root:	Batch 112036, loss 4.744, perplexity 114.88
+INFO:root:	Batch 112631, loss 4.692, perplexity 109.10
+INFO:root:	Batch 113198, loss 4.930, perplexity 138.34
+INFO:root:	Batch 113811, loss 4.587, perplexity 98.24
+INFO:root:	Batch 114416, loss 4.890, perplexity 132.90
+INFO:root:	Batch 114976, loss 4.920, perplexity 136.94
+INFO:root:	Batch 115570, loss 4.973, perplexity 144.43
+INFO:root:	Batch 116187, loss 4.672, perplexity 106.95
+INFO:root:	Batch 116781, loss 5.050, perplexity 156.07
+INFO:root:	Batch 117382, loss 4.885, perplexity 132.25
+INFO:root:	Batch 117986, loss 5.136, perplexity 170.00
+INFO:root:	Batch 118585, loss 5.067, perplexity 158.65
+INFO:root:	Batch 119193, loss 5.082, perplexity 161.13
+INFO:root:	Batch 119770, loss 4.956, perplexity 141.98
+INFO:root:	Batch 120339, loss 5.092, perplexity 162.74
+INFO:root:	Batch 120908, loss 5.184, perplexity 178.45
+INFO:root:	Batch 121476, loss 4.511, perplexity 90.98
+INFO:root:	Batch 122095, loss 4.872, perplexity 130.53
+INFO:root:	Batch 122666, loss 4.810, perplexity 122.74
+INFO:root:	Batch 123261, loss 5.152, perplexity 172.74
+INFO:root:	Batch 123863, loss 5.060, perplexity 157.59
+INFO:root:	Batch 124453, loss 4.901, perplexity 134.45
+INFO:root:	Batch 125044, loss 4.520, perplexity 91.84
+INFO:root:	Batch 125639, loss 4.487, perplexity 88.87
+INFO:root:	Batch 126246, loss 5.001, perplexity 148.57
+INFO:root:	Batch 126854, loss 4.741, perplexity 114.56
+INFO:root:	Batch 127419, loss 4.793, perplexity 120.63
+INFO:root:	Batch 128008, loss 4.921, perplexity 137.20
+INFO:root:	Batch 128580, loss 4.844, perplexity 127.03
+INFO:root:	Batch 129143, loss 4.710, perplexity 111.04
+INFO:root:	Batch 129754, loss 4.933, perplexity 138.77
+INFO:root:	Batch 130332, loss 5.014, perplexity 150.57
+INFO:root:	Batch 130922, loss 4.758, perplexity 116.47
+INFO:root:	Batch 131528, loss 4.517, perplexity 91.61
+INFO:root:	Batch 132117, loss 4.769, perplexity 117.75
+INFO:root:	Batch 132730, loss 4.449, perplexity 85.58
+INFO:root:	Batch 133302, loss 4.797, perplexity 121.20
+INFO:root:	Batch 133910, loss 4.824, perplexity 124.50
+INFO:root:	Batch 134502, loss 5.053, perplexity 156.56
+INFO:root:	Batch 135068, loss 4.649, perplexity 104.50
+INFO:root:	Batch 135671, loss 4.929, perplexity 138.22
+INFO:root:	Batch 136276, loss 4.905, perplexity 134.90
+INFO:root:	Batch 136871, loss 4.794, perplexity 120.79
+INFO:root:	Batch 137457, loss 5.172, perplexity 176.35
+INFO:root:	Batch 138064, loss 5.085, perplexity 161.55
+INFO:root:	Batch 138640, loss 4.935, perplexity 139.09
+INFO:root:	Batch 139208, loss 4.737, perplexity 114.04
+INFO:root:	Batch 139816, loss 5.087, perplexity 161.87
+INFO:root:	Batch 140418, loss 4.752, perplexity 115.86
+INFO:root:	Batch 141028, loss 4.725, perplexity 112.78
+INFO:root:	Batch 141634, loss 4.858, perplexity 128.82
+INFO:root:	Batch 142224, loss 4.787, perplexity 119.90
+INFO:root:	Batch 142828, loss 5.070, perplexity 159.15
+INFO:root:	Batch 143425, loss 4.991, perplexity 147.15
+INFO:root:	Batch 144000, loss 5.153, perplexity 172.94
+INFO:root:	Batch 144572, loss 4.796, perplexity 120.98
+INFO:root:	Batch 145188, loss 4.579, perplexity 97.39
+INFO:root:	Batch 145764, loss 4.667, perplexity 106.38
+INFO:root:	Batch 146368, loss 4.551, perplexity 94.70
+INFO:root:	Batch 146933, loss 4.731, perplexity 113.40
+INFO:root:	Batch 147538, loss 5.248, perplexity 190.12
+INFO:root:	Batch 148125, loss 4.982, perplexity 145.77
+INFO:root:	Batch 148710, loss 4.746, perplexity 115.11
+INFO:root:	Batch 149285, loss 4.819, perplexity 123.90
+INFO:root:	Batch 149897, loss 4.909, perplexity 135.50
+INFO:root:	Batch 150491, loss 4.708, perplexity 110.82
+INFO:root:	Batch 151095, loss 4.910, perplexity 135.60
+INFO:root:	Batch 151685, loss 4.758, perplexity 116.47
+INFO:root:	Batch 152248, loss 4.997, perplexity 147.92
+INFO:root:	Batch 152864, loss 5.004, perplexity 149.02
+INFO:root:	Batch 153472, loss 4.800, perplexity 121.56
+INFO:root:	Batch 154062, loss 4.846, perplexity 127.26
+INFO:root:	Batch 154664, loss 4.826, perplexity 124.76
+INFO:root:	Batch 155264, loss 5.079, perplexity 160.54
+INFO:root:	Batch 155870, loss 4.823, perplexity 124.31
+INFO:root:	Batch 156474, loss 4.861, perplexity 129.20
+INFO:root:	Batch 157079, loss 4.558, perplexity 95.36
+INFO:root:	Batch 157672, loss 5.018, perplexity 151.15
+INFO:root:	Batch 158259, loss 4.785, perplexity 119.64
+INFO:root:	Batch 158839, loss 5.196, perplexity 180.49
+INFO:root:	Batch 159447, loss 5.236, perplexity 187.87
+INFO:root:	Batch 160045, loss 4.907, perplexity 135.18
+INFO:root:	Batch 160655, loss 4.792, perplexity 120.51
+INFO:root:	Batch 161254, loss 4.710, perplexity 111.11
+INFO:root:	Batch 161856, loss 4.668, perplexity 106.51
+INFO:root:	Batch 162467, loss 4.775, perplexity 118.56
+INFO:root:	Batch 163077, loss 4.614, perplexity 100.90
+INFO:root:	Batch 163652, loss 4.608, perplexity 100.31
+INFO:root:	Batch 164256, loss 5.155, perplexity 173.38
+INFO:root:	Batch 164857, loss 4.573, perplexity 96.82
+INFO:root:	Batch 165448, loss 4.631, perplexity 102.59
+INFO:root:	Batch 166067, loss 4.816, perplexity 123.41
+INFO:root:	Batch 166649, loss 4.575, perplexity 96.99
+INFO:root:	Batch 167251, loss 5.160, perplexity 174.21
+INFO:root:	Batch 167857, loss 4.699, perplexity 109.89
+INFO:root:	Batch 168450, loss 4.556, perplexity 95.16
+INFO:root:	Batch 169059, loss 4.844, perplexity 126.93
+INFO:root:	Batch 169673, loss 4.946, perplexity 140.62
+INFO:root:	Batch 170248, loss 4.827, perplexity 124.89
+INFO:root:	Batch 170852, loss 5.200, perplexity 181.20
+INFO:root:	Batch 171459, loss 5.038, perplexity 154.14
+INFO:root:	Batch 172051, loss 4.792, perplexity 120.49
+INFO:root:	Batch 172641, loss 4.829, perplexity 125.08
+INFO:root:	Batch 173251, loss 4.925, perplexity 137.68
+INFO:root:	Batch 173823, loss 4.779, perplexity 119.00
+INFO:root:	Batch 174431, loss 4.965, perplexity 143.33
+INFO:root:	Batch 175007, loss 4.697, perplexity 109.61
+INFO:root:	Batch 175572, loss 4.452, perplexity 85.82
+INFO:root:	Batch 176137, loss 4.800, perplexity 121.49
+INFO:root:	Batch 176749, loss 4.837, perplexity 126.12
+INFO:root:	Batch 177317, loss 4.836, perplexity 125.97
+INFO:root:	Batch 177884, loss 4.690, perplexity 108.89
+INFO:root:	Batch 178493, loss 4.427, perplexity 83.70
+INFO:root:	Batch 179097, loss 4.871, perplexity 130.47
+INFO:root:	Batch 179693, loss 4.892, perplexity 133.23
+INFO:root:	Batch 180263, loss 4.743, perplexity 114.80
+INFO:root:	Batch 180880, loss 4.739, perplexity 114.30
+INFO:root:	Batch 181469, loss 4.943, perplexity 140.23
+INFO:root:	Batch 182033, loss 5.190, perplexity 179.50
+INFO:root:	Batch 182606, loss 4.619, perplexity 101.42
+INFO:root:	Batch 183212, loss 5.048, perplexity 155.67
+INFO:root:	Batch 183779, loss 4.774, perplexity 118.41
+INFO:root:	Batch 184371, loss 4.929, perplexity 138.22
+INFO:root:	Batch 184978, loss 4.433, perplexity 84.22
+INFO:root:	Batch 185571, loss 4.974, perplexity 144.60
+INFO:root:	Batch 186146, loss 5.343, perplexity 209.24
+INFO:root:	Batch 186733, loss 4.912, perplexity 135.91
+INFO:root:	Batch 187306, loss 4.818, perplexity 123.78
+INFO:root:	Batch 187878, loss 4.776, perplexity 118.69
+INFO:root:	Batch 188450, loss 4.844, perplexity 126.97
+INFO:root:	Batch 189054, loss 4.578, perplexity 97.36
+INFO:root:	Batch 189635, loss 4.966, perplexity 143.41
+INFO:root:	Batch 190202, loss 5.048, perplexity 155.72
+INFO:root:	Batch 190785, loss 4.722, perplexity 112.35
+INFO:root:	Batch 191391, loss 4.690, perplexity 108.85
+INFO:root:	Batch 192003, loss 4.831, perplexity 125.28
+INFO:root:	Batch 192567, loss 5.139, perplexity 170.56
+INFO:root:	Batch 193150, loss 4.502, perplexity 90.22
+INFO:root:	Batch 193747, loss 4.925, perplexity 137.69
+INFO:root:	Batch 194335, loss 4.832, perplexity 125.41
+INFO:root:	Batch 194941, loss 4.996, perplexity 147.81
+INFO:root:	Batch 195547, loss 5.185, perplexity 178.60
+INFO:root:	Batch 196143, loss 4.810, perplexity 122.79
+INFO:root:	Batch 196734, loss 5.251, perplexity 190.71
+INFO:root:	Batch 197317, loss 4.781, perplexity 119.26
+INFO:root:	Batch 197907, loss 4.919, perplexity 136.80
+INFO:root:	Batch 198510, loss 4.662, perplexity 105.88
+INFO:root:	Batch 199105, loss 5.080, perplexity 160.83
+INFO:root:	Batch 199709, loss 5.074, perplexity 159.86
+INFO:root:	Batch 200305, loss 4.652, perplexity 104.76
+INFO:root:	Batch 200912, loss 4.601, perplexity 99.56
+INFO:root:	Batch 201484, loss 5.131, perplexity 169.19
+INFO:root:	Batch 202088, loss 4.697, perplexity 109.59
+INFO:root:	Batch 202677, loss 4.602, perplexity 99.73
+INFO:root:	Batch 203253, loss 4.450, perplexity 85.67
+INFO:root:	Batch 203860, loss 5.014, perplexity 150.56
+INFO:root:	Batch 204446, loss 4.840, perplexity 126.52
+INFO:root:	Batch 205031, loss 4.753, perplexity 115.89
+INFO:root:	Batch 205633, loss 4.664, perplexity 106.03
+INFO:root:	Batch 206231, loss 4.603, perplexity 99.74
+INFO:root:	Batch 206799, loss 5.079, perplexity 160.63
+INFO:root:	Batch 207369, loss 4.834, perplexity 125.74
+INFO:root:	Batch 207963, loss 4.644, perplexity 103.92
+INFO:root:	Batch 208570, loss 4.689, perplexity 108.76
+INFO:root:	Batch 209136, loss 4.612, perplexity 100.65
+INFO:root:	Batch 209731, loss 4.636, perplexity 103.11
+INFO:root:	Batch 210299, loss 4.557, perplexity 95.25
+INFO:root:	Batch 210864, loss 4.639, perplexity 103.48
+INFO:root:	Batch 211454, loss 4.804, perplexity 121.98
+INFO:root:	Batch 212027, loss 4.779, perplexity 119.04
+INFO:root:	Batch 212633, loss 4.481, perplexity 88.32
+INFO:root:	Batch 213229, loss 4.923, perplexity 137.38
+INFO:root:	Batch 213838, loss 4.584, perplexity 97.92
+INFO:root:	Batch 214429, loss 4.828, perplexity 124.98
+INFO:root:	Batch 215035, loss 4.652, perplexity 104.76
+INFO:root:	Batch 215641, loss 4.662, perplexity 105.84
+INFO:root:	Batch 216246, loss 5.111, perplexity 165.88
+INFO:root:	Batch 216843, loss 4.735, perplexity 113.89
+INFO:root:	Batch 217459, loss 4.879, perplexity 131.48
+INFO:root:	Batch 218052, loss 4.619, perplexity 101.35
+INFO:root:	Batch 218625, loss 4.323, perplexity 75.44
+INFO:root:	Batch 219237, loss 5.046, perplexity 155.41
+INFO:root:	Batch 219830, loss 4.679, perplexity 107.67
+INFO:root:	Batch 220430, loss 4.857, perplexity 128.65
+INFO:root:	Batch 221019, loss 4.660, perplexity 105.65
+INFO:root:	Batch 221597, loss 4.886, perplexity 132.37
+INFO:root:	Batch 222191, loss 4.639, perplexity 103.42
+INFO:root:	Batch 222794, loss 4.966, perplexity 143.52
+INFO:root:	Batch 223400, loss 4.734, perplexity 113.80
+INFO:root:	Batch 224002, loss 5.166, perplexity 175.21
+INFO:root:	Batch 224606, loss 4.456, perplexity 86.13
+INFO:root:	Batch 225206, loss 4.331, perplexity 76.03
+INFO:root:	Batch 225795, loss 4.902, perplexity 134.62
+INFO:root:	Batch 226401, loss 4.840, perplexity 126.47
+INFO:root:	Batch 226969, loss 4.723, perplexity 112.47
+INFO:root:	Batch 227574, loss 4.526, perplexity 92.41
+INFO:root:	Batch 228166, loss 4.628, perplexity 102.34
+INFO:root:	Batch 228731, loss 4.805, perplexity 122.15
+INFO:root:	Batch 229338, loss 4.901, perplexity 134.43
+INFO:root:	Batch 229911, loss 5.355, perplexity 211.67
+INFO:root:	Batch 230517, loss 4.814, perplexity 123.20
+INFO:root:	Batch 231116, loss 4.547, perplexity 94.33
+INFO:root:	Batch 231725, loss 4.968, perplexity 143.74
+INFO:root:	Batch 232331, loss 5.099, perplexity 163.81
+INFO:root:	Batch 232930, loss 5.000, perplexity 148.36
+INFO:root:	Batch 233504, loss 4.432, perplexity 84.13
+INFO:root:	Batch 234092, loss 4.809, perplexity 122.58
+INFO:root:	Batch 234672, loss 4.744, perplexity 114.87
+INFO:root:	Batch 235238, loss 4.687, perplexity 108.52
+INFO:root:	Batch 235804, loss 4.818, perplexity 123.76
+INFO:root:	Batch 236410, loss 4.938, perplexity 139.55
+INFO:root:	Batch 237001, loss 4.773, perplexity 118.30
+INFO:root:	Batch 237613, loss 4.969, perplexity 143.94
+INFO:root:	Batch 238185, loss 4.724, perplexity 112.62
+INFO:root:	Batch 238756, loss 4.620, perplexity 101.49
+INFO:root:	Batch 239355, loss 4.741, perplexity 114.59
+INFO:root:	Batch 239956, loss 4.742, perplexity 114.64
+INFO:root:	Batch 240548, loss 5.016, perplexity 150.84
+INFO:root:	Batch 241141, loss 4.512, perplexity 91.06
+INFO:root:	Batch 241753, loss 4.816, perplexity 123.48
+INFO:root:	Batch 242350, loss 4.859, perplexity 128.88
+INFO:root:	Batch 242925, loss 4.907, perplexity 135.30
+INFO:root:	Batch 243516, loss 4.701, perplexity 110.00
+INFO:root:	Batch 244123, loss 4.846, perplexity 127.28
+INFO:root:	Batch 244716, loss 4.480, perplexity 88.27
+INFO:root:	Batch 245309, loss 4.991, perplexity 147.07
+INFO:root:	Batch 245914, loss 4.551, perplexity 94.71
+INFO:root:	Batch 246514, loss 4.680, perplexity 107.74
+INFO:root:	Batch 247097, loss 4.850, perplexity 127.72
+INFO:root:	Batch 247706, loss 4.583, perplexity 97.82
+INFO:root:	Batch 248285, loss 4.619, perplexity 101.37
+INFO:root:	Batch 248877, loss 4.618, perplexity 101.33
+INFO:root:	Batch 249446, loss 4.668, perplexity 106.45
+INFO:root:	Batch 250048, loss 4.785, perplexity 119.72
+INFO:root:	Batch 250635, loss 4.745, perplexity 115.05
+INFO:root:	Batch 251215, loss 5.012, perplexity 150.19
+INFO:root:	Batch 251812, loss 4.674, perplexity 107.07
+INFO:root:	Batch 252394, loss 4.655, perplexity 105.09
+INFO:root:	Batch 252985, loss 4.658, perplexity 105.46
+INFO:root:	Batch 253590, loss 4.782, perplexity 119.29
+INFO:root:	Batch 254197, loss 4.676, perplexity 107.35
+INFO:root:	Batch 254802, loss 4.872, perplexity 130.60
+INFO:root:	Batch 255377, loss 4.813, perplexity 123.15
+INFO:root:	Batch 255980, loss 5.029, perplexity 152.71
+INFO:root:	Batch 256587, loss 4.910, perplexity 135.62
+INFO:root:	Batch 257195, loss 4.993, perplexity 147.34
+INFO:root:	Batch 257795, loss 4.747, perplexity 115.21
+INFO:root:	Batch 258385, loss 4.604, perplexity 99.91
+INFO:root:	Batch 258990, loss 4.777, perplexity 118.73
+INFO:root:	Batch 259580, loss 5.123, perplexity 167.92
+INFO:root:	Batch 260167, loss 4.790, perplexity 120.33
+INFO:root:	Batch 260751, loss 5.032, perplexity 153.29
+INFO:root:	Batch 261352, loss 4.874, perplexity 130.84
+INFO:root:	Batch 261958, loss 4.308, perplexity 74.32
+INFO:root:	Batch 262538, loss 4.984, perplexity 146.03
+INFO:root:	Batch 263147, loss 4.732, perplexity 113.54
+INFO:root:	Batch 263741, loss 4.811, perplexity 122.85
+INFO:root:	Batch 264342, loss 4.886, perplexity 132.42
+INFO:root:	Batch 264946, loss 4.452, perplexity 85.79
+INFO:root:	Batch 265542, loss 4.614, perplexity 100.87
+INFO:root:	Batch 266144, loss 4.418, perplexity 82.92
+INFO:root:	Batch 266735, loss 4.671, perplexity 106.76
+INFO:root:	Batch 267339, loss 4.837, perplexity 126.14
+INFO:root:	Batch 267927, loss 4.605, perplexity 99.99
+INFO:root:	Batch 268528, loss 4.692, perplexity 109.02
+INFO:root:	Batch 269120, loss 4.625, perplexity 101.99
+INFO:root:	Batch 269704, loss 4.434, perplexity 84.28
+INFO:root:	Batch 270284, loss 4.967, perplexity 143.65
+INFO:root:	Batch 270863, loss 4.801, perplexity 121.58
+INFO:root:	Batch 271469, loss 5.067, perplexity 158.68
+INFO:root:	Batch 272077, loss 4.672, perplexity 106.92
+INFO:root:	Batch 272673, loss 4.885, perplexity 132.28
+INFO:root:	Batch 273279, loss 4.805, perplexity 122.07
+INFO:root:	Batch 273873, loss 4.818, perplexity 123.78
+INFO:root:	Batch 274477, loss 4.831, perplexity 125.29
+INFO:root:	Batch 275035, loss 4.543, perplexity 93.97
+INFO:root:	Batch 275636, loss 4.708, perplexity 110.83
+INFO:root:	Batch 276245, loss 4.545, perplexity 94.13
+INFO:root:	Batch 276849, loss 4.808, perplexity 122.53
+INFO:root:	Batch 277457, loss 4.584, perplexity 97.93
+INFO:root:	Batch 278060, loss 5.459, perplexity 234.84
+INFO:root:	Batch 278649, loss 5.051, perplexity 156.19
+INFO:root:	Batch 279241, loss 4.609, perplexity 100.36
+INFO:root:	Batch 279831, loss 4.722, perplexity 112.41
+INFO:root:	Batch 280435, loss 4.744, perplexity 114.85
+INFO:root:	Batch 281000, loss 4.574, perplexity 96.90
+INFO:root:	Batch 281610, loss 4.763, perplexity 117.07
+INFO:root:	Batch 282184, loss 4.870, perplexity 130.35
+INFO:root:	Batch 282784, loss 4.915, perplexity 136.37
+INFO:root:	Batch 283361, loss 4.509, perplexity 90.84
+INFO:root:	Batch 283939, loss 4.723, perplexity 112.46
+INFO:root:	Batch 284504, loss 5.040, perplexity 154.40
+INFO:root:	Batch 285072, loss 4.559, perplexity 95.53
+INFO:root:	Batch 285684, loss 4.577, perplexity 97.24
+INFO:root:	Batch 286291, loss 4.851, perplexity 127.83
+INFO:root:	Batch 286851, loss 4.769, perplexity 117.81
+INFO:root:	Batch 287438, loss 4.783, perplexity 119.43
+INFO:root:	Batch 288044, loss 4.692, perplexity 109.05
+INFO:root:	Batch 288654, loss 4.734, perplexity 113.74
+INFO:root:	Batch 289220, loss 4.521, perplexity 91.90
+INFO:root:	Batch 289806, loss 4.631, perplexity 102.58
+INFO:root:	Batch 290381, loss 4.790, perplexity 120.36
+INFO:root:	Batch 290987, loss 4.818, perplexity 123.66
+INFO:root:	Batch 291569, loss 4.710, perplexity 111.01
+INFO:root:	Batch 292178, loss 4.925, perplexity 137.65
+INFO:root:	Batch 292771, loss 4.933, perplexity 138.86
+INFO:root:	Batch 293374, loss 4.724, perplexity 112.57
+INFO:root:	Batch 293985, loss 4.366, perplexity 78.74
+INFO:root:	Batch 294581, loss 4.884, perplexity 132.18
+INFO:root:	Batch 295183, loss 4.706, perplexity 110.62
+INFO:root:	Batch 295788, loss 4.893, perplexity 133.36
+INFO:root:	Batch 296359, loss 4.214, perplexity 67.62
+INFO:root:	Batch 296965, loss 4.601, perplexity 99.54
+INFO:root:	Batch 297570, loss 4.357, perplexity 77.99
+INFO:root:	Batch 298136, loss 4.481, perplexity 88.36
+INFO:root:	Batch 298743, loss 4.871, perplexity 130.45
+INFO:root:	Batch 299327, loss 4.778, perplexity 118.83
+INFO:root:	Batch 299933, loss 4.679, perplexity 107.66
+INFO:root:	Batch 300542, loss 4.617, perplexity 101.15
+INFO:root:	Batch 301150, loss 4.493, perplexity 89.38
+INFO:root:	Batch 301756, loss 4.537, perplexity 93.41
+INFO:root:	Batch 302341, loss 4.693, perplexity 109.14
+INFO:root:	Batch 302931, loss 4.974, perplexity 144.67
+INFO:root:	Batch 303511, loss 4.908, perplexity 135.32
+INFO:root:	Batch 304080, loss 5.125, perplexity 168.16
+INFO:root:	Batch 304679, loss 4.733, perplexity 113.58
+INFO:root:	Batch 305286, loss 4.751, perplexity 115.70
+INFO:root:	Batch 305863, loss 5.052, perplexity 156.26
+INFO:root:	Batch 306473, loss 4.666, perplexity 106.26
+INFO:root:	Batch 307064, loss 4.653, perplexity 104.90
+INFO:root:	Batch 307660, loss 5.144, perplexity 171.35
+INFO:root:	Batch 308237, loss 4.998, perplexity 148.18
+INFO:root:	Batch 308842, loss 4.749, perplexity 115.50
+INFO:root:	Batch 309448, loss 4.991, perplexity 147.09
+INFO:root:	Batch 310051, loss 4.785, perplexity 119.73
+INFO:root:	Batch 310648, loss 5.046, perplexity 155.46
+INFO:root:	Batch 311229, loss 4.740, perplexity 114.46
+INFO:root:	Batch 311836, loss 4.568, perplexity 96.39
+INFO:root:	Batch 312432, loss 4.853, perplexity 128.07
+INFO:root:	Batch 313041, loss 4.798, perplexity 121.22
+INFO:root:	Batch 313640, loss 4.654, perplexity 105.01
+INFO:root:	Batch 314244, loss 4.685, perplexity 108.28
+INFO:root:	Batch 314816, loss 4.288, perplexity 72.85
+INFO:root:	Batch 315421, loss 4.630, perplexity 102.46
+INFO:root:	Batch 316029, loss 4.787, perplexity 119.94
+INFO:root:	Batch 316611, loss 4.620, perplexity 101.53
+INFO:root:	Batch 317224, loss 4.730, perplexity 113.29
+INFO:root:	Batch 317811, loss 4.867, perplexity 129.91
+INFO:root:	Batch 318416, loss 4.553, perplexity 94.94
+INFO:root:	Batch 319012, loss 4.764, perplexity 117.23
+INFO:root:	Batch 319618, loss 4.887, perplexity 132.58
+INFO:root:	Batch 320196, loss 4.617, perplexity 101.16
+INFO:root:	Batch 320805, loss 5.055, perplexity 156.83
+INFO:root:	Batch 321377, loss 4.302, perplexity 73.84
+INFO:root:	Batch 321974, loss 4.571, perplexity 96.65
+INFO:root:	Batch 322577, loss 4.836, perplexity 126.00
+INFO:root:	Batch 323165, loss 4.820, perplexity 124.00
+INFO:root:	Batch 323773, loss 4.714, perplexity 111.47
+INFO:root:	Batch 324365, loss 4.937, perplexity 139.36
+INFO:root:	Batch 324949, loss 4.979, perplexity 145.31
+INFO:root:	Batch 325541, loss 4.840, perplexity 126.49
+INFO:root:	Batch 326148, loss 4.737, perplexity 114.05
+INFO:root:	Batch 326746, loss 4.499, perplexity 89.88
+INFO:root:	Batch 327356, loss 4.328, perplexity 75.76
+INFO:root:	Batch 327967, loss 4.265, perplexity 71.14
+INFO:root:	Batch 328559, loss 4.823, perplexity 124.38
+INFO:root:	Batch 329173, loss 5.000, perplexity 148.48
+INFO:root:	Batch 329773, loss 4.590, perplexity 98.47
+INFO:root:	Batch 330377, loss 5.029, perplexity 152.71
+INFO:root:	Batch 330978, loss 4.440, perplexity 84.81
+INFO:root:	Batch 331587, loss 4.887, perplexity 132.54
+INFO:root:	Batch 332181, loss 4.613, perplexity 100.83
+INFO:root:	Batch 332723, loss 4.878, perplexity 131.36
+INFO:root:	Batch 333290, loss 4.532, perplexity 92.90
+INFO:root:	Batch 333857, loss 4.538, perplexity 93.54
+INFO:root:	Batch 334446, loss 4.945, perplexity 140.41
+INFO:root:	Batch 335049, loss 4.876, perplexity 131.15
+INFO:root:	Batch 335641, loss 4.767, perplexity 117.59
+INFO:root:	Batch 336212, loss 4.727, perplexity 112.97
+INFO:root:	Batch 336820, loss 4.771, perplexity 118.04
+INFO:root:	Batch 337395, loss 4.730, perplexity 113.31
+INFO:root:	Batch 338004, loss 4.548, perplexity 94.41
+INFO:root:	Batch 338613, loss 4.868, perplexity 130.02
+INFO:root:	Batch 339184, loss 4.794, perplexity 120.79
+INFO:root:	Batch 339782, loss 4.971, perplexity 144.11
+INFO:root:	Batch 340390, loss 4.515, perplexity 91.35
+INFO:root:	Batch 340967, loss 4.675, perplexity 107.23
+INFO:root:	Batch 341561, loss 4.622, perplexity 101.75
+INFO:root:	Batch 342130, loss 4.559, perplexity 95.45
+INFO:root:	Batch 342704, loss 4.857, perplexity 128.69
+INFO:root:	Batch 343310, loss 4.867, perplexity 129.89
+INFO:root:	Batch 343916, loss 4.584, perplexity 97.90
+DEBUG:root:Validation perplexity: 104.1
+DEBUG:root:Test perplexity: 266.9
+DEBUG:root:BEST result
+DEBUG:root:END EPOCH now = 2020-01-06 12:32:09.281370
+DEBUG:root:END EPOCH now = 2020-01-06 12:32:09.281660
+DEBUG:root:Parameter embedding.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 300]) 
+DEBUG:root:Parameter False 
+DEBUG:root:Parameter lstm.weight_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 300]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.bias 
+DEBUG:root:Parameter shape torch.Size([300000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter embedding.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 300]) 
+DEBUG:root:Parameter False 
+DEBUG:root:Parameter lstm.weight_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 300]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.bias 
+DEBUG:root:Parameter shape torch.Size([300000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Number parameters 153908000
+DEBUG:root:Scheduler.get_lr() [0.00085]
+DEBUG:root:START EPOCH now = 2020-01-06 12:32:24.754643
+DEBUG:root:Training epoch 1
+INFO:root:	Batch 0, loss 4.829, perplexity 125.11
+INFO:root:	Batch 566, loss 4.842, perplexity 126.71
+INFO:root:	Batch 1180, loss 4.812, perplexity 122.99
+INFO:root:	Batch 1754, loss 4.511, perplexity 90.98
+INFO:root:	Batch 2316, loss 4.674, perplexity 107.07
+INFO:root:	Batch 2903, loss 4.758, perplexity 116.53
+INFO:root:	Batch 3517, loss 4.442, perplexity 84.98
+INFO:root:	Batch 4121, loss 4.675, perplexity 107.28
+INFO:root:	Batch 4701, loss 5.074, perplexity 159.75
+INFO:root:	Batch 5307, loss 4.676, perplexity 107.30
+INFO:root:	Batch 5887, loss 4.633, perplexity 102.78
+INFO:root:	Batch 6492, loss 4.659, perplexity 105.56
+INFO:root:	Batch 7078, loss 4.078, perplexity 59.04
+INFO:root:	Batch 7642, loss 4.741, perplexity 114.56
+INFO:root:	Batch 8230, loss 4.812, perplexity 122.92
+INFO:root:	Batch 8793, loss 4.953, perplexity 141.59
+INFO:root:	Batch 9406, loss 4.897, perplexity 133.88
+INFO:root:	Batch 9984, loss 5.108, perplexity 165.32
+INFO:root:	Batch 10542, loss 4.378, perplexity 79.68
+INFO:root:	Batch 11150, loss 4.599, perplexity 99.40
+INFO:root:	Batch 11728, loss 4.670, perplexity 106.70
+INFO:root:	Batch 12337, loss 4.611, perplexity 100.55
+INFO:root:	Batch 12902, loss 4.649, perplexity 104.51
+INFO:root:	Batch 13513, loss 4.486, perplexity 88.77
+INFO:root:	Batch 14095, loss 4.952, perplexity 141.39
+INFO:root:	Batch 14680, loss 4.268, perplexity 71.36
+INFO:root:	Batch 15291, loss 4.805, perplexity 122.18
+INFO:root:	Batch 15855, loss 4.591, perplexity 98.61
+INFO:root:	Batch 16457, loss 4.802, perplexity 121.73
+INFO:root:	Batch 17042, loss 4.658, perplexity 105.44
+INFO:root:	Batch 17616, loss 4.672, perplexity 106.87
+INFO:root:	Batch 18221, loss 4.766, perplexity 117.46
+INFO:root:	Batch 18811, loss 4.673, perplexity 106.98
+INFO:root:	Batch 19378, loss 4.585, perplexity 97.98
+INFO:root:	Batch 19982, loss 4.729, perplexity 113.15
+INFO:root:	Batch 20560, loss 4.539, perplexity 93.58
+INFO:root:	Batch 21168, loss 4.611, perplexity 100.63
+INFO:root:	Batch 21745, loss 4.845, perplexity 127.11
+INFO:root:	Batch 22332, loss 4.374, perplexity 79.34
+INFO:root:	Batch 22908, loss 4.692, perplexity 109.02
+INFO:root:	Batch 23514, loss 4.383, perplexity 80.09
+INFO:root:	Batch 24097, loss 4.768, perplexity 117.74
+INFO:root:	Batch 24646, loss 4.775, perplexity 118.55
+INFO:root:	Batch 25252, loss 4.660, perplexity 105.66
+INFO:root:	Batch 25822, loss 4.724, perplexity 112.62
+INFO:root:	Batch 26378, loss 4.566, perplexity 96.17
+INFO:root:	Batch 26982, loss 5.001, perplexity 148.54
+INFO:root:	Batch 27586, loss 4.962, perplexity 142.84
+INFO:root:	Batch 28170, loss 4.957, perplexity 142.12
+INFO:root:	Batch 28774, loss 4.680, perplexity 107.75
+INFO:root:	Batch 29356, loss 4.716, perplexity 111.69
+INFO:root:	Batch 29968, loss 4.782, perplexity 119.29
+INFO:root:	Batch 30549, loss 4.641, perplexity 103.69
+INFO:root:	Batch 31157, loss 4.708, perplexity 110.82
+INFO:root:	Batch 31725, loss 4.512, perplexity 91.11
+INFO:root:	Batch 32303, loss 4.756, perplexity 116.33
+INFO:root:	Batch 32873, loss 4.668, perplexity 106.46
+INFO:root:	Batch 33479, loss 4.594, perplexity 98.93
+INFO:root:	Batch 34054, loss 4.806, perplexity 122.20
+INFO:root:	Batch 34659, loss 4.418, perplexity 82.95
+INFO:root:	Batch 35234, loss 4.695, perplexity 109.41
+INFO:root:	Batch 35807, loss 4.555, perplexity 95.15
+INFO:root:	Batch 36395, loss 4.457, perplexity 86.20
+INFO:root:	Batch 36997, loss 4.324, perplexity 75.50
+INFO:root:	Batch 37574, loss 4.813, perplexity 123.11
+INFO:root:	Batch 38152, loss 4.756, perplexity 116.31
+INFO:root:	Batch 38767, loss 4.863, perplexity 129.44
+INFO:root:	Batch 39344, loss 4.751, perplexity 115.68
+INFO:root:	Batch 39950, loss 4.587, perplexity 98.24
+INFO:root:	Batch 40529, loss 4.798, perplexity 121.24
+INFO:root:	Batch 41084, loss 4.668, perplexity 106.47
+INFO:root:	Batch 41691, loss 4.844, perplexity 126.94
+INFO:root:	Batch 42265, loss 4.526, perplexity 92.35
+INFO:root:	Batch 42815, loss 4.876, perplexity 131.10
+INFO:root:	Batch 43426, loss 4.711, perplexity 111.13
+INFO:root:	Batch 43982, loss 4.886, perplexity 132.39
+INFO:root:	Batch 44533, loss 4.796, perplexity 121.03
+INFO:root:	Batch 45114, loss 4.729, perplexity 113.16
+INFO:root:	Batch 45722, loss 4.876, perplexity 131.15
+INFO:root:	Batch 46298, loss 4.738, perplexity 114.15
+INFO:root:	Batch 46911, loss 4.720, perplexity 112.15
+INFO:root:	Batch 47490, loss 4.904, perplexity 134.86
+INFO:root:	Batch 48063, loss 4.550, perplexity 94.59
+INFO:root:	Batch 48622, loss 4.801, perplexity 121.57
+INFO:root:	Batch 49202, loss 4.732, perplexity 113.57
+INFO:root:	Batch 49808, loss 4.591, perplexity 98.57
+INFO:root:	Batch 50357, loss 4.505, perplexity 90.49
+INFO:root:	Batch 50962, loss 4.439, perplexity 84.70
+INFO:root:	Batch 51529, loss 4.691, perplexity 109.01
+INFO:root:	Batch 52078, loss 4.886, perplexity 132.42
+INFO:root:	Batch 52662, loss 4.708, perplexity 110.83
+INFO:root:	Batch 53269, loss 4.398, perplexity 81.26
+INFO:root:	Batch 53842, loss 4.929, perplexity 138.17
+INFO:root:	Batch 54423, loss 4.324, perplexity 75.48
+INFO:root:	Batch 55031, loss 4.849, perplexity 127.61
+INFO:root:	Batch 55612, loss 4.641, perplexity 103.60
+INFO:root:	Batch 56196, loss 4.639, perplexity 103.44
+INFO:root:	Batch 56776, loss 4.815, perplexity 123.36
+INFO:root:	Batch 57349, loss 4.448, perplexity 85.44
+INFO:root:	Batch 57952, loss 4.570, perplexity 96.54
+INFO:root:	Batch 58529, loss 4.666, perplexity 106.32
+INFO:root:	Batch 59137, loss 4.685, perplexity 108.29
+INFO:root:	Batch 59722, loss 4.599, perplexity 99.41
+INFO:root:	Batch 60278, loss 4.603, perplexity 99.83
+INFO:root:	Batch 60879, loss 4.636, perplexity 103.16
+INFO:root:	Batch 61452, loss 4.744, perplexity 114.85
+INFO:root:	Batch 62023, loss 4.288, perplexity 72.85
+INFO:root:	Batch 62594, loss 4.721, perplexity 112.23
+INFO:root:	Batch 63145, loss 4.512, perplexity 91.13
+INFO:root:	Batch 63748, loss 4.639, perplexity 103.39
+INFO:root:	Batch 64357, loss 4.607, perplexity 100.18
+INFO:root:	Batch 64924, loss 4.954, perplexity 141.70
+INFO:root:	Batch 65501, loss 4.836, perplexity 125.92
+INFO:root:	Batch 66063, loss 4.859, perplexity 128.84
+INFO:root:	Batch 66668, loss 4.456, perplexity 86.17
+INFO:root:	Batch 67244, loss 4.826, perplexity 124.74
+INFO:root:	Batch 67800, loss 4.783, perplexity 119.48
+INFO:root:	Batch 68387, loss 4.546, perplexity 94.29
+INFO:root:	Batch 68990, loss 4.546, perplexity 94.24
+INFO:root:	Batch 69561, loss 4.213, perplexity 67.57
+INFO:root:	Batch 70119, loss 4.603, perplexity 99.78
+INFO:root:	Batch 70690, loss 4.693, perplexity 109.13
+INFO:root:	Batch 71245, loss 4.451, perplexity 85.75
+INFO:root:	Batch 71821, loss 4.753, perplexity 115.87
+INFO:root:	Batch 72433, loss 5.018, perplexity 151.10
+INFO:root:	Batch 73012, loss 4.667, perplexity 106.39
+INFO:root:	Batch 73577, loss 4.964, perplexity 143.11
+INFO:root:	Batch 74161, loss 4.507, perplexity 90.68
+INFO:root:	Batch 74716, loss 4.562, perplexity 95.80
+INFO:root:	Batch 75296, loss 4.701, perplexity 110.10
+INFO:root:	Batch 75849, loss 4.641, perplexity 103.67
+INFO:root:	Batch 76456, loss 4.447, perplexity 85.35
+INFO:root:	Batch 77037, loss 4.557, perplexity 95.28
+INFO:root:	Batch 77640, loss 4.511, perplexity 91.00
+INFO:root:	Batch 78218, loss 4.418, perplexity 82.91
+INFO:root:	Batch 78787, loss 4.339, perplexity 76.66
+INFO:root:	Batch 79348, loss 4.297, perplexity 73.51
+INFO:root:	Batch 79954, loss 5.178, perplexity 177.33
+INFO:root:	Batch 80530, loss 4.409, perplexity 82.19
+INFO:root:	Batch 81136, loss 4.620, perplexity 101.52
+INFO:root:	Batch 81711, loss 4.666, perplexity 106.23
+INFO:root:	Batch 82266, loss 4.617, perplexity 101.20
+INFO:root:	Batch 82850, loss 5.049, perplexity 155.93
+INFO:root:	Batch 83399, loss 4.660, perplexity 105.68
+INFO:root:	Batch 84004, loss 4.617, perplexity 101.24
+INFO:root:	Batch 84576, loss 4.399, perplexity 81.39
+INFO:root:	Batch 85180, loss 4.642, perplexity 103.72
+INFO:root:	Batch 85737, loss 4.713, perplexity 111.40
+INFO:root:	Batch 86308, loss 4.380, perplexity 79.83
+INFO:root:	Batch 86913, loss 5.051, perplexity 156.17
+INFO:root:	Batch 87488, loss 4.776, perplexity 118.64
+INFO:root:	Batch 88038, loss 4.594, perplexity 98.85
+INFO:root:	Batch 88644, loss 4.049, perplexity 57.32
+INFO:root:	Batch 89210, loss 4.724, perplexity 112.63
+INFO:root:	Batch 89817, loss 4.858, perplexity 128.72
+INFO:root:	Batch 90392, loss 4.763, perplexity 117.09
+INFO:root:	Batch 90970, loss 4.825, perplexity 124.57
+INFO:root:	Batch 91533, loss 4.709, perplexity 110.96
+INFO:root:	Batch 92142, loss 4.887, perplexity 132.52
+INFO:root:	Batch 92711, loss 4.698, perplexity 109.72
+INFO:root:	Batch 93296, loss 4.747, perplexity 115.20
+INFO:root:	Batch 93877, loss 4.730, perplexity 113.33
+INFO:root:	Batch 94455, loss 4.539, perplexity 93.57
+INFO:root:	Batch 95028, loss 5.013, perplexity 150.39
+INFO:root:	Batch 95633, loss 4.700, perplexity 110.00
+INFO:root:	Batch 96209, loss 4.579, perplexity 97.39
+INFO:root:	Batch 96788, loss 4.277, perplexity 71.99
+INFO:root:	Batch 97399, loss 4.660, perplexity 105.61
+INFO:root:	Batch 97972, loss 4.294, perplexity 73.23
+INFO:root:	Batch 98555, loss 4.742, perplexity 114.69
+INFO:root:	Batch 99164, loss 4.422, perplexity 83.23
+INFO:root:	Batch 99739, loss 4.978, perplexity 145.14
+INFO:root:	Batch 100346, loss 4.798, perplexity 121.24
+INFO:root:	Batch 100900, loss 4.671, perplexity 106.77
+INFO:root:	Batch 101510, loss 4.654, perplexity 104.96
+INFO:root:	Batch 102112, loss 4.715, perplexity 111.57
+INFO:root:	Batch 102720, loss 4.429, perplexity 83.83
+INFO:root:	Batch 103282, loss 4.922, perplexity 137.24
+INFO:root:	Batch 103837, loss 4.803, perplexity 121.89
+INFO:root:	Batch 104420, loss 4.477, perplexity 87.93
+INFO:root:	Batch 104992, loss 4.465, perplexity 86.89
+INFO:root:	Batch 105578, loss 4.404, perplexity 81.81
+INFO:root:	Batch 106185, loss 4.602, perplexity 99.64
+INFO:root:	Batch 106759, loss 5.021, perplexity 151.56
+INFO:root:	Batch 107366, loss 4.887, perplexity 132.58
+INFO:root:	Batch 107975, loss 4.807, perplexity 122.31
+INFO:root:	Batch 108577, loss 4.790, perplexity 120.25
+INFO:root:	Batch 109153, loss 4.963, perplexity 142.96
+INFO:root:	Batch 109714, loss 4.810, perplexity 122.70
+INFO:root:	Batch 110286, loss 4.395, perplexity 81.05
+INFO:root:	Batch 110852, loss 4.529, perplexity 92.70
+INFO:root:	Batch 111453, loss 4.551, perplexity 94.69
+INFO:root:	Batch 112056, loss 4.629, perplexity 102.39
+INFO:root:	Batch 112630, loss 4.639, perplexity 103.41
+INFO:root:	Batch 113238, loss 5.172, perplexity 176.19
+INFO:root:	Batch 113813, loss 4.574, perplexity 96.97
+INFO:root:	Batch 114392, loss 4.535, perplexity 93.27
+INFO:root:	Batch 114953, loss 4.467, perplexity 87.07
+INFO:root:	Batch 115554, loss 5.063, perplexity 158.00
+INFO:root:	Batch 116158, loss 4.341, perplexity 76.78
+INFO:root:	Batch 116766, loss 4.464, perplexity 86.85
+INFO:root:	Batch 117334, loss 4.745, perplexity 114.97
+INFO:root:	Batch 117936, loss 4.888, perplexity 132.72
+INFO:root:	Batch 118523, loss 4.751, perplexity 115.75
+INFO:root:	Batch 119129, loss 4.642, perplexity 103.74
+INFO:root:	Batch 119696, loss 4.248, perplexity 69.99
+INFO:root:	Batch 120275, loss 4.590, perplexity 98.52
+INFO:root:	Batch 120864, loss 4.808, perplexity 122.49
+INFO:root:	Batch 121438, loss 4.823, perplexity 124.31
+INFO:root:	Batch 122049, loss 4.476, perplexity 87.90
+INFO:root:	Batch 122650, loss 4.404, perplexity 81.80
+INFO:root:	Batch 123214, loss 4.595, perplexity 98.99
+INFO:root:	Batch 123816, loss 4.934, perplexity 138.98
+INFO:root:	Batch 124394, loss 4.507, perplexity 90.68
+INFO:root:	Batch 124958, loss 4.608, perplexity 100.29
+INFO:root:	Batch 125543, loss 4.424, perplexity 83.45
+INFO:root:	Batch 126148, loss 4.757, perplexity 116.42
+INFO:root:	Batch 126756, loss 4.707, perplexity 110.72
+INFO:root:	Batch 127305, loss 4.812, perplexity 122.93
+INFO:root:	Batch 127911, loss 4.818, perplexity 123.72
+INFO:root:	Batch 128470, loss 4.209, perplexity 67.29
+INFO:root:	Batch 129062, loss 4.852, perplexity 128.02
+INFO:root:	Batch 129631, loss 4.540, perplexity 93.69
+INFO:root:	Batch 130235, loss 4.636, perplexity 103.15
+INFO:root:	Batch 130798, loss 4.850, perplexity 127.70
+INFO:root:	Batch 131404, loss 4.395, perplexity 81.07
+INFO:root:	Batch 132009, loss 4.527, perplexity 92.44
+INFO:root:	Batch 132611, loss 5.145, perplexity 171.54
+INFO:root:	Batch 133190, loss 4.814, perplexity 123.25
+INFO:root:	Batch 133795, loss 4.411, perplexity 82.35
+INFO:root:	Batch 134368, loss 4.611, perplexity 100.56
+INFO:root:	Batch 134971, loss 4.890, perplexity 132.89
+INFO:root:	Batch 135583, loss 4.748, perplexity 115.31
+INFO:root:	Batch 136169, loss 4.411, perplexity 82.38
+INFO:root:	Batch 136774, loss 4.523, perplexity 92.08
+INFO:root:	Batch 137348, loss 4.911, perplexity 135.76
+INFO:root:	Batch 137953, loss 4.767, perplexity 117.54
+INFO:root:	Batch 138534, loss 4.876, perplexity 131.04
+INFO:root:	Batch 139137, loss 4.707, perplexity 110.68
+INFO:root:	Batch 139739, loss 4.716, perplexity 111.72
+INFO:root:	Batch 140336, loss 4.794, perplexity 120.75
+INFO:root:	Batch 140932, loss 4.856, perplexity 128.46
+INFO:root:	Batch 141533, loss 4.968, perplexity 143.70
+INFO:root:	Batch 142132, loss 4.773, perplexity 118.31
+INFO:root:	Batch 142730, loss 4.521, perplexity 91.96
+INFO:root:	Batch 143330, loss 4.393, perplexity 80.89
+INFO:root:	Batch 143920, loss 4.726, perplexity 112.84
+INFO:root:	Batch 144506, loss 4.640, perplexity 103.50
+INFO:root:	Batch 145059, loss 4.684, perplexity 108.24
+INFO:root:	Batch 145645, loss 4.552, perplexity 94.80
+INFO:root:	Batch 146240, loss 4.667, perplexity 106.36
+INFO:root:	Batch 146840, loss 4.791, perplexity 120.44
+INFO:root:	Batch 147439, loss 4.899, perplexity 134.20
+INFO:root:	Batch 147991, loss 4.754, perplexity 116.09
+INFO:root:	Batch 148594, loss 4.838, perplexity 126.28
+INFO:root:	Batch 149179, loss 4.714, perplexity 111.48
+INFO:root:	Batch 149786, loss 4.715, perplexity 111.59
+INFO:root:	Batch 150352, loss 4.837, perplexity 126.09
+INFO:root:	Batch 150918, loss 4.678, perplexity 107.53
+INFO:root:	Batch 151520, loss 4.372, perplexity 79.19
+INFO:root:	Batch 152091, loss 4.415, perplexity 82.69
+INFO:root:	Batch 152693, loss 4.566, perplexity 96.18
+INFO:root:	Batch 153277, loss 4.474, perplexity 87.71
+INFO:root:	Batch 153880, loss 4.197, perplexity 66.49
+INFO:root:	Batch 154475, loss 5.014, perplexity 150.46
+INFO:root:	Batch 155067, loss 4.693, perplexity 109.18
+INFO:root:	Batch 155656, loss 4.933, perplexity 138.76
+INFO:root:	Batch 156248, loss 5.188, perplexity 179.14
+INFO:root:	Batch 156834, loss 4.208, perplexity 67.24
+INFO:root:	Batch 157435, loss 4.770, perplexity 117.91
+INFO:root:	Batch 158010, loss 4.611, perplexity 100.54
+INFO:root:	Batch 158607, loss 4.208, perplexity 67.25
+INFO:root:	Batch 159207, loss 4.890, perplexity 133.00
+INFO:root:	Batch 159788, loss 4.692, perplexity 109.11
+INFO:root:	Batch 160378, loss 4.901, perplexity 134.42
+INFO:root:	Batch 160970, loss 4.738, perplexity 114.15
+INFO:root:	Batch 161575, loss 4.312, perplexity 74.59
+INFO:root:	Batch 162169, loss 4.597, perplexity 99.14
+INFO:root:	Batch 162778, loss 4.601, perplexity 99.61
+INFO:root:	Batch 163343, loss 4.593, perplexity 98.75
+INFO:root:	Batch 163945, loss 4.855, perplexity 128.42
+INFO:root:	Batch 164522, loss 4.705, perplexity 110.46
+INFO:root:	Batch 165112, loss 4.817, perplexity 123.54
+INFO:root:	Batch 165705, loss 4.450, perplexity 85.59
+INFO:root:	Batch 166293, loss 4.509, perplexity 90.85
+INFO:root:	Batch 166889, loss 4.968, perplexity 143.69
+INFO:root:	Batch 167481, loss 4.774, perplexity 118.36
+INFO:root:	Batch 168033, loss 4.526, perplexity 92.37
+INFO:root:	Batch 168635, loss 4.692, perplexity 109.08
+INFO:root:	Batch 169233, loss 4.532, perplexity 92.93
+INFO:root:	Batch 169829, loss 4.332, perplexity 76.09
+INFO:root:	Batch 170423, loss 4.635, perplexity 103.04
+INFO:root:	Batch 171023, loss 4.675, perplexity 107.23
+INFO:root:	Batch 171590, loss 4.481, perplexity 88.35
+INFO:root:	Batch 172168, loss 4.510, perplexity 90.95
+INFO:root:	Batch 172736, loss 4.564, perplexity 96.00
+INFO:root:	Batch 173327, loss 4.798, perplexity 121.27
+INFO:root:	Batch 173911, loss 4.760, perplexity 116.74
+INFO:root:	Batch 174510, loss 4.417, perplexity 82.84
+INFO:root:	Batch 175104, loss 4.776, perplexity 118.64
+INFO:root:	Batch 175691, loss 4.406, perplexity 81.97
+INFO:root:	Batch 176295, loss 4.934, perplexity 138.94
+INFO:root:	Batch 176889, loss 5.041, perplexity 154.61
+INFO:root:	Batch 177484, loss 4.448, perplexity 85.46
+INFO:root:	Batch 178083, loss 4.765, perplexity 117.37
+INFO:root:	Batch 178688, loss 4.893, perplexity 133.35
+INFO:root:	Batch 179278, loss 4.395, perplexity 81.03
+INFO:root:	Batch 179871, loss 4.723, perplexity 112.46
+INFO:root:	Batch 180467, loss 4.658, perplexity 105.46
+INFO:root:	Batch 181057, loss 4.737, perplexity 114.03
+INFO:root:	Batch 181662, loss 4.868, perplexity 130.04
+INFO:root:	Batch 182214, loss 4.482, perplexity 88.44
+INFO:root:	Batch 182811, loss 4.660, perplexity 105.67
+INFO:root:	Batch 183377, loss 4.621, perplexity 101.61
+INFO:root:	Batch 183978, loss 4.485, perplexity 88.70
+INFO:root:	Batch 184558, loss 4.474, perplexity 87.71
+INFO:root:	Batch 185160, loss 4.830, perplexity 125.27
+INFO:root:	Batch 185746, loss 4.359, perplexity 78.21
+INFO:root:	Batch 186329, loss 4.514, perplexity 91.26
+INFO:root:	Batch 186925, loss 5.060, perplexity 157.58
+INFO:root:	Batch 187525, loss 4.405, perplexity 81.85
+INFO:root:	Batch 188110, loss 4.467, perplexity 87.07
+INFO:root:	Batch 188704, loss 4.633, perplexity 102.81
+INFO:root:	Batch 189293, loss 4.608, perplexity 100.29
+INFO:root:	Batch 189904, loss 4.494, perplexity 89.51
+INFO:root:	Batch 190484, loss 4.409, perplexity 82.20
+INFO:root:	Batch 191085, loss 4.969, perplexity 143.88
+INFO:root:	Batch 191661, loss 4.699, perplexity 109.80
+INFO:root:	Batch 192220, loss 4.500, perplexity 90.06
+INFO:root:	Batch 192828, loss 4.719, perplexity 112.06
+INFO:root:	Batch 193426, loss 4.901, perplexity 134.38
+INFO:root:	Batch 194026, loss 4.483, perplexity 88.51
+INFO:root:	Batch 194617, loss 4.829, perplexity 125.08
+INFO:root:	Batch 195218, loss 4.560, perplexity 95.60
+INFO:root:	Batch 195804, loss 4.467, perplexity 87.08
+INFO:root:	Batch 196406, loss 4.471, perplexity 87.45
+INFO:root:	Batch 197002, loss 4.470, perplexity 87.36
+INFO:root:	Batch 197600, loss 4.710, perplexity 111.05
+INFO:root:	Batch 198184, loss 4.400, perplexity 81.49
+INFO:root:	Batch 198786, loss 4.906, perplexity 135.11
+INFO:root:	Batch 199387, loss 4.567, perplexity 96.28
+INFO:root:	Batch 199990, loss 4.712, perplexity 111.31
+INFO:root:	Batch 200569, loss 4.781, perplexity 119.18
+INFO:root:	Batch 201166, loss 4.368, perplexity 78.91
+INFO:root:	Batch 201756, loss 4.862, perplexity 129.25
+INFO:root:	Batch 202352, loss 4.507, perplexity 90.62
+INFO:root:	Batch 202936, loss 4.656, perplexity 105.22
+INFO:root:	Batch 203516, loss 4.374, perplexity 79.34
+INFO:root:	Batch 204094, loss 4.384, perplexity 80.18
+INFO:root:	Batch 204705, loss 4.365, perplexity 78.69
+INFO:root:	Batch 205290, loss 4.842, perplexity 126.76
+INFO:root:	Batch 205878, loss 4.829, perplexity 125.15
+INFO:root:	Batch 206480, loss 4.754, perplexity 116.11
+INFO:root:	Batch 207066, loss 4.573, perplexity 96.85
+INFO:root:	Batch 207666, loss 4.652, perplexity 104.83
+INFO:root:	Batch 208259, loss 4.779, perplexity 118.93
+INFO:root:	Batch 208856, loss 4.436, perplexity 84.40
+INFO:root:	Batch 209431, loss 4.373, perplexity 79.28
+INFO:root:	Batch 210010, loss 4.539, perplexity 93.61
+INFO:root:	Batch 210610, loss 4.601, perplexity 99.55
+INFO:root:	Batch 211199, loss 4.959, perplexity 142.38
+INFO:root:	Batch 211770, loss 4.659, perplexity 105.58
+INFO:root:	Batch 212367, loss 4.323, perplexity 75.38
+INFO:root:	Batch 212947, loss 4.458, perplexity 86.28
+INFO:root:	Batch 213548, loss 4.675, perplexity 107.21
+INFO:root:	Batch 214129, loss 4.691, perplexity 108.98
+INFO:root:	Batch 214725, loss 4.564, perplexity 95.95
+INFO:root:	Batch 215329, loss 5.097, perplexity 163.52
+INFO:root:	Batch 215888, loss 4.747, perplexity 115.20
+INFO:root:	Batch 216485, loss 4.475, perplexity 87.82
+INFO:root:	Batch 217090, loss 4.647, perplexity 104.30
+INFO:root:	Batch 217689, loss 4.988, perplexity 146.63
+INFO:root:	Batch 218255, loss 4.513, perplexity 91.15
+INFO:root:	Batch 218854, loss 4.459, perplexity 86.38
+INFO:root:	Batch 219420, loss 4.513, perplexity 91.20
+INFO:root:	Batch 220017, loss 4.542, perplexity 93.90
+INFO:root:	Batch 220613, loss 4.698, perplexity 109.69
+INFO:root:	Batch 221213, loss 4.856, perplexity 128.54
+INFO:root:	Batch 221817, loss 4.734, perplexity 113.76
+INFO:root:	Batch 222413, loss 4.760, perplexity 116.72
+INFO:root:	Batch 223002, loss 4.633, perplexity 102.81
+INFO:root:	Batch 223610, loss 5.337, perplexity 207.92
+INFO:root:	Batch 224169, loss 4.628, perplexity 102.27
+INFO:root:	Batch 224764, loss 4.190, perplexity 65.99
+INFO:root:	Batch 225347, loss 4.661, perplexity 105.73
+INFO:root:	Batch 225958, loss 5.031, perplexity 153.06
+INFO:root:	Batch 226558, loss 4.721, perplexity 112.27
+INFO:root:	Batch 227170, loss 4.613, perplexity 100.83
+INFO:root:	Batch 227751, loss 5.008, perplexity 149.62
+INFO:root:	Batch 228348, loss 4.458, perplexity 86.36
+INFO:root:	Batch 228955, loss 4.616, perplexity 101.04
+INFO:root:	Batch 229545, loss 4.897, perplexity 133.88
+INFO:root:	Batch 230154, loss 4.535, perplexity 93.19
+INFO:root:	Batch 230744, loss 4.393, perplexity 80.86
+INFO:root:	Batch 231339, loss 4.540, perplexity 93.67
+INFO:root:	Batch 231924, loss 4.760, perplexity 116.78
+INFO:root:	Batch 232516, loss 4.681, perplexity 107.89
+INFO:root:	Batch 233116, loss 4.839, perplexity 126.37
+INFO:root:	Batch 233680, loss 4.863, perplexity 129.38
+INFO:root:	Batch 234278, loss 4.540, perplexity 93.66
+INFO:root:	Batch 234859, loss 4.741, perplexity 114.57
+INFO:root:	Batch 235445, loss 4.836, perplexity 125.94
+INFO:root:	Batch 235998, loss 4.739, perplexity 114.34
+INFO:root:	Batch 236605, loss 4.965, perplexity 143.31
+INFO:root:	Batch 237192, loss 4.789, perplexity 120.16
+INFO:root:	Batch 237799, loss 4.488, perplexity 88.99
+INFO:root:	Batch 238374, loss 4.655, perplexity 105.10
+INFO:root:	Batch 238975, loss 4.518, perplexity 91.61
+INFO:root:	Batch 239564, loss 4.507, perplexity 90.67
+INFO:root:	Batch 240146, loss 4.832, perplexity 125.46
+INFO:root:	Batch 240733, loss 4.485, perplexity 88.69
+INFO:root:	Batch 241312, loss 4.692, perplexity 109.10
+INFO:root:	Batch 241916, loss 4.600, perplexity 99.52
+INFO:root:	Batch 242526, loss 4.627, perplexity 102.21
+INFO:root:	Batch 243111, loss 4.657, perplexity 105.31
+INFO:root:	Batch 243711, loss 4.720, perplexity 112.18
+INFO:root:	Batch 244286, loss 4.427, perplexity 83.67
+INFO:root:	Batch 244855, loss 4.858, perplexity 128.78
+INFO:root:	Batch 245421, loss 4.822, perplexity 124.18
+INFO:root:	Batch 246004, loss 4.603, perplexity 99.79
+INFO:root:	Batch 246599, loss 4.887, perplexity 132.57
+INFO:root:	Batch 247183, loss 4.645, perplexity 104.05
+INFO:root:	Batch 247775, loss 4.715, perplexity 111.64
+INFO:root:	Batch 248378, loss 4.532, perplexity 92.97
+INFO:root:	Batch 248965, loss 4.663, perplexity 106.00
+INFO:root:	Batch 249563, loss 4.528, perplexity 92.59
+INFO:root:	Batch 250146, loss 4.494, perplexity 89.51
+INFO:root:	Batch 250729, loss 4.901, perplexity 134.36
+INFO:root:	Batch 251328, loss 4.584, perplexity 97.86
+INFO:root:	Batch 251929, loss 4.892, perplexity 133.25
+INFO:root:	Batch 252524, loss 4.834, perplexity 125.68
+INFO:root:	Batch 253106, loss 4.201, perplexity 66.75
+INFO:root:	Batch 253709, loss 4.804, perplexity 121.96
+INFO:root:	Batch 254278, loss 4.682, perplexity 108.02
+INFO:root:	Batch 254858, loss 4.840, perplexity 126.53
+INFO:root:	Batch 255414, loss 4.558, perplexity 95.40
+INFO:root:	Batch 256017, loss 4.494, perplexity 89.46
+INFO:root:	Batch 256604, loss 4.601, perplexity 99.56
+INFO:root:	Batch 257201, loss 4.542, perplexity 93.84
+INFO:root:	Batch 257794, loss 4.538, perplexity 93.55
+INFO:root:	Batch 258364, loss 4.826, perplexity 124.76
+INFO:root:	Batch 258936, loss 4.584, perplexity 97.94
+INFO:root:	Batch 259538, loss 4.535, perplexity 93.21
+INFO:root:	Batch 260137, loss 4.751, perplexity 115.73
+INFO:root:	Batch 260736, loss 4.745, perplexity 114.99
+INFO:root:	Batch 261323, loss 4.629, perplexity 102.37
+INFO:root:	Batch 261920, loss 4.549, perplexity 94.51
+INFO:root:	Batch 262523, loss 4.705, perplexity 110.51
+INFO:root:	Batch 263095, loss 4.532, perplexity 92.98
+INFO:root:	Batch 263686, loss 4.727, perplexity 113.00
+INFO:root:	Batch 264271, loss 4.723, perplexity 112.48
+INFO:root:	Batch 264861, loss 4.451, perplexity 85.74
+INFO:root:	Batch 265456, loss 4.557, perplexity 95.28
+INFO:root:	Batch 266055, loss 4.637, perplexity 103.23
+INFO:root:	Batch 266647, loss 4.833, perplexity 125.60
+INFO:root:	Batch 267228, loss 4.788, perplexity 120.08
+INFO:root:	Batch 267820, loss 4.634, perplexity 102.87
+INFO:root:	Batch 268385, loss 4.949, perplexity 141.03
+INFO:root:	Batch 268986, loss 4.531, perplexity 92.82
+INFO:root:	Batch 269579, loss 4.811, perplexity 122.87
+INFO:root:	Batch 270181, loss 4.752, perplexity 115.81
+INFO:root:	Batch 270775, loss 4.717, perplexity 111.80
+INFO:root:	Batch 271325, loss 4.318, perplexity 75.07
+INFO:root:	Batch 271928, loss 4.374, perplexity 79.34
+INFO:root:	Batch 272517, loss 4.477, perplexity 87.98
+INFO:root:	Batch 273080, loss 4.439, perplexity 84.70
+INFO:root:	Batch 273679, loss 4.606, perplexity 100.03
+INFO:root:	Batch 274277, loss 4.323, perplexity 75.40
+INFO:root:	Batch 274870, loss 4.436, perplexity 84.41
+INFO:root:	Batch 275469, loss 4.895, perplexity 133.62
+INFO:root:	Batch 276064, loss 4.477, perplexity 88.01
+INFO:root:	Batch 276647, loss 4.665, perplexity 106.19
+INFO:root:	Batch 277258, loss 4.846, perplexity 127.20
+INFO:root:	Batch 277861, loss 4.679, perplexity 107.67
+INFO:root:	Batch 278446, loss 4.200, perplexity 66.66
+INFO:root:	Batch 279019, loss 4.596, perplexity 99.11
+INFO:root:	Batch 279615, loss 4.632, perplexity 102.73
+INFO:root:	Batch 280217, loss 4.411, perplexity 82.33
+INFO:root:	Batch 280815, loss 4.857, perplexity 128.65
+INFO:root:	Batch 281398, loss 4.451, perplexity 85.71
+INFO:root:	Batch 281980, loss 4.276, perplexity 71.98
+INFO:root:	Batch 282568, loss 4.711, perplexity 111.12
+INFO:root:	Batch 283176, loss 4.859, perplexity 128.89
+INFO:root:	Batch 283771, loss 4.528, perplexity 92.54
+INFO:root:	Batch 284365, loss 5.140, perplexity 170.65
+INFO:root:	Batch 284962, loss 4.575, perplexity 96.99
+INFO:root:	Batch 285553, loss 4.358, perplexity 78.12
+INFO:root:	Batch 286140, loss 4.367, perplexity 78.83
+INFO:root:	Batch 286743, loss 4.772, perplexity 118.10
+INFO:root:	Batch 287343, loss 4.636, perplexity 103.14
+INFO:root:	Batch 287927, loss 4.666, perplexity 106.32
+INFO:root:	Batch 288534, loss 4.777, perplexity 118.80
+INFO:root:	Batch 289132, loss 4.831, perplexity 125.32
+INFO:root:	Batch 289705, loss 4.889, perplexity 132.84
+INFO:root:	Batch 290282, loss 4.546, perplexity 94.29
+INFO:root:	Batch 290863, loss 4.940, perplexity 139.78
+INFO:root:	Batch 291466, loss 4.822, perplexity 124.16
+INFO:root:	Batch 292041, loss 4.510, perplexity 90.94
+INFO:root:	Batch 292618, loss 4.466, perplexity 87.04
+INFO:root:	Batch 293229, loss 4.801, perplexity 121.62
+INFO:root:	Batch 293817, loss 4.375, perplexity 79.44
+INFO:root:	Batch 294421, loss 4.489, perplexity 89.01
+INFO:root:	Batch 295020, loss 4.628, perplexity 102.33
+INFO:root:	Batch 295618, loss 4.466, perplexity 86.99
+INFO:root:	Batch 296219, loss 4.667, perplexity 106.42
+INFO:root:	Batch 296824, loss 4.603, perplexity 99.83
+INFO:root:	Batch 297372, loss 4.863, perplexity 129.40
+INFO:root:	Batch 297944, loss 4.313, perplexity 74.69
+INFO:root:	Batch 298547, loss 4.855, perplexity 128.42
+INFO:root:	Batch 299136, loss 4.452, perplexity 85.80
+INFO:root:	Batch 299742, loss 4.399, perplexity 81.38
+INFO:root:	Batch 300340, loss 4.620, perplexity 101.48
+INFO:root:	Batch 300940, loss 4.610, perplexity 100.47
+INFO:root:	Batch 301508, loss 4.862, perplexity 129.24
+INFO:root:	Batch 302110, loss 4.348, perplexity 77.33
+INFO:root:	Batch 302706, loss 4.619, perplexity 101.40
+INFO:root:	Batch 303314, loss 5.006, perplexity 149.24
+INFO:root:	Batch 303886, loss 4.761, perplexity 116.90
+INFO:root:	Batch 304478, loss 4.603, perplexity 99.74
+INFO:root:	Batch 305079, loss 4.581, perplexity 97.61
+INFO:root:	Batch 305659, loss 4.179, perplexity 65.28
+INFO:root:	Batch 306266, loss 4.374, perplexity 79.33
+INFO:root:	Batch 306830, loss 4.818, perplexity 123.73
+INFO:root:	Batch 307422, loss 4.871, perplexity 130.47
+INFO:root:	Batch 308021, loss 4.943, perplexity 140.22
+INFO:root:	Batch 308627, loss 4.592, perplexity 98.66
+INFO:root:	Batch 309203, loss 4.535, perplexity 93.19
+INFO:root:	Batch 309781, loss 4.501, perplexity 90.14
+INFO:root:	Batch 310348, loss 4.734, perplexity 113.77
+INFO:root:	Batch 310954, loss 4.542, perplexity 93.85
+INFO:root:	Batch 311547, loss 4.313, perplexity 74.67
+INFO:root:	Batch 312126, loss 4.855, perplexity 128.39
+INFO:root:	Batch 312732, loss 4.619, perplexity 101.38
+INFO:root:	Batch 313331, loss 4.480, perplexity 88.21
+INFO:root:	Batch 313929, loss 4.526, perplexity 92.35
+INFO:root:	Batch 314531, loss 4.786, perplexity 119.81
+INFO:root:	Batch 315091, loss 4.684, perplexity 108.24
+INFO:root:	Batch 315685, loss 4.581, perplexity 97.58
+INFO:root:	Batch 316292, loss 4.556, perplexity 95.18
+INFO:root:	Batch 316896, loss 4.804, perplexity 121.97
+INFO:root:	Batch 317474, loss 4.785, perplexity 119.66
+INFO:root:	Batch 318076, loss 4.611, perplexity 100.61
+INFO:root:	Batch 318643, loss 4.185, perplexity 65.70
+INFO:root:	Batch 319238, loss 4.368, perplexity 78.92
+INFO:root:	Batch 319822, loss 4.759, perplexity 116.67
+INFO:root:	Batch 320422, loss 4.270, perplexity 71.52
+INFO:root:	Batch 321006, loss 4.223, perplexity 68.26
+INFO:root:	Batch 321608, loss 4.513, perplexity 91.21
+INFO:root:	Batch 322191, loss 4.659, perplexity 105.55
+INFO:root:	Batch 322773, loss 4.757, perplexity 116.40
+INFO:root:	Batch 323353, loss 4.669, perplexity 106.61
+INFO:root:	Batch 323960, loss 4.481, perplexity 88.36
+INFO:root:	Batch 324551, loss 4.800, perplexity 121.45
+INFO:root:	Batch 325149, loss 4.788, perplexity 120.01
+INFO:root:	Batch 325723, loss 4.676, perplexity 107.36
+INFO:root:	Batch 326296, loss 4.664, perplexity 106.04
+INFO:root:	Batch 326888, loss 4.766, perplexity 117.40
+INFO:root:	Batch 327496, loss 4.656, perplexity 105.21
+INFO:root:	Batch 328087, loss 4.693, perplexity 109.13
+INFO:root:	Batch 328683, loss 4.756, perplexity 116.24
+INFO:root:	Batch 329280, loss 4.695, perplexity 109.39
+INFO:root:	Batch 329889, loss 5.196, perplexity 180.60
+INFO:root:	Batch 330451, loss 4.621, perplexity 101.55
+INFO:root:	Batch 331051, loss 4.692, perplexity 109.05
+INFO:root:	Batch 331658, loss 4.735, perplexity 113.89
+INFO:root:	Batch 332242, loss 4.870, perplexity 130.31
+INFO:root:	Batch 332847, loss 4.885, perplexity 132.35
+INFO:root:	Batch 333445, loss 4.476, perplexity 87.88
+INFO:root:	Batch 333999, loss 4.418, perplexity 82.92
+INFO:root:	Batch 334582, loss 4.657, perplexity 105.36
+INFO:root:	Batch 335146, loss 4.203, perplexity 66.86
+INFO:root:	Batch 335747, loss 4.675, perplexity 107.19
+INFO:root:	Batch 336356, loss 4.637, perplexity 103.25
+INFO:root:	Batch 336949, loss 4.824, perplexity 124.41
+INFO:root:	Batch 337548, loss 4.812, perplexity 122.95
+INFO:root:	Batch 338129, loss 4.800, perplexity 121.53
+INFO:root:	Batch 338712, loss 4.642, perplexity 103.80
+INFO:root:	Batch 339312, loss 4.440, perplexity 84.77
+INFO:root:	Batch 339914, loss 5.015, perplexity 150.58
+INFO:root:	Batch 340490, loss 4.728, perplexity 113.09
+INFO:root:	Batch 341064, loss 4.602, perplexity 99.68
+INFO:root:	Batch 341631, loss 5.036, perplexity 153.88
+INFO:root:	Batch 342208, loss 4.691, perplexity 108.92
+INFO:root:	Batch 342782, loss 5.112, perplexity 166.03
+INFO:root:	Batch 343381, loss 4.456, perplexity 86.15
+INFO:root:	Batch 343958, loss 4.333, perplexity 76.16
+DEBUG:root:Validation perplexity: 95.4
+DEBUG:root:Test perplexity: 250.1
+DEBUG:root:BEST result
+DEBUG:root:END EPOCH now = 2020-01-07 04:58:39.525359
+DEBUG:root:END EPOCH now = 2020-01-07 04:58:39.525577
+DEBUG:root:Parameter embedding.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 300]) 
+DEBUG:root:Parameter False 
+DEBUG:root:Parameter lstm.weight_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 300]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.bias 
+DEBUG:root:Parameter shape torch.Size([300000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter embedding.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 300]) 
+DEBUG:root:Parameter False 
+DEBUG:root:Parameter lstm.weight_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 300]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.bias 
+DEBUG:root:Parameter shape torch.Size([300000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Number parameters 153908000
+DEBUG:root:Scheduler.get_lr() [0.0007224999999999999]
+DEBUG:root:START EPOCH now = 2020-01-07 04:58:55.597318
+DEBUG:root:Training epoch 2
+INFO:root:	Batch 0, loss 4.870, perplexity 130.31
+INFO:root:	Batch 600, loss 4.804, perplexity 121.98
+INFO:root:	Batch 1198, loss 4.661, perplexity 105.78
+INFO:root:	Batch 1814, loss 4.535, perplexity 93.19
+INFO:root:	Batch 2428, loss 4.585, perplexity 97.96
+INFO:root:	Batch 2994, loss 4.325, perplexity 75.54
+INFO:root:	Batch 3603, loss 4.711, perplexity 111.22
+INFO:root:	Batch 4189, loss 4.739, perplexity 114.37
+INFO:root:	Batch 4799, loss 4.717, perplexity 111.80
+INFO:root:	Batch 5394, loss 4.412, perplexity 82.44
+INFO:root:	Batch 6012, loss 4.355, perplexity 77.88
+INFO:root:	Batch 6618, loss 4.744, perplexity 114.88
+INFO:root:	Batch 7181, loss 4.636, perplexity 103.18
+INFO:root:	Batch 7752, loss 4.405, perplexity 81.87
+INFO:root:	Batch 8358, loss 4.475, perplexity 87.75
+INFO:root:	Batch 8962, loss 4.489, perplexity 89.04
+INFO:root:	Batch 9546, loss 4.636, perplexity 103.11
+INFO:root:	Batch 10109, loss 4.438, perplexity 84.64
+INFO:root:	Batch 10687, loss 4.930, perplexity 138.34
+INFO:root:	Batch 11293, loss 4.608, perplexity 100.25
+INFO:root:	Batch 11886, loss 5.018, perplexity 151.07
+INFO:root:	Batch 12501, loss 4.748, perplexity 115.39
+INFO:root:	Batch 13107, loss 4.613, perplexity 100.82
+INFO:root:	Batch 13679, loss 4.633, perplexity 102.83
+INFO:root:	Batch 14293, loss 4.588, perplexity 98.31
+INFO:root:	Batch 14869, loss 4.539, perplexity 93.63
+INFO:root:	Batch 15439, loss 4.328, perplexity 75.80
+INFO:root:	Batch 16048, loss 4.486, perplexity 88.73
+INFO:root:	Batch 16656, loss 4.779, perplexity 119.03
+INFO:root:	Batch 17269, loss 4.352, perplexity 77.66
+INFO:root:	Batch 17840, loss 4.615, perplexity 101.01
+INFO:root:	Batch 18454, loss 4.615, perplexity 100.98
+INFO:root:	Batch 19027, loss 4.156, perplexity 63.79
+INFO:root:	Batch 19635, loss 4.430, perplexity 83.89
+INFO:root:	Batch 20231, loss 4.551, perplexity 94.70
+INFO:root:	Batch 20841, loss 4.453, perplexity 85.87
+INFO:root:	Batch 21436, loss 4.118, perplexity 61.44
+INFO:root:	Batch 22044, loss 4.468, perplexity 87.22
+INFO:root:	Batch 22622, loss 4.754, perplexity 116.02
+INFO:root:	Batch 23230, loss 4.456, perplexity 86.16
+INFO:root:	Batch 23837, loss 4.757, perplexity 116.45
+INFO:root:	Batch 24406, loss 4.586, perplexity 98.11
+INFO:root:	Batch 25014, loss 4.617, perplexity 101.21
+INFO:root:	Batch 25619, loss 4.655, perplexity 105.09
+INFO:root:	Batch 26192, loss 4.354, perplexity 77.76
+INFO:root:	Batch 26804, loss 4.512, perplexity 91.09
+INFO:root:	Batch 27373, loss 4.363, perplexity 78.52
+INFO:root:	Batch 27979, loss 4.763, perplexity 117.05
+INFO:root:	Batch 28579, loss 4.491, perplexity 89.25
+INFO:root:	Batch 29135, loss 4.491, perplexity 89.23
+INFO:root:	Batch 29731, loss 4.634, perplexity 102.91
+INFO:root:	Batch 30310, loss 4.706, perplexity 110.56
+INFO:root:	Batch 30922, loss 4.670, perplexity 106.72
+INFO:root:	Batch 31488, loss 4.759, perplexity 116.68
+INFO:root:	Batch 32095, loss 4.677, perplexity 107.48
+INFO:root:	Batch 32685, loss 4.627, perplexity 102.19
+INFO:root:	Batch 33272, loss 4.271, perplexity 71.61
+INFO:root:	Batch 33848, loss 4.646, perplexity 104.13
+INFO:root:	Batch 34449, loss 4.443, perplexity 85.06
+INFO:root:	Batch 35014, loss 4.426, perplexity 83.59
+INFO:root:	Batch 35616, loss 4.477, perplexity 87.98
+INFO:root:	Batch 36223, loss 4.958, perplexity 142.26
+INFO:root:	Batch 36817, loss 4.546, perplexity 94.26
+INFO:root:	Batch 37406, loss 4.820, perplexity 124.01
+INFO:root:	Batch 38015, loss 4.836, perplexity 125.91
+INFO:root:	Batch 38605, loss 4.304, perplexity 73.98
+INFO:root:	Batch 39220, loss 5.014, perplexity 150.55
+INFO:root:	Batch 39806, loss 4.659, perplexity 105.56
+INFO:root:	Batch 40377, loss 4.428, perplexity 83.75
+INFO:root:	Batch 40989, loss 4.180, perplexity 65.38
+INFO:root:	Batch 41566, loss 4.251, perplexity 70.19
+INFO:root:	Batch 42158, loss 4.351, perplexity 77.54
+INFO:root:	Batch 42733, loss 4.613, perplexity 100.83
+INFO:root:	Batch 43328, loss 4.577, perplexity 97.19
+INFO:root:	Batch 43937, loss 4.286, perplexity 72.70
+INFO:root:	Batch 44546, loss 4.908, perplexity 135.32
+INFO:root:	Batch 45121, loss 4.627, perplexity 102.17
+INFO:root:	Batch 45715, loss 4.491, perplexity 89.20
+INFO:root:	Batch 46309, loss 4.475, perplexity 87.79
+INFO:root:	Batch 46878, loss 4.538, perplexity 93.48
+INFO:root:	Batch 47451, loss 4.759, perplexity 116.68
+INFO:root:	Batch 48030, loss 4.335, perplexity 76.31
+INFO:root:	Batch 48609, loss 4.401, perplexity 81.54
+INFO:root:	Batch 49171, loss 4.420, perplexity 83.06
+INFO:root:	Batch 49762, loss 4.146, perplexity 63.21
+INFO:root:	Batch 50346, loss 4.631, perplexity 102.60
+INFO:root:	Batch 50933, loss 4.814, perplexity 123.26
+INFO:root:	Batch 51491, loss 4.254, perplexity 70.41
+INFO:root:	Batch 52078, loss 4.474, perplexity 87.74
+INFO:root:	Batch 52669, loss 4.627, perplexity 102.19
+INFO:root:	Batch 53273, loss 4.735, perplexity 113.83
+INFO:root:	Batch 53858, loss 4.335, perplexity 76.30
+INFO:root:	Batch 54470, loss 4.553, perplexity 94.94
+INFO:root:	Batch 55070, loss 4.548, perplexity 94.47
+INFO:root:	Batch 55681, loss 4.448, perplexity 85.49
+INFO:root:	Batch 56275, loss 4.292, perplexity 73.08
+INFO:root:	Batch 56870, loss 4.609, perplexity 100.43
+INFO:root:	Batch 57460, loss 4.531, perplexity 92.86
+INFO:root:	Batch 58045, loss 4.513, perplexity 91.21
+INFO:root:	Batch 58638, loss 4.463, perplexity 86.74
+INFO:root:	Batch 59244, loss 4.725, perplexity 112.77
+INFO:root:	Batch 59841, loss 4.829, perplexity 125.05
+INFO:root:	Batch 60450, loss 4.317, perplexity 74.96
+INFO:root:	Batch 61041, loss 4.571, perplexity 96.68
+INFO:root:	Batch 61641, loss 4.864, perplexity 129.50
+INFO:root:	Batch 62233, loss 4.415, perplexity 82.65
+INFO:root:	Batch 62820, loss 4.560, perplexity 95.54
+INFO:root:	Batch 63430, loss 4.286, perplexity 72.67
+INFO:root:	Batch 64036, loss 4.518, perplexity 91.62
+INFO:root:	Batch 64606, loss 4.848, perplexity 127.44
+INFO:root:	Batch 65207, loss 4.908, perplexity 135.33
+INFO:root:	Batch 65801, loss 4.565, perplexity 96.06
+INFO:root:	Batch 66412, loss 4.412, perplexity 82.42
+INFO:root:	Batch 67005, loss 4.679, perplexity 107.65
+INFO:root:	Batch 67614, loss 4.446, perplexity 85.25
+INFO:root:	Batch 68183, loss 4.683, perplexity 108.09
+INFO:root:	Batch 68795, loss 4.847, perplexity 127.36
+INFO:root:	Batch 69394, loss 5.007, perplexity 149.50
+INFO:root:	Batch 70004, loss 4.323, perplexity 75.41
+INFO:root:	Batch 70560, loss 4.556, perplexity 95.19
+INFO:root:	Batch 71161, loss 4.630, perplexity 102.49
+INFO:root:	Batch 71756, loss 4.957, perplexity 142.17
+INFO:root:	Batch 72353, loss 4.405, perplexity 81.87
+INFO:root:	Batch 72920, loss 4.709, perplexity 110.91
+INFO:root:	Batch 73497, loss 4.610, perplexity 100.48
+INFO:root:	Batch 74077, loss 4.790, perplexity 120.31
+INFO:root:	Batch 74692, loss 4.842, perplexity 126.67
+INFO:root:	Batch 75298, loss 4.688, perplexity 108.60
+INFO:root:	Batch 75881, loss 4.324, perplexity 75.45
+INFO:root:	Batch 76489, loss 4.655, perplexity 105.09
+INFO:root:	Batch 77090, loss 4.510, perplexity 90.93
+INFO:root:	Batch 77675, loss 4.734, perplexity 113.75
+INFO:root:	Batch 78279, loss 4.131, perplexity 62.27
+INFO:root:	Batch 78848, loss 4.630, perplexity 102.49
+INFO:root:	Batch 79459, loss 4.484, perplexity 88.59
+INFO:root:	Batch 80041, loss 4.654, perplexity 104.99
+INFO:root:	Batch 80635, loss 4.183, perplexity 65.59
+INFO:root:	Batch 81198, loss 4.785, perplexity 119.72
+INFO:root:	Batch 81770, loss 4.320, perplexity 75.18
+INFO:root:	Batch 82337, loss 4.462, perplexity 86.68
+INFO:root:	Batch 82942, loss 4.588, perplexity 98.32
+INFO:root:	Batch 83532, loss 4.561, perplexity 95.63
+INFO:root:	Batch 84115, loss 4.777, perplexity 118.76
+INFO:root:	Batch 84689, loss 4.311, perplexity 74.50
+INFO:root:	Batch 85285, loss 4.588, perplexity 98.31
+INFO:root:	Batch 85859, loss 5.008, perplexity 149.67
+INFO:root:	Batch 86462, loss 4.465, perplexity 86.93
+INFO:root:	Batch 87057, loss 4.349, perplexity 77.42
+INFO:root:	Batch 87668, loss 4.627, perplexity 102.23
+INFO:root:	Batch 88277, loss 4.283, perplexity 72.45
+INFO:root:	Batch 88864, loss 4.491, perplexity 89.25
+INFO:root:	Batch 89483, loss 4.057, perplexity 57.79
+INFO:root:	Batch 90056, loss 4.511, perplexity 90.97
+INFO:root:	Batch 90632, loss 4.713, perplexity 111.44
+INFO:root:	Batch 91236, loss 4.606, perplexity 100.10
+INFO:root:	Batch 91815, loss 4.532, perplexity 92.96
+INFO:root:	Batch 92435, loss 4.481, perplexity 88.29
+INFO:root:	Batch 93007, loss 4.877, perplexity 131.25
+INFO:root:	Batch 93606, loss 4.428, perplexity 83.75
+INFO:root:	Batch 94203, loss 4.570, perplexity 96.53
+INFO:root:	Batch 94791, loss 4.581, perplexity 97.61
+INFO:root:	Batch 95364, loss 4.465, perplexity 86.89
+INFO:root:	Batch 95938, loss 4.602, perplexity 99.71
+INFO:root:	Batch 96501, loss 4.584, perplexity 97.89
+INFO:root:	Batch 97109, loss 4.709, perplexity 110.93
+INFO:root:	Batch 97683, loss 5.035, perplexity 153.75
+INFO:root:	Batch 98290, loss 4.949, perplexity 141.10
+INFO:root:	Batch 98878, loss 4.897, perplexity 133.86
+INFO:root:	Batch 99483, loss 4.760, perplexity 116.77
+INFO:root:	Batch 100048, loss 4.437, perplexity 84.53
+INFO:root:	Batch 100657, loss 4.866, perplexity 129.77
+INFO:root:	Batch 101219, loss 4.518, perplexity 91.62
+INFO:root:	Batch 101831, loss 4.596, perplexity 99.05
+INFO:root:	Batch 102427, loss 4.542, perplexity 93.87
+INFO:root:	Batch 103035, loss 4.228, perplexity 68.56
+INFO:root:	Batch 103629, loss 4.341, perplexity 76.82
+INFO:root:	Batch 104230, loss 4.669, perplexity 106.56
+INFO:root:	Batch 104823, loss 4.790, perplexity 120.35
+INFO:root:	Batch 105440, loss 4.551, perplexity 94.72
+INFO:root:	Batch 106005, loss 4.884, perplexity 132.18
+INFO:root:	Batch 106612, loss 4.547, perplexity 94.34
+INFO:root:	Batch 107197, loss 4.497, perplexity 89.73
+INFO:root:	Batch 107801, loss 4.766, perplexity 117.49
+INFO:root:	Batch 108375, loss 4.740, perplexity 114.39
+INFO:root:	Batch 108976, loss 4.652, perplexity 104.77
+INFO:root:	Batch 109564, loss 4.535, perplexity 93.27
+INFO:root:	Batch 110169, loss 4.986, perplexity 146.35
+INFO:root:	Batch 110760, loss 4.673, perplexity 107.07
+INFO:root:	Batch 111370, loss 4.667, perplexity 106.41
+INFO:root:	Batch 111947, loss 4.409, perplexity 82.16
+INFO:root:	Batch 112545, loss 4.566, perplexity 96.12
+INFO:root:	Batch 113115, loss 4.598, perplexity 99.30
+INFO:root:	Batch 113731, loss 4.410, perplexity 82.26
+INFO:root:	Batch 114336, loss 4.925, perplexity 137.67
+INFO:root:	Batch 114950, loss 4.083, perplexity 59.31
+INFO:root:	Batch 115514, loss 4.965, perplexity 143.29
+INFO:root:	Batch 116122, loss 4.695, perplexity 109.36
+INFO:root:	Batch 116691, loss 4.851, perplexity 127.89
+INFO:root:	Batch 117257, loss 4.673, perplexity 107.03
+INFO:root:	Batch 117836, loss 4.568, perplexity 96.32
+INFO:root:	Batch 118401, loss 4.501, perplexity 90.14
+INFO:root:	Batch 118973, loss 4.911, perplexity 135.75
+INFO:root:	Batch 119569, loss 4.454, perplexity 85.94
+INFO:root:	Batch 120177, loss 4.627, perplexity 102.25
+INFO:root:	Batch 120766, loss 4.135, perplexity 62.51
+INFO:root:	Batch 121379, loss 4.440, perplexity 84.80
+INFO:root:	Batch 121954, loss 4.268, perplexity 71.38
+INFO:root:	Batch 122543, loss 4.675, perplexity 107.28
+INFO:root:	Batch 123140, loss 4.662, perplexity 105.87
+INFO:root:	Batch 123732, loss 4.878, perplexity 131.36
+INFO:root:	Batch 124333, loss 4.901, perplexity 134.36
+INFO:root:	Batch 124939, loss 4.181, perplexity 65.42
+INFO:root:	Batch 125529, loss 4.427, perplexity 83.70
+INFO:root:	Batch 126136, loss 4.692, perplexity 109.03
+INFO:root:	Batch 126731, loss 4.877, perplexity 131.22
+INFO:root:	Batch 127337, loss 4.768, perplexity 117.69
+INFO:root:	Batch 127929, loss 4.441, perplexity 84.86
+INFO:root:	Batch 128525, loss 4.663, perplexity 105.98
+INFO:root:	Batch 129133, loss 4.693, perplexity 109.19
+INFO:root:	Batch 129720, loss 4.414, perplexity 82.60
+INFO:root:	Batch 130321, loss 4.443, perplexity 85.02
+INFO:root:	Batch 130935, loss 4.140, perplexity 62.83
+INFO:root:	Batch 131538, loss 4.092, perplexity 59.89
+INFO:root:	Batch 132128, loss 4.401, perplexity 81.53
+INFO:root:	Batch 132710, loss 4.568, perplexity 96.36
+INFO:root:	Batch 133301, loss 4.778, perplexity 118.87
+INFO:root:	Batch 133910, loss 4.688, perplexity 108.63
+INFO:root:	Batch 134517, loss 4.538, perplexity 93.46
+INFO:root:	Batch 135111, loss 4.446, perplexity 85.28
+INFO:root:	Batch 135720, loss 4.465, perplexity 86.88
+INFO:root:	Batch 136317, loss 4.858, perplexity 128.82
+INFO:root:	Batch 136924, loss 4.562, perplexity 95.79
+INFO:root:	Batch 137493, loss 4.627, perplexity 102.25
+INFO:root:	Batch 138101, loss 4.641, perplexity 103.61
+INFO:root:	Batch 138710, loss 4.596, perplexity 99.04
+INFO:root:	Batch 139303, loss 4.647, perplexity 104.28
+INFO:root:	Batch 139906, loss 4.466, perplexity 87.05
+INFO:root:	Batch 140476, loss 4.312, perplexity 74.59
+INFO:root:	Batch 141081, loss 4.401, perplexity 81.50
+INFO:root:	Batch 141681, loss 5.112, perplexity 165.96
+INFO:root:	Batch 142245, loss 4.574, perplexity 96.94
+INFO:root:	Batch 142852, loss 4.686, perplexity 108.40
+INFO:root:	Batch 143433, loss 4.859, perplexity 128.86
+INFO:root:	Batch 144006, loss 4.559, perplexity 95.46
+INFO:root:	Batch 144573, loss 4.329, perplexity 75.84
+INFO:root:	Batch 145178, loss 4.878, perplexity 131.37
+INFO:root:	Batch 145740, loss 4.674, perplexity 107.11
+INFO:root:	Batch 146325, loss 4.464, perplexity 86.87
+INFO:root:	Batch 146896, loss 4.808, perplexity 122.52
+INFO:root:	Batch 147488, loss 4.452, perplexity 85.83
+INFO:root:	Batch 148082, loss 4.467, perplexity 87.13
+INFO:root:	Batch 148656, loss 4.949, perplexity 141.05
+INFO:root:	Batch 149259, loss 4.629, perplexity 102.46
+INFO:root:	Batch 149851, loss 4.311, perplexity 74.54
+INFO:root:	Batch 150454, loss 4.642, perplexity 103.73
+INFO:root:	Batch 151026, loss 4.706, perplexity 110.66
+INFO:root:	Batch 151625, loss 4.310, perplexity 74.42
+INFO:root:	Batch 152193, loss 4.648, perplexity 104.37
+INFO:root:	Batch 152799, loss 4.518, perplexity 91.67
+INFO:root:	Batch 153369, loss 4.722, perplexity 112.34
+INFO:root:	Batch 153971, loss 4.025, perplexity 55.95
+INFO:root:	Batch 154531, loss 4.558, perplexity 95.39
+INFO:root:	Batch 155111, loss 4.764, perplexity 117.16
+INFO:root:	Batch 155719, loss 4.632, perplexity 102.68
+INFO:root:	Batch 156317, loss 4.378, perplexity 79.70
+INFO:root:	Batch 156887, loss 4.432, perplexity 84.13
+INFO:root:	Batch 157507, loss 4.446, perplexity 85.31
+INFO:root:	Batch 158113, loss 4.765, perplexity 117.28
+INFO:root:	Batch 158721, loss 4.748, perplexity 115.35
+INFO:root:	Batch 159287, loss 4.531, perplexity 92.89
+INFO:root:	Batch 159868, loss 4.995, perplexity 147.68
+INFO:root:	Batch 160474, loss 4.490, perplexity 89.09
+INFO:root:	Batch 161048, loss 4.616, perplexity 101.10
+INFO:root:	Batch 161610, loss 4.527, perplexity 92.51
+INFO:root:	Batch 162227, loss 4.428, perplexity 83.75
+INFO:root:	Batch 162822, loss 4.328, perplexity 75.77
+INFO:root:	Batch 163431, loss 4.386, perplexity 80.34
+INFO:root:	Batch 164004, loss 4.473, perplexity 87.60
+INFO:root:	Batch 164608, loss 4.707, perplexity 110.72
+INFO:root:	Batch 165207, loss 4.710, perplexity 111.10
+INFO:root:	Batch 165801, loss 4.851, perplexity 127.84
+INFO:root:	Batch 166398, loss 4.673, perplexity 107.03
+INFO:root:	Batch 166965, loss 4.456, perplexity 86.13
+INFO:root:	Batch 167571, loss 4.773, perplexity 118.26
+INFO:root:	Batch 168155, loss 4.719, perplexity 112.06
+INFO:root:	Batch 168760, loss 4.548, perplexity 94.40
+INFO:root:	Batch 169355, loss 4.973, perplexity 144.45
+INFO:root:	Batch 169942, loss 4.726, perplexity 112.81
+INFO:root:	Batch 170512, loss 4.618, perplexity 101.31
+INFO:root:	Batch 171088, loss 4.703, perplexity 110.26
+INFO:root:	Batch 171652, loss 4.731, perplexity 113.46
+INFO:root:	Batch 172260, loss 4.772, perplexity 118.12
+INFO:root:	Batch 172857, loss 4.353, perplexity 77.75
+INFO:root:	Batch 173475, loss 4.469, perplexity 87.31
+INFO:root:	Batch 174062, loss 4.503, perplexity 90.25
+INFO:root:	Batch 174669, loss 4.543, perplexity 93.94
+INFO:root:	Batch 175248, loss 4.298, perplexity 73.57
+INFO:root:	Batch 175836, loss 4.278, perplexity 72.11
+INFO:root:	Batch 176450, loss 4.583, perplexity 97.78
+INFO:root:	Batch 177037, loss 4.505, perplexity 90.45
+INFO:root:	Batch 177646, loss 4.135, perplexity 62.47
+INFO:root:	Batch 178235, loss 4.454, perplexity 86.00
+INFO:root:	Batch 178830, loss 4.497, perplexity 89.79
+INFO:root:	Batch 179404, loss 4.258, perplexity 70.69
+INFO:root:	Batch 179974, loss 4.318, perplexity 75.05
+INFO:root:	Batch 180589, loss 4.534, perplexity 93.16
+INFO:root:	Batch 181183, loss 4.461, perplexity 86.58
+INFO:root:	Batch 181759, loss 4.263, perplexity 71.04
+INFO:root:	Batch 182366, loss 4.479, perplexity 88.11
+INFO:root:	Batch 182974, loss 4.689, perplexity 108.80
+INFO:root:	Batch 183554, loss 4.769, perplexity 117.76
+INFO:root:	Batch 184168, loss 4.555, perplexity 95.11
+INFO:root:	Batch 184746, loss 4.883, perplexity 132.06
+INFO:root:	Batch 185356, loss 4.709, perplexity 110.91
+INFO:root:	Batch 185951, loss 4.683, perplexity 108.10
+INFO:root:	Batch 186537, loss 4.721, perplexity 112.31
+INFO:root:	Batch 187139, loss 4.412, perplexity 82.47
+INFO:root:	Batch 187732, loss 4.497, perplexity 89.76
+INFO:root:	Batch 188300, loss 4.703, perplexity 110.23
+INFO:root:	Batch 188903, loss 4.901, perplexity 134.43
+INFO:root:	Batch 189485, loss 4.426, perplexity 83.61
+INFO:root:	Batch 190093, loss 4.730, perplexity 113.26
+INFO:root:	Batch 190689, loss 4.391, perplexity 80.73
+INFO:root:	Batch 191290, loss 4.683, perplexity 108.10
+INFO:root:	Batch 191889, loss 4.566, perplexity 96.13
+INFO:root:	Batch 192489, loss 4.389, perplexity 80.60
+INFO:root:	Batch 193081, loss 4.586, perplexity 98.13
+INFO:root:	Batch 193679, loss 4.636, perplexity 103.18
+INFO:root:	Batch 194275, loss 4.877, perplexity 131.30
+INFO:root:	Batch 194883, loss 4.959, perplexity 142.52
+INFO:root:	Batch 195475, loss 4.844, perplexity 126.92
+INFO:root:	Batch 196069, loss 4.624, perplexity 101.89
+INFO:root:	Batch 196678, loss 4.976, perplexity 144.97
+INFO:root:	Batch 197278, loss 4.619, perplexity 101.43
+INFO:root:	Batch 197846, loss 4.678, perplexity 107.59
+INFO:root:	Batch 198443, loss 4.666, perplexity 106.29
+INFO:root:	Batch 199036, loss 4.440, perplexity 84.77
+INFO:root:	Batch 199615, loss 4.611, perplexity 100.53
+INFO:root:	Batch 200218, loss 4.704, perplexity 110.39
+INFO:root:	Batch 200785, loss 4.721, perplexity 112.23
+INFO:root:	Batch 201392, loss 4.627, perplexity 102.20
+INFO:root:	Batch 201983, loss 4.362, perplexity 78.44
+INFO:root:	Batch 202580, loss 4.604, perplexity 99.83
+INFO:root:	Batch 203171, loss 4.447, perplexity 85.35
+INFO:root:	Batch 203766, loss 4.092, perplexity 59.87
+INFO:root:	Batch 204371, loss 4.369, perplexity 78.95
+INFO:root:	Batch 204979, loss 4.613, perplexity 100.80
+INFO:root:	Batch 205564, loss 5.184, perplexity 178.44
+INFO:root:	Batch 206153, loss 4.652, perplexity 104.83
+INFO:root:	Batch 206761, loss 4.372, perplexity 79.17
+INFO:root:	Batch 207369, loss 4.785, perplexity 119.73
+INFO:root:	Batch 207949, loss 4.552, perplexity 94.83
+INFO:root:	Batch 208534, loss 4.403, perplexity 81.70
+INFO:root:	Batch 209143, loss 4.795, perplexity 120.88
+INFO:root:	Batch 209733, loss 4.290, perplexity 72.95
+INFO:root:	Batch 210342, loss 4.428, perplexity 83.74
+INFO:root:	Batch 210941, loss 4.779, perplexity 118.97
+INFO:root:	Batch 211507, loss 4.601, perplexity 99.62
+INFO:root:	Batch 212097, loss 4.623, perplexity 101.84
+INFO:root:	Batch 212685, loss 4.674, perplexity 107.12
+INFO:root:	Batch 213268, loss 4.561, perplexity 95.71
+INFO:root:	Batch 213832, loss 4.790, perplexity 120.35
+INFO:root:	Batch 214439, loss 4.683, perplexity 108.12
+INFO:root:	Batch 215039, loss 4.506, perplexity 90.52
+INFO:root:	Batch 215625, loss 4.581, perplexity 97.59
+INFO:root:	Batch 216184, loss 4.559, perplexity 95.52
+INFO:root:	Batch 216790, loss 4.798, perplexity 121.31
+INFO:root:	Batch 217357, loss 4.178, perplexity 65.26
+INFO:root:	Batch 217951, loss 4.893, perplexity 133.38
+INFO:root:	Batch 218563, loss 4.698, perplexity 109.68
+INFO:root:	Batch 219131, loss 4.323, perplexity 75.43
+INFO:root:	Batch 219708, loss 4.767, perplexity 117.53
+INFO:root:	Batch 220310, loss 4.725, perplexity 112.68
+INFO:root:	Batch 220899, loss 4.389, perplexity 80.53
+INFO:root:	Batch 221502, loss 4.522, perplexity 92.04
+INFO:root:	Batch 222064, loss 4.772, perplexity 118.18
+INFO:root:	Batch 222683, loss 4.707, perplexity 110.69
+INFO:root:	Batch 223280, loss 4.731, perplexity 113.42
+INFO:root:	Batch 223888, loss 4.790, perplexity 120.35
+INFO:root:	Batch 224492, loss 3.936, perplexity 51.20
+INFO:root:	Batch 225112, loss 4.823, perplexity 124.35
+INFO:root:	Batch 225681, loss 4.646, perplexity 104.13
+INFO:root:	Batch 226278, loss 4.306, perplexity 74.17
+INFO:root:	Batch 226868, loss 4.594, perplexity 98.88
+INFO:root:	Batch 227465, loss 4.731, perplexity 113.41
+INFO:root:	Batch 228056, loss 4.240, perplexity 69.43
+INFO:root:	Batch 228631, loss 4.590, perplexity 98.50
+INFO:root:	Batch 229247, loss 4.348, perplexity 77.33
+INFO:root:	Batch 229838, loss 4.188, perplexity 65.86
+INFO:root:	Batch 230447, loss 4.520, perplexity 91.88
+INFO:root:	Batch 231014, loss 4.628, perplexity 102.28
+INFO:root:	Batch 231629, loss 4.730, perplexity 113.25
+INFO:root:	Batch 232214, loss 4.494, perplexity 89.48
+INFO:root:	Batch 232813, loss 4.737, perplexity 114.11
+INFO:root:	Batch 233399, loss 4.651, perplexity 104.68
+INFO:root:	Batch 234010, loss 4.685, perplexity 108.34
+INFO:root:	Batch 234623, loss 4.525, perplexity 92.26
+INFO:root:	Batch 235216, loss 4.540, perplexity 93.69
+INFO:root:	Batch 235826, loss 4.637, perplexity 103.27
+INFO:root:	Batch 236412, loss 4.600, perplexity 99.50
+INFO:root:	Batch 237011, loss 4.544, perplexity 94.09
+INFO:root:	Batch 237578, loss 4.524, perplexity 92.23
+INFO:root:	Batch 238163, loss 4.473, perplexity 87.64
+INFO:root:	Batch 238766, loss 4.571, perplexity 96.66
+INFO:root:	Batch 239332, loss 4.956, perplexity 142.05
+INFO:root:	Batch 239918, loss 4.620, perplexity 101.54
+INFO:root:	Batch 240493, loss 4.696, perplexity 109.52
+INFO:root:	Batch 241099, loss 4.540, perplexity 93.72
+INFO:root:	Batch 241671, loss 4.588, perplexity 98.25
+INFO:root:	Batch 242270, loss 4.622, perplexity 101.74
+INFO:root:	Batch 242861, loss 4.430, perplexity 83.91
+INFO:root:	Batch 243473, loss 4.486, perplexity 88.80
+INFO:root:	Batch 244053, loss 4.852, perplexity 127.97
+INFO:root:	Batch 244664, loss 4.820, perplexity 123.99
+INFO:root:	Batch 245235, loss 4.741, perplexity 114.58
+INFO:root:	Batch 245849, loss 4.324, perplexity 75.47
+INFO:root:	Batch 246426, loss 4.568, perplexity 96.33
+INFO:root:	Batch 247021, loss 4.499, perplexity 89.94
+INFO:root:	Batch 247628, loss 4.669, perplexity 106.59
+INFO:root:	Batch 248248, loss 4.832, perplexity 125.42
+INFO:root:	Batch 248844, loss 4.772, perplexity 118.17
+INFO:root:	Batch 249448, loss 4.566, perplexity 96.15
+INFO:root:	Batch 250049, loss 4.779, perplexity 119.00
+INFO:root:	Batch 250647, loss 4.548, perplexity 94.41
+INFO:root:	Batch 251232, loss 4.600, perplexity 99.52
+INFO:root:	Batch 251821, loss 5.041, perplexity 154.60
+INFO:root:	Batch 252425, loss 4.755, perplexity 116.16
+INFO:root:	Batch 253026, loss 4.586, perplexity 98.07
+INFO:root:	Batch 253603, loss 4.525, perplexity 92.28
+INFO:root:	Batch 254220, loss 4.535, perplexity 93.24
+INFO:root:	Batch 254787, loss 4.709, perplexity 110.98
+INFO:root:	Batch 255396, loss 4.776, perplexity 118.57
+INFO:root:	Batch 255976, loss 4.510, perplexity 90.96
+INFO:root:	Batch 256591, loss 4.570, perplexity 96.58
+INFO:root:	Batch 257188, loss 4.681, perplexity 107.91
+INFO:root:	Batch 257800, loss 4.721, perplexity 112.24
+INFO:root:	Batch 258394, loss 4.921, perplexity 137.18
+INFO:root:	Batch 258995, loss 4.669, perplexity 106.58
+INFO:root:	Batch 259562, loss 5.081, perplexity 160.86
+INFO:root:	Batch 260162, loss 5.013, perplexity 150.42
+INFO:root:	Batch 260769, loss 4.263, perplexity 71.01
+INFO:root:	Batch 261369, loss 4.282, perplexity 72.37
+INFO:root:	Batch 261963, loss 4.552, perplexity 94.80
+INFO:root:	Batch 262552, loss 4.585, perplexity 98.03
+INFO:root:	Batch 263141, loss 4.663, perplexity 105.99
+INFO:root:	Batch 263746, loss 5.028, perplexity 152.62
+INFO:root:	Batch 264358, loss 4.518, perplexity 91.64
+INFO:root:	Batch 264944, loss 4.653, perplexity 104.85
+INFO:root:	Batch 265558, loss 4.672, perplexity 106.92
+INFO:root:	Batch 266140, loss 4.317, perplexity 74.98
+INFO:root:	Batch 266747, loss 4.459, perplexity 86.36
+INFO:root:	Batch 267322, loss 4.346, perplexity 77.17
+INFO:root:	Batch 267925, loss 4.617, perplexity 101.16
+INFO:root:	Batch 268518, loss 4.637, perplexity 103.20
+INFO:root:	Batch 269102, loss 4.403, perplexity 81.68
+INFO:root:	Batch 269714, loss 4.703, perplexity 110.29
+INFO:root:	Batch 270302, loss 4.232, perplexity 68.85
+INFO:root:	Batch 270912, loss 4.312, perplexity 74.60
+INFO:root:	Batch 271522, loss 4.503, perplexity 90.30
+INFO:root:	Batch 272131, loss 4.429, perplexity 83.87
+INFO:root:	Batch 272702, loss 4.586, perplexity 98.13
+INFO:root:	Batch 273314, loss 4.511, perplexity 91.01
+INFO:root:	Batch 273872, loss 4.764, perplexity 117.18
+INFO:root:	Batch 274471, loss 4.623, perplexity 101.82
+INFO:root:	Batch 275034, loss 4.659, perplexity 105.48
+INFO:root:	Batch 275651, loss 4.736, perplexity 113.93
+INFO:root:	Batch 276242, loss 4.553, perplexity 94.91
+INFO:root:	Batch 276856, loss 4.825, perplexity 124.61
+INFO:root:	Batch 277434, loss 4.523, perplexity 92.14
+INFO:root:	Batch 278038, loss 4.630, perplexity 102.55
+INFO:root:	Batch 278627, loss 4.839, perplexity 126.29
+INFO:root:	Batch 279226, loss 4.517, perplexity 91.56
+INFO:root:	Batch 279820, loss 4.613, perplexity 100.74
+INFO:root:	Batch 280430, loss 4.697, perplexity 109.62
+INFO:root:	Batch 281026, loss 4.450, perplexity 85.66
+INFO:root:	Batch 281618, loss 4.340, perplexity 76.74
+INFO:root:	Batch 282215, loss 4.767, perplexity 117.59
+INFO:root:	Batch 282802, loss 4.495, perplexity 89.56
+INFO:root:	Batch 283373, loss 4.622, perplexity 101.68
+INFO:root:	Batch 283988, loss 4.741, perplexity 114.51
+INFO:root:	Batch 284579, loss 4.932, perplexity 138.66
+INFO:root:	Batch 285188, loss 5.101, perplexity 164.19
+INFO:root:	Batch 285799, loss 4.746, perplexity 115.13
+INFO:root:	Batch 286361, loss 4.928, perplexity 138.11
+INFO:root:	Batch 286967, loss 4.731, perplexity 113.40
+INFO:root:	Batch 287560, loss 4.687, perplexity 108.56
+INFO:root:	Batch 288157, loss 4.404, perplexity 81.81
+INFO:root:	Batch 288777, loss 4.621, perplexity 101.55
+INFO:root:	Batch 289384, loss 4.822, perplexity 124.24
+INFO:root:	Batch 289980, loss 4.786, perplexity 119.83
+INFO:root:	Batch 290557, loss 4.565, perplexity 96.03
+INFO:root:	Batch 291145, loss 4.821, perplexity 124.03
+INFO:root:	Batch 291733, loss 4.405, perplexity 81.85
+INFO:root:	Batch 292332, loss 4.449, perplexity 85.50
+INFO:root:	Batch 292937, loss 4.287, perplexity 72.74
+INFO:root:	Batch 293510, loss 4.385, perplexity 80.25
+INFO:root:	Batch 294107, loss 5.088, perplexity 162.07
+INFO:root:	Batch 294700, loss 4.806, perplexity 122.19
+INFO:root:	Batch 295313, loss 4.708, perplexity 110.82
+INFO:root:	Batch 295901, loss 4.577, perplexity 97.19
+INFO:root:	Batch 296498, loss 4.955, perplexity 141.83
+INFO:root:	Batch 297105, loss 4.637, perplexity 103.20
+INFO:root:	Batch 297710, loss 4.811, perplexity 122.82
+INFO:root:	Batch 298308, loss 4.594, perplexity 98.87
+INFO:root:	Batch 298894, loss 4.652, perplexity 104.84
+INFO:root:	Batch 299476, loss 4.435, perplexity 84.31
+INFO:root:	Batch 300067, loss 4.328, perplexity 75.83
+INFO:root:	Batch 300681, loss 4.748, perplexity 115.34
+INFO:root:	Batch 301256, loss 4.468, perplexity 87.16
+INFO:root:	Batch 301850, loss 4.706, perplexity 110.58
+INFO:root:	Batch 302416, loss 4.630, perplexity 102.49
+INFO:root:	Batch 303025, loss 4.239, perplexity 69.36
+INFO:root:	Batch 303635, loss 4.810, perplexity 122.77
+INFO:root:	Batch 304247, loss 4.544, perplexity 94.08
+INFO:root:	Batch 304813, loss 4.773, perplexity 118.30
+INFO:root:	Batch 305412, loss 4.816, perplexity 123.43
+INFO:root:	Batch 305983, loss 4.872, perplexity 130.53
+INFO:root:	Batch 306591, loss 4.561, perplexity 95.69
+INFO:root:	Batch 307184, loss 4.311, perplexity 74.53
+INFO:root:	Batch 307789, loss 4.592, perplexity 98.68
+INFO:root:	Batch 308395, loss 4.576, perplexity 97.17
+INFO:root:	Batch 308985, loss 4.453, perplexity 85.92
+INFO:root:	Batch 309596, loss 4.496, perplexity 89.69
+INFO:root:	Batch 310194, loss 4.611, perplexity 100.55
+INFO:root:	Batch 310795, loss 4.710, perplexity 111.06
+INFO:root:	Batch 311358, loss 4.846, perplexity 127.18
+INFO:root:	Batch 311927, loss 4.719, perplexity 112.07
+INFO:root:	Batch 312535, loss 4.257, perplexity 70.59
+INFO:root:	Batch 313100, loss 4.511, perplexity 91.04
+INFO:root:	Batch 313716, loss 4.755, perplexity 116.14
+INFO:root:	Batch 314323, loss 4.588, perplexity 98.28
+INFO:root:	Batch 314919, loss 4.361, perplexity 78.34
+INFO:root:	Batch 315510, loss 4.558, perplexity 95.40
+INFO:root:	Batch 316117, loss 4.549, perplexity 94.54
+INFO:root:	Batch 316717, loss 4.489, perplexity 89.00
+INFO:root:	Batch 317307, loss 4.409, perplexity 82.23
+INFO:root:	Batch 317911, loss 4.815, perplexity 123.29
+INFO:root:	Batch 318510, loss 4.727, perplexity 112.98
+INFO:root:	Batch 319112, loss 4.699, perplexity 109.87
+INFO:root:	Batch 319684, loss 5.002, perplexity 148.76
+INFO:root:	Batch 320296, loss 4.607, perplexity 100.15
+INFO:root:	Batch 320904, loss 4.165, perplexity 64.36
+INFO:root:	Batch 321498, loss 4.470, perplexity 87.31
+INFO:root:	Batch 322105, loss 4.908, perplexity 135.41
+INFO:root:	Batch 322710, loss 4.812, perplexity 122.98
+INFO:root:	Batch 323317, loss 4.673, perplexity 107.06
+INFO:root:	Batch 323926, loss 4.217, perplexity 67.83
+INFO:root:	Batch 324516, loss 4.600, perplexity 99.53
+INFO:root:	Batch 325101, loss 4.639, perplexity 103.43
+INFO:root:	Batch 325696, loss 4.870, perplexity 130.34
+INFO:root:	Batch 326267, loss 4.547, perplexity 94.32
+INFO:root:	Batch 326873, loss 4.462, perplexity 86.69
+INFO:root:	Batch 327483, loss 4.471, perplexity 87.46
+INFO:root:	Batch 328060, loss 4.385, perplexity 80.24
+INFO:root:	Batch 328667, loss 5.056, perplexity 156.97
+INFO:root:	Batch 329240, loss 4.390, perplexity 80.65
+INFO:root:	Batch 329855, loss 4.548, perplexity 94.41
+INFO:root:	Batch 330460, loss 4.524, perplexity 92.19
+INFO:root:	Batch 331073, loss 4.690, perplexity 108.85
+INFO:root:	Batch 331678, loss 4.559, perplexity 95.50
+INFO:root:	Batch 332268, loss 4.300, perplexity 73.72
+INFO:root:	Batch 332867, loss 4.389, perplexity 80.55
+INFO:root:	Batch 333445, loss 4.499, perplexity 89.94
+INFO:root:	Batch 334052, loss 4.379, perplexity 79.72
+INFO:root:	Batch 334643, loss 4.713, perplexity 111.37
+INFO:root:	Batch 335221, loss 4.244, perplexity 69.68
+INFO:root:	Batch 335788, loss 4.744, perplexity 114.92
+INFO:root:	Batch 336380, loss 4.714, perplexity 111.44
+INFO:root:	Batch 336961, loss 4.239, perplexity 69.35
+INFO:root:	Batch 337523, loss 4.485, perplexity 88.71
+INFO:root:	Batch 338112, loss 4.454, perplexity 85.95
+INFO:root:	Batch 338682, loss 4.624, perplexity 101.94
+INFO:root:	Batch 339295, loss 4.606, perplexity 100.09
+INFO:root:	Batch 339901, loss 4.627, perplexity 102.16
+INFO:root:	Batch 340510, loss 4.570, perplexity 96.52
+INFO:root:	Batch 341104, loss 4.590, perplexity 98.52
+INFO:root:	Batch 341705, loss 4.644, perplexity 103.94
+INFO:root:	Batch 342273, loss 4.449, perplexity 85.57
+INFO:root:	Batch 342872, loss 4.615, perplexity 100.97
+INFO:root:	Batch 343472, loss 4.691, perplexity 109.02
+INFO:root:	Batch 344044, loss 4.377, perplexity 79.57
+DEBUG:root:Validation perplexity: 90.9
+DEBUG:root:Test perplexity: 243.6
+DEBUG:root:BEST result
+DEBUG:root:END EPOCH now = 2020-01-07 21:16:33.349746
+DEBUG:root:END EPOCH now = 2020-01-07 21:16:33.349936
+DEBUG:root:Parameter embedding.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 300]) 
+DEBUG:root:Parameter False 
+DEBUG:root:Parameter lstm.weight_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 300]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.bias 
+DEBUG:root:Parameter shape torch.Size([300000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter embedding.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 300]) 
+DEBUG:root:Parameter False 
+DEBUG:root:Parameter lstm.weight_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 300]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.bias 
+DEBUG:root:Parameter shape torch.Size([300000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Number parameters 153908000
+DEBUG:root:Scheduler.get_lr() [0.000614125]
+DEBUG:root:START EPOCH now = 2020-01-07 21:16:49.327929
+DEBUG:root:Training epoch 3
+INFO:root:	Batch 0, loss 4.576, perplexity 97.11
+INFO:root:	Batch 598, loss 4.560, perplexity 95.56
+INFO:root:	Batch 1211, loss 4.555, perplexity 95.11
+INFO:root:	Batch 1782, loss 4.503, perplexity 90.31
+INFO:root:	Batch 2346, loss 4.354, perplexity 77.83
+INFO:root:	Batch 2965, loss 4.808, perplexity 122.48
+INFO:root:	Batch 3561, loss 4.628, perplexity 102.26
+INFO:root:	Batch 4167, loss 4.832, perplexity 125.50
+INFO:root:	Batch 4757, loss 4.454, perplexity 85.95
+INFO:root:	Batch 5345, loss 4.853, perplexity 128.17
+INFO:root:	Batch 5919, loss 4.627, perplexity 102.24
+INFO:root:	Batch 6509, loss 4.723, perplexity 112.52
+INFO:root:	Batch 7117, loss 4.606, perplexity 100.05
+INFO:root:	Batch 7695, loss 4.700, perplexity 109.96
+INFO:root:	Batch 8291, loss 5.122, perplexity 167.59
+INFO:root:	Batch 8897, loss 4.752, perplexity 115.85
+INFO:root:	Batch 9505, loss 4.607, perplexity 100.19
+INFO:root:	Batch 10111, loss 4.085, perplexity 59.46
+INFO:root:	Batch 10717, loss 4.647, perplexity 104.24
+INFO:root:	Batch 11301, loss 4.630, perplexity 102.54
+INFO:root:	Batch 11909, loss 4.632, perplexity 102.72
+INFO:root:	Batch 12504, loss 4.581, perplexity 97.62
+INFO:root:	Batch 13089, loss 4.513, perplexity 91.16
+INFO:root:	Batch 13667, loss 4.289, perplexity 72.86
+INFO:root:	Batch 14281, loss 4.962, perplexity 142.91
+INFO:root:	Batch 14855, loss 4.711, perplexity 111.16
+INFO:root:	Batch 15463, loss 4.513, perplexity 91.15
+INFO:root:	Batch 16056, loss 4.386, perplexity 80.30
+INFO:root:	Batch 16672, loss 4.360, perplexity 78.29
+INFO:root:	Batch 17282, loss 4.329, perplexity 75.86
+INFO:root:	Batch 17891, loss 4.329, perplexity 75.87
+INFO:root:	Batch 18484, loss 4.549, perplexity 94.50
+INFO:root:	Batch 19058, loss 4.334, perplexity 76.24
+INFO:root:	Batch 19632, loss 4.731, perplexity 113.44
+INFO:root:	Batch 20240, loss 4.598, perplexity 99.28
+INFO:root:	Batch 20832, loss 4.458, perplexity 86.33
+INFO:root:	Batch 21412, loss 4.870, perplexity 130.28
+INFO:root:	Batch 22018, loss 4.729, perplexity 113.21
+INFO:root:	Batch 22614, loss 4.687, perplexity 108.50
+INFO:root:	Batch 23192, loss 4.341, perplexity 76.82
+INFO:root:	Batch 23764, loss 4.535, perplexity 93.19
+INFO:root:	Batch 24366, loss 4.581, perplexity 97.61
+INFO:root:	Batch 24970, loss 4.281, perplexity 72.30
+INFO:root:	Batch 25539, loss 4.586, perplexity 98.11
+INFO:root:	Batch 26135, loss 4.752, perplexity 115.85
+INFO:root:	Batch 26740, loss 4.483, perplexity 88.48
+INFO:root:	Batch 27334, loss 4.516, perplexity 91.47
+INFO:root:	Batch 27945, loss 4.485, perplexity 88.71
+INFO:root:	Batch 28535, loss 4.650, perplexity 104.55
+INFO:root:	Batch 29125, loss 4.515, perplexity 91.36
+INFO:root:	Batch 29704, loss 4.317, perplexity 74.94
+INFO:root:	Batch 30317, loss 4.736, perplexity 113.98
+INFO:root:	Batch 30916, loss 4.590, perplexity 98.54
+INFO:root:	Batch 31496, loss 5.318, perplexity 203.90
+INFO:root:	Batch 32089, loss 4.742, perplexity 114.70
+INFO:root:	Batch 32696, loss 4.931, perplexity 138.51
+INFO:root:	Batch 33277, loss 4.420, perplexity 83.11
+INFO:root:	Batch 33873, loss 4.195, perplexity 66.36
+INFO:root:	Batch 34462, loss 4.543, perplexity 93.99
+INFO:root:	Batch 35059, loss 4.444, perplexity 85.10
+INFO:root:	Batch 35651, loss 4.870, perplexity 130.29
+INFO:root:	Batch 36250, loss 4.275, perplexity 71.90
+INFO:root:	Batch 36856, loss 4.190, perplexity 66.00
+INFO:root:	Batch 37462, loss 4.902, perplexity 134.55
+INFO:root:	Batch 38055, loss 4.776, perplexity 118.58
+INFO:root:	Batch 38670, loss 4.733, perplexity 113.61
+INFO:root:	Batch 39259, loss 4.519, perplexity 91.72
+INFO:root:	Batch 39865, loss 4.487, perplexity 88.82
+INFO:root:	Batch 40431, loss 4.693, perplexity 109.21
+INFO:root:	Batch 41036, loss 4.681, perplexity 107.90
+INFO:root:	Batch 41605, loss 4.659, perplexity 105.52
+INFO:root:	Batch 42211, loss 4.645, perplexity 104.02
+INFO:root:	Batch 42803, loss 4.180, perplexity 65.37
+INFO:root:	Batch 43395, loss 4.597, perplexity 99.18
+INFO:root:	Batch 43992, loss 4.801, perplexity 121.62
+INFO:root:	Batch 44582, loss 4.323, perplexity 75.39
+INFO:root:	Batch 45164, loss 4.605, perplexity 99.97
+INFO:root:	Batch 45753, loss 4.405, perplexity 81.84
+INFO:root:	Batch 46339, loss 4.605, perplexity 99.96
+INFO:root:	Batch 46940, loss 4.371, perplexity 79.12
+INFO:root:	Batch 47496, loss 4.442, perplexity 84.97
+INFO:root:	Batch 48094, loss 4.292, perplexity 73.11
+INFO:root:	Batch 48668, loss 4.426, perplexity 83.61
+INFO:root:	Batch 49288, loss 4.662, perplexity 105.86
+INFO:root:	Batch 49889, loss 4.227, perplexity 68.53
+INFO:root:	Batch 50504, loss 4.304, perplexity 73.99
+INFO:root:	Batch 51110, loss 4.437, perplexity 84.56
+INFO:root:	Batch 51676, loss 4.643, perplexity 103.90
+INFO:root:	Batch 52291, loss 4.517, perplexity 91.52
+INFO:root:	Batch 52875, loss 4.461, perplexity 86.57
+INFO:root:	Batch 53450, loss 4.418, perplexity 82.91
+INFO:root:	Batch 54049, loss 4.438, perplexity 84.64
+INFO:root:	Batch 54624, loss 4.245, perplexity 69.79
+INFO:root:	Batch 55229, loss 4.946, perplexity 140.67
+INFO:root:	Batch 55817, loss 4.425, perplexity 83.54
+INFO:root:	Batch 56419, loss 4.528, perplexity 92.58
+INFO:root:	Batch 57023, loss 4.908, perplexity 135.32
+INFO:root:	Batch 57613, loss 4.511, perplexity 91.05
+INFO:root:	Batch 58221, loss 4.862, perplexity 129.33
+INFO:root:	Batch 58811, loss 4.267, perplexity 71.34
+INFO:root:	Batch 59418, loss 4.610, perplexity 100.53
+INFO:root:	Batch 59988, loss 4.558, perplexity 95.42
+INFO:root:	Batch 60587, loss 4.849, perplexity 127.67
+INFO:root:	Batch 61183, loss 4.338, perplexity 76.57
+INFO:root:	Batch 61780, loss 4.823, perplexity 124.39
+INFO:root:	Batch 62366, loss 4.486, perplexity 88.72
+INFO:root:	Batch 62952, loss 4.413, perplexity 82.50
+INFO:root:	Batch 63539, loss 5.078, perplexity 160.44
+INFO:root:	Batch 64120, loss 4.771, perplexity 118.06
+INFO:root:	Batch 64732, loss 4.421, perplexity 83.18
+INFO:root:	Batch 65299, loss 4.998, perplexity 148.05
+INFO:root:	Batch 65910, loss 4.515, perplexity 91.36
+INFO:root:	Batch 66512, loss 4.434, perplexity 84.29
+INFO:root:	Batch 67121, loss 4.330, perplexity 75.97
+INFO:root:	Batch 67732, loss 4.668, perplexity 106.53
+INFO:root:	Batch 68318, loss 4.502, perplexity 90.20
+INFO:root:	Batch 68924, loss 4.648, perplexity 104.39
+INFO:root:	Batch 69491, loss 4.702, perplexity 110.18
+INFO:root:	Batch 70081, loss 4.437, perplexity 84.51
+INFO:root:	Batch 70689, loss 4.477, perplexity 87.98
+INFO:root:	Batch 71284, loss 4.552, perplexity 94.82
+INFO:root:	Batch 71866, loss 4.526, perplexity 92.40
+INFO:root:	Batch 72474, loss 4.657, perplexity 105.28
+INFO:root:	Batch 73045, loss 4.502, perplexity 90.21
+INFO:root:	Batch 73598, loss 4.570, perplexity 96.59
+INFO:root:	Batch 74209, loss 4.489, perplexity 89.04
+INFO:root:	Batch 74784, loss 4.776, perplexity 118.60
+INFO:root:	Batch 75389, loss 4.003, perplexity 54.73
+INFO:root:	Batch 75975, loss 4.827, perplexity 124.83
+INFO:root:	Batch 76568, loss 4.407, perplexity 82.05
+INFO:root:	Batch 77152, loss 4.462, perplexity 86.70
+INFO:root:	Batch 77761, loss 4.528, perplexity 92.60
+INFO:root:	Batch 78344, loss 4.390, perplexity 80.61
+INFO:root:	Batch 78947, loss 4.582, perplexity 97.74
+INFO:root:	Batch 79544, loss 4.416, perplexity 82.80
+INFO:root:	Batch 80147, loss 5.117, perplexity 166.80
+INFO:root:	Batch 80733, loss 4.622, perplexity 101.65
+INFO:root:	Batch 81334, loss 4.524, perplexity 92.17
+INFO:root:	Batch 81905, loss 4.516, perplexity 91.49
+INFO:root:	Batch 82514, loss 4.499, perplexity 89.93
+INFO:root:	Batch 83119, loss 4.515, perplexity 91.36
+INFO:root:	Batch 83681, loss 4.601, perplexity 99.58
+INFO:root:	Batch 84290, loss 3.966, perplexity 52.76
+INFO:root:	Batch 84879, loss 4.778, perplexity 118.82
+INFO:root:	Batch 85465, loss 4.574, perplexity 96.95
+INFO:root:	Batch 86035, loss 4.649, perplexity 104.44
+INFO:root:	Batch 86629, loss 4.849, perplexity 127.57
+INFO:root:	Batch 87191, loss 4.739, perplexity 114.27
+INFO:root:	Batch 87758, loss 4.731, perplexity 113.38
+INFO:root:	Batch 88365, loss 4.645, perplexity 104.02
+INFO:root:	Batch 88953, loss 4.194, perplexity 66.28
+INFO:root:	Batch 89559, loss 4.923, perplexity 137.41
+INFO:root:	Batch 90148, loss 4.690, perplexity 108.80
+INFO:root:	Batch 90717, loss 4.339, perplexity 76.61
+INFO:root:	Batch 91298, loss 4.290, perplexity 72.98
+INFO:root:	Batch 91856, loss 4.279, perplexity 72.13
+INFO:root:	Batch 92448, loss 4.514, perplexity 91.31
+INFO:root:	Batch 93051, loss 4.279, perplexity 72.19
+INFO:root:	Batch 93621, loss 4.464, perplexity 86.84
+INFO:root:	Batch 94227, loss 5.001, perplexity 148.50
+INFO:root:	Batch 94790, loss 4.379, perplexity 79.76
+INFO:root:	Batch 95398, loss 4.372, perplexity 79.16
+INFO:root:	Batch 95984, loss 4.570, perplexity 96.57
+INFO:root:	Batch 96603, loss 4.255, perplexity 70.45
+INFO:root:	Batch 97193, loss 4.514, perplexity 91.29
+INFO:root:	Batch 97811, loss 4.684, perplexity 108.25
+INFO:root:	Batch 98402, loss 4.439, perplexity 84.71
+INFO:root:	Batch 99009, loss 4.270, perplexity 71.54
+INFO:root:	Batch 99594, loss 4.887, perplexity 132.57
+INFO:root:	Batch 100202, loss 4.480, perplexity 88.23
+INFO:root:	Batch 100798, loss 4.420, perplexity 83.12
+INFO:root:	Batch 101380, loss 4.561, perplexity 95.70
+INFO:root:	Batch 101990, loss 4.481, perplexity 88.32
+INFO:root:	Batch 102588, loss 4.339, perplexity 76.65
+INFO:root:	Batch 103178, loss 4.281, perplexity 72.30
+INFO:root:	Batch 103777, loss 4.709, perplexity 110.98
+INFO:root:	Batch 104357, loss 4.765, perplexity 117.27
+INFO:root:	Batch 104948, loss 4.622, perplexity 101.68
+INFO:root:	Batch 105555, loss 4.813, perplexity 123.09
+INFO:root:	Batch 106149, loss 4.644, perplexity 103.96
+INFO:root:	Batch 106756, loss 4.474, perplexity 87.72
+INFO:root:	Batch 107366, loss 4.599, perplexity 99.42
+INFO:root:	Batch 107967, loss 4.552, perplexity 94.84
+INFO:root:	Batch 108560, loss 4.250, perplexity 70.10
+INFO:root:	Batch 109162, loss 4.495, perplexity 89.53
+INFO:root:	Batch 109770, loss 4.476, perplexity 87.92
+INFO:root:	Batch 110358, loss 4.534, perplexity 93.16
+INFO:root:	Batch 110963, loss 4.726, perplexity 112.89
+INFO:root:	Batch 111546, loss 4.729, perplexity 113.23
+INFO:root:	Batch 112128, loss 4.952, perplexity 141.44
+INFO:root:	Batch 112734, loss 4.436, perplexity 84.47
+INFO:root:	Batch 113335, loss 4.630, perplexity 102.56
+INFO:root:	Batch 113905, loss 4.386, perplexity 80.29
+INFO:root:	Batch 114490, loss 4.605, perplexity 99.94
+INFO:root:	Batch 115091, loss 4.410, perplexity 82.24
+INFO:root:	Batch 115695, loss 4.654, perplexity 105.04
+INFO:root:	Batch 116270, loss 4.617, perplexity 101.14
+INFO:root:	Batch 116872, loss 4.951, perplexity 141.38
+INFO:root:	Batch 117442, loss 4.512, perplexity 91.09
+INFO:root:	Batch 118045, loss 4.479, perplexity 88.13
+INFO:root:	Batch 118645, loss 5.074, perplexity 159.85
+INFO:root:	Batch 119218, loss 4.508, perplexity 90.75
+INFO:root:	Batch 119821, loss 4.549, perplexity 94.58
+INFO:root:	Batch 120403, loss 4.486, perplexity 88.78
+INFO:root:	Batch 121010, loss 4.156, perplexity 63.82
+INFO:root:	Batch 121579, loss 4.653, perplexity 104.86
+INFO:root:	Batch 122186, loss 4.718, perplexity 111.89
+INFO:root:	Batch 122768, loss 4.502, perplexity 90.16
+INFO:root:	Batch 123367, loss 4.444, perplexity 85.10
+INFO:root:	Batch 123930, loss 4.433, perplexity 84.19
+INFO:root:	Batch 124531, loss 4.475, perplexity 87.83
+INFO:root:	Batch 125117, loss 5.025, perplexity 152.10
+INFO:root:	Batch 125726, loss 4.914, perplexity 136.20
+INFO:root:	Batch 126325, loss 4.311, perplexity 74.52
+INFO:root:	Batch 126931, loss 4.198, perplexity 66.54
+INFO:root:	Batch 127535, loss 4.681, perplexity 107.85
+INFO:root:	Batch 128118, loss 4.333, perplexity 76.18
+INFO:root:	Batch 128712, loss 4.550, perplexity 94.59
+INFO:root:	Batch 129314, loss 3.985, perplexity 53.77
+INFO:root:	Batch 129903, loss 4.619, perplexity 101.38
+INFO:root:	Batch 130481, loss 4.452, perplexity 85.82
+INFO:root:	Batch 131085, loss 4.561, perplexity 95.69
+INFO:root:	Batch 131690, loss 4.317, perplexity 74.95
+INFO:root:	Batch 132286, loss 4.525, perplexity 92.30
+INFO:root:	Batch 132894, loss 4.608, perplexity 100.27
+INFO:root:	Batch 133482, loss 4.379, perplexity 79.79
+INFO:root:	Batch 134088, loss 4.814, perplexity 123.23
+INFO:root:	Batch 134694, loss 4.903, perplexity 134.63
+INFO:root:	Batch 135260, loss 4.420, perplexity 83.12
+INFO:root:	Batch 135866, loss 4.396, perplexity 81.12
+INFO:root:	Batch 136461, loss 4.467, perplexity 87.12
+INFO:root:	Batch 137065, loss 4.791, perplexity 120.44
+INFO:root:	Batch 137676, loss 4.733, perplexity 113.63
+INFO:root:	Batch 138283, loss 4.520, perplexity 91.80
+INFO:root:	Batch 138870, loss 4.460, perplexity 86.52
+INFO:root:	Batch 139478, loss 4.634, perplexity 102.94
+INFO:root:	Batch 140080, loss 4.845, perplexity 127.13
+INFO:root:	Batch 140660, loss 4.324, perplexity 75.48
+INFO:root:	Batch 141265, loss 4.530, perplexity 92.77
+INFO:root:	Batch 141856, loss 4.473, perplexity 87.58
+INFO:root:	Batch 142462, loss 4.422, perplexity 83.24
+INFO:root:	Batch 143039, loss 4.600, perplexity 99.50
+INFO:root:	Batch 143643, loss 4.697, perplexity 109.62
+INFO:root:	Batch 144249, loss 4.693, perplexity 109.19
+INFO:root:	Batch 144840, loss 4.715, perplexity 111.65
+INFO:root:	Batch 145446, loss 4.498, perplexity 89.81
+INFO:root:	Batch 146016, loss 4.584, perplexity 97.91
+INFO:root:	Batch 146580, loss 4.818, perplexity 123.76
+INFO:root:	Batch 147187, loss 4.518, perplexity 91.64
+INFO:root:	Batch 147793, loss 4.759, perplexity 116.67
+INFO:root:	Batch 148397, loss 4.337, perplexity 76.44
+INFO:root:	Batch 148992, loss 4.327, perplexity 75.75
+INFO:root:	Batch 149590, loss 4.638, perplexity 103.31
+INFO:root:	Batch 150179, loss 4.298, perplexity 73.55
+INFO:root:	Batch 150785, loss 4.584, perplexity 97.92
+INFO:root:	Batch 151361, loss 4.602, perplexity 99.69
+INFO:root:	Batch 151965, loss 4.684, perplexity 108.25
+INFO:root:	Batch 152537, loss 4.276, perplexity 71.96
+INFO:root:	Batch 153128, loss 4.543, perplexity 94.00
+INFO:root:	Batch 153730, loss 4.741, perplexity 114.52
+INFO:root:	Batch 154337, loss 4.650, perplexity 104.60
+INFO:root:	Batch 154943, loss 4.795, perplexity 120.85
+INFO:root:	Batch 155533, loss 4.656, perplexity 105.18
+INFO:root:	Batch 156121, loss 4.064, perplexity 58.19
+INFO:root:	Batch 156727, loss 4.438, perplexity 84.60
+INFO:root:	Batch 157334, loss 4.498, perplexity 89.87
+INFO:root:	Batch 157909, loss 4.566, perplexity 96.15
+INFO:root:	Batch 158484, loss 4.719, perplexity 112.07
+INFO:root:	Batch 159051, loss 4.452, perplexity 85.81
+INFO:root:	Batch 159610, loss 4.668, perplexity 106.48
+INFO:root:	Batch 160220, loss 4.659, perplexity 105.49
+INFO:root:	Batch 160816, loss 4.958, perplexity 142.36
+INFO:root:	Batch 161406, loss 4.808, perplexity 122.44
+INFO:root:	Batch 161979, loss 4.459, perplexity 86.38
+INFO:root:	Batch 162558, loss 4.765, perplexity 117.35
+INFO:root:	Batch 163138, loss 4.326, perplexity 75.66
+INFO:root:	Batch 163711, loss 4.643, perplexity 103.90
+INFO:root:	Batch 164319, loss 4.788, perplexity 120.12
+INFO:root:	Batch 164908, loss 4.307, perplexity 74.23
+INFO:root:	Batch 165504, loss 4.469, perplexity 87.29
+INFO:root:	Batch 166112, loss 4.751, perplexity 115.72
+INFO:root:	Batch 166719, loss 4.337, perplexity 76.47
+INFO:root:	Batch 167309, loss 4.721, perplexity 112.31
+INFO:root:	Batch 167876, loss 4.586, perplexity 98.05
+INFO:root:	Batch 168472, loss 4.154, perplexity 63.68
+INFO:root:	Batch 169053, loss 4.568, perplexity 96.34
+INFO:root:	Batch 169634, loss 4.600, perplexity 99.50
+INFO:root:	Batch 170241, loss 4.573, perplexity 96.83
+INFO:root:	Batch 170837, loss 4.767, perplexity 117.54
+INFO:root:	Batch 171424, loss 4.476, perplexity 87.85
+INFO:root:	Batch 172018, loss 4.741, perplexity 114.60
+INFO:root:	Batch 172625, loss 4.340, perplexity 76.68
+INFO:root:	Batch 173230, loss 4.510, perplexity 90.89
+INFO:root:	Batch 173820, loss 4.727, perplexity 112.97
+INFO:root:	Batch 174426, loss 4.573, perplexity 96.79
+INFO:root:	Batch 175022, loss 4.569, perplexity 96.41
+INFO:root:	Batch 175595, loss 4.550, perplexity 94.66
+INFO:root:	Batch 176202, loss 4.857, perplexity 128.63
+INFO:root:	Batch 176783, loss 4.452, perplexity 85.82
+INFO:root:	Batch 177394, loss 4.702, perplexity 110.19
+INFO:root:	Batch 177975, loss 4.382, perplexity 80.04
+INFO:root:	Batch 178554, loss 4.789, perplexity 120.23
+INFO:root:	Batch 179158, loss 4.555, perplexity 95.11
+INFO:root:	Batch 179751, loss 4.519, perplexity 91.71
+INFO:root:	Batch 180352, loss 4.508, perplexity 90.73
+INFO:root:	Batch 180958, loss 4.571, perplexity 96.62
+INFO:root:	Batch 181569, loss 4.301, perplexity 73.76
+INFO:root:	Batch 182177, loss 4.524, perplexity 92.24
+INFO:root:	Batch 182749, loss 5.214, perplexity 183.74
+INFO:root:	Batch 183364, loss 4.465, perplexity 86.94
+INFO:root:	Batch 183973, loss 4.218, perplexity 67.90
+INFO:root:	Batch 184551, loss 4.327, perplexity 75.71
+INFO:root:	Batch 185142, loss 4.274, perplexity 71.78
+INFO:root:	Batch 185737, loss 4.405, perplexity 81.82
+INFO:root:	Batch 186321, loss 4.331, perplexity 76.00
+INFO:root:	Batch 186913, loss 4.631, perplexity 102.61
+INFO:root:	Batch 187517, loss 4.133, perplexity 62.38
+INFO:root:	Batch 188111, loss 4.545, perplexity 94.19
+INFO:root:	Batch 188712, loss 4.753, perplexity 115.96
+INFO:root:	Batch 189300, loss 4.704, perplexity 110.39
+INFO:root:	Batch 189880, loss 4.649, perplexity 104.50
+INFO:root:	Batch 190485, loss 4.565, perplexity 96.07
+INFO:root:	Batch 191081, loss 5.027, perplexity 152.40
+INFO:root:	Batch 191666, loss 4.481, perplexity 88.33
+INFO:root:	Batch 192271, loss 5.016, perplexity 150.84
+INFO:root:	Batch 192867, loss 4.641, perplexity 103.65
+INFO:root:	Batch 193473, loss 4.534, perplexity 93.14
+INFO:root:	Batch 194056, loss 4.523, perplexity 92.12
+INFO:root:	Batch 194665, loss 4.050, perplexity 57.37
+INFO:root:	Batch 195255, loss 4.459, perplexity 86.38
+INFO:root:	Batch 195826, loss 4.448, perplexity 85.45
+INFO:root:	Batch 196435, loss 4.563, perplexity 95.90
+INFO:root:	Batch 197047, loss 4.339, perplexity 76.66
+INFO:root:	Batch 197656, loss 4.658, perplexity 105.39
+INFO:root:	Batch 198251, loss 4.372, perplexity 79.20
+INFO:root:	Batch 198836, loss 4.402, perplexity 81.63
+INFO:root:	Batch 199446, loss 4.351, perplexity 77.52
+INFO:root:	Batch 200054, loss 4.843, perplexity 126.85
+INFO:root:	Batch 200643, loss 4.301, perplexity 73.76
+INFO:root:	Batch 201219, loss 4.549, perplexity 94.50
+INFO:root:	Batch 201779, loss 4.582, perplexity 97.74
+INFO:root:	Batch 202387, loss 4.620, perplexity 101.52
+INFO:root:	Batch 202987, loss 4.551, perplexity 94.70
+INFO:root:	Batch 203591, loss 4.764, perplexity 117.24
+INFO:root:	Batch 204174, loss 4.406, perplexity 81.90
+INFO:root:	Batch 204765, loss 4.478, perplexity 88.02
+INFO:root:	Batch 205340, loss 4.806, perplexity 122.21
+INFO:root:	Batch 205959, loss 4.821, perplexity 124.14
+INFO:root:	Batch 206526, loss 4.514, perplexity 91.32
+INFO:root:	Batch 207117, loss 4.598, perplexity 99.24
+INFO:root:	Batch 207714, loss 4.529, perplexity 92.67
+INFO:root:	Batch 208322, loss 4.487, perplexity 88.83
+INFO:root:	Batch 208898, loss 4.426, perplexity 83.58
+INFO:root:	Batch 209495, loss 4.551, perplexity 94.70
+INFO:root:	Batch 210100, loss 4.428, perplexity 83.80
+INFO:root:	Batch 210668, loss 4.621, perplexity 101.63
+INFO:root:	Batch 211258, loss 4.532, perplexity 92.93
+INFO:root:	Batch 211865, loss 4.597, perplexity 99.16
+INFO:root:	Batch 212429, loss 4.324, perplexity 75.48
+INFO:root:	Batch 213020, loss 4.569, perplexity 96.46
+INFO:root:	Batch 213601, loss 4.526, perplexity 92.37
+INFO:root:	Batch 214193, loss 4.536, perplexity 93.32
+INFO:root:	Batch 214798, loss 4.690, perplexity 108.87
+INFO:root:	Batch 215373, loss 4.478, perplexity 88.09
+INFO:root:	Batch 215941, loss 4.162, perplexity 64.17
+INFO:root:	Batch 216550, loss 4.619, perplexity 101.39
+INFO:root:	Batch 217160, loss 4.504, perplexity 90.39
+INFO:root:	Batch 217770, loss 4.905, perplexity 134.91
+INFO:root:	Batch 218354, loss 4.859, perplexity 128.92
+INFO:root:	Batch 218961, loss 4.197, perplexity 66.46
+INFO:root:	Batch 219572, loss 4.909, perplexity 135.48
+INFO:root:	Batch 220168, loss 4.412, perplexity 82.45
+INFO:root:	Batch 220749, loss 4.462, perplexity 86.68
+INFO:root:	Batch 221354, loss 4.767, perplexity 117.57
+INFO:root:	Batch 221958, loss 4.405, perplexity 81.82
+INFO:root:	Batch 222547, loss 4.707, perplexity 110.75
+INFO:root:	Batch 223155, loss 4.322, perplexity 75.38
+INFO:root:	Batch 223735, loss 4.527, perplexity 92.44
+INFO:root:	Batch 224336, loss 4.335, perplexity 76.30
+INFO:root:	Batch 224920, loss 4.360, perplexity 78.26
+INFO:root:	Batch 225504, loss 4.583, perplexity 97.84
+INFO:root:	Batch 226112, loss 4.658, perplexity 105.39
+INFO:root:	Batch 226706, loss 4.542, perplexity 93.85
+INFO:root:	Batch 227282, loss 4.231, perplexity 68.77
+INFO:root:	Batch 227854, loss 4.585, perplexity 98.01
+INFO:root:	Batch 228419, loss 4.457, perplexity 86.20
+INFO:root:	Batch 229025, loss 3.912, perplexity 50.01
+INFO:root:	Batch 229633, loss 4.613, perplexity 100.81
+INFO:root:	Batch 230196, loss 4.757, perplexity 116.36
+INFO:root:	Batch 230792, loss 4.538, perplexity 93.47
+INFO:root:	Batch 231385, loss 4.174, perplexity 64.96
+INFO:root:	Batch 231991, loss 4.658, perplexity 105.45
+INFO:root:	Batch 232599, loss 4.562, perplexity 95.74
+INFO:root:	Batch 233189, loss 4.176, perplexity 65.07
+INFO:root:	Batch 233773, loss 4.586, perplexity 98.13
+INFO:root:	Batch 234342, loss 4.586, perplexity 98.09
+INFO:root:	Batch 234932, loss 4.572, perplexity 96.76
+INFO:root:	Batch 235501, loss 4.840, perplexity 126.48
+INFO:root:	Batch 236095, loss 5.010, perplexity 149.86
+INFO:root:	Batch 236702, loss 4.882, perplexity 131.94
+INFO:root:	Batch 237277, loss 4.436, perplexity 84.41
+INFO:root:	Batch 237862, loss 4.609, perplexity 100.38
+INFO:root:	Batch 238473, loss 4.466, perplexity 86.99
+INFO:root:	Batch 239060, loss 4.387, perplexity 80.41
+INFO:root:	Batch 239667, loss 4.525, perplexity 92.26
+INFO:root:	Batch 240266, loss 4.464, perplexity 86.80
+INFO:root:	Batch 240866, loss 4.639, perplexity 103.43
+INFO:root:	Batch 241455, loss 4.624, perplexity 101.90
+INFO:root:	Batch 242027, loss 4.382, perplexity 80.02
+INFO:root:	Batch 242597, loss 4.613, perplexity 100.80
+INFO:root:	Batch 243173, loss 4.758, perplexity 116.50
+INFO:root:	Batch 243785, loss 4.289, perplexity 72.91
+INFO:root:	Batch 244392, loss 4.997, perplexity 147.95
+INFO:root:	Batch 244985, loss 4.543, perplexity 93.95
+INFO:root:	Batch 245592, loss 4.611, perplexity 100.60
+INFO:root:	Batch 246155, loss 4.503, perplexity 90.32
+INFO:root:	Batch 246762, loss 4.607, perplexity 100.20
+INFO:root:	Batch 247353, loss 4.914, perplexity 136.23
+INFO:root:	Batch 247954, loss 4.400, perplexity 81.49
+INFO:root:	Batch 248561, loss 4.606, perplexity 100.12
+INFO:root:	Batch 249145, loss 4.606, perplexity 100.09
+INFO:root:	Batch 249748, loss 4.535, perplexity 93.20
+INFO:root:	Batch 250356, loss 4.368, perplexity 78.88
+INFO:root:	Batch 250944, loss 4.531, perplexity 92.89
+INFO:root:	Batch 251548, loss 4.664, perplexity 106.08
+INFO:root:	Batch 252118, loss 4.678, perplexity 107.57
+INFO:root:	Batch 252735, loss 4.784, perplexity 119.62
+INFO:root:	Batch 253341, loss 4.695, perplexity 109.41
+INFO:root:	Batch 253914, loss 4.517, perplexity 91.60
+INFO:root:	Batch 254522, loss 4.299, perplexity 73.59
+INFO:root:	Batch 255135, loss 4.469, perplexity 87.23
+INFO:root:	Batch 255726, loss 4.759, perplexity 116.61
+INFO:root:	Batch 256297, loss 4.856, perplexity 128.46
+INFO:root:	Batch 256892, loss 4.490, perplexity 89.11
+INFO:root:	Batch 257497, loss 4.314, perplexity 74.75
+INFO:root:	Batch 258090, loss 4.579, perplexity 97.38
+INFO:root:	Batch 258663, loss 4.472, perplexity 87.55
+INFO:root:	Batch 259272, loss 4.491, perplexity 89.17
+INFO:root:	Batch 259859, loss 4.456, perplexity 86.11
+INFO:root:	Batch 260466, loss 4.382, perplexity 80.02
+INFO:root:	Batch 261054, loss 4.689, perplexity 108.77
+INFO:root:	Batch 261661, loss 4.570, perplexity 96.53
+INFO:root:	Batch 262242, loss 4.360, perplexity 78.29
+INFO:root:	Batch 262845, loss 4.644, perplexity 103.98
+INFO:root:	Batch 263429, loss 4.267, perplexity 71.28
+INFO:root:	Batch 264035, loss 4.597, perplexity 99.23
+INFO:root:	Batch 264644, loss 4.810, perplexity 122.69
+INFO:root:	Batch 265240, loss 4.586, perplexity 98.08
+INFO:root:	Batch 265806, loss 4.679, perplexity 107.61
+INFO:root:	Batch 266396, loss 4.662, perplexity 105.80
+INFO:root:	Batch 266995, loss 4.620, perplexity 101.46
+INFO:root:	Batch 267566, loss 4.598, perplexity 99.28
+INFO:root:	Batch 268142, loss 4.603, perplexity 99.77
+INFO:root:	Batch 268732, loss 4.556, perplexity 95.16
+INFO:root:	Batch 269335, loss 4.308, perplexity 74.30
+INFO:root:	Batch 269941, loss 4.827, perplexity 124.80
+INFO:root:	Batch 270548, loss 4.307, perplexity 74.21
+INFO:root:	Batch 271134, loss 4.289, perplexity 72.91
+INFO:root:	Batch 271743, loss 4.523, perplexity 92.10
+INFO:root:	Batch 272306, loss 4.546, perplexity 94.26
+INFO:root:	Batch 272913, loss 4.786, perplexity 119.86
+INFO:root:	Batch 273495, loss 4.336, perplexity 76.39
+INFO:root:	Batch 274091, loss 4.914, perplexity 136.21
+INFO:root:	Batch 274663, loss 4.019, perplexity 55.64
+INFO:root:	Batch 275265, loss 4.657, perplexity 105.33
+INFO:root:	Batch 275839, loss 4.529, perplexity 92.71
+INFO:root:	Batch 276443, loss 4.496, perplexity 89.62
+INFO:root:	Batch 277051, loss 4.314, perplexity 74.72
+INFO:root:	Batch 277644, loss 4.845, perplexity 127.07
+INFO:root:	Batch 278244, loss 4.355, perplexity 77.86
+INFO:root:	Batch 278837, loss 4.797, perplexity 121.14
+INFO:root:	Batch 279440, loss 4.604, perplexity 99.90
+INFO:root:	Batch 280051, loss 4.737, perplexity 114.14
+INFO:root:	Batch 280645, loss 4.576, perplexity 97.14
+INFO:root:	Batch 281225, loss 4.383, perplexity 80.10
+INFO:root:	Batch 281807, loss 4.398, perplexity 81.25
+INFO:root:	Batch 282370, loss 4.550, perplexity 94.59
+INFO:root:	Batch 282957, loss 4.642, perplexity 103.76
+INFO:root:	Batch 283569, loss 4.420, perplexity 83.06
+INFO:root:	Batch 284147, loss 4.784, perplexity 119.57
+INFO:root:	Batch 284750, loss 4.438, perplexity 84.62
+INFO:root:	Batch 285335, loss 4.700, perplexity 109.90
+INFO:root:	Batch 285899, loss 4.389, perplexity 80.57
+INFO:root:	Batch 286506, loss 4.505, perplexity 90.50
+INFO:root:	Batch 287110, loss 4.139, perplexity 62.72
+INFO:root:	Batch 287704, loss 4.738, perplexity 114.24
+INFO:root:	Batch 288276, loss 4.784, perplexity 119.57
+INFO:root:	Batch 288880, loss 4.550, perplexity 94.67
+INFO:root:	Batch 289479, loss 4.800, perplexity 121.45
+INFO:root:	Batch 290085, loss 5.023, perplexity 151.80
+INFO:root:	Batch 290655, loss 4.480, perplexity 88.27
+INFO:root:	Batch 291260, loss 4.783, perplexity 119.43
+INFO:root:	Batch 291862, loss 4.468, perplexity 87.16
+INFO:root:	Batch 292445, loss 4.441, perplexity 84.89
+INFO:root:	Batch 293035, loss 5.167, perplexity 175.30
+INFO:root:	Batch 293604, loss 4.593, perplexity 98.82
+INFO:root:	Batch 294177, loss 4.739, perplexity 114.33
+INFO:root:	Batch 294756, loss 4.556, perplexity 95.20
+INFO:root:	Batch 295344, loss 4.533, perplexity 93.01
+INFO:root:	Batch 295946, loss 5.145, perplexity 171.56
+INFO:root:	Batch 296545, loss 4.764, perplexity 117.23
+INFO:root:	Batch 297138, loss 4.818, perplexity 123.74
+INFO:root:	Batch 297746, loss 4.534, perplexity 93.16
+INFO:root:	Batch 298337, loss 4.357, perplexity 78.01
+INFO:root:	Batch 298941, loss 4.322, perplexity 75.30
+INFO:root:	Batch 299544, loss 4.679, perplexity 107.63
+INFO:root:	Batch 300137, loss 4.542, perplexity 93.87
+INFO:root:	Batch 300740, loss 4.347, perplexity 77.25
+INFO:root:	Batch 301353, loss 4.642, perplexity 103.73
+INFO:root:	Batch 301962, loss 4.849, perplexity 127.67
+INFO:root:	Batch 302569, loss 4.722, perplexity 112.36
+INFO:root:	Batch 303164, loss 4.567, perplexity 96.27
+INFO:root:	Batch 303765, loss 4.290, perplexity 72.94
+INFO:root:	Batch 304369, loss 4.479, perplexity 88.17
+INFO:root:	Batch 304935, loss 4.407, perplexity 82.05
+INFO:root:	Batch 305511, loss 4.234, perplexity 69.00
+INFO:root:	Batch 306118, loss 4.750, perplexity 115.56
+INFO:root:	Batch 306680, loss 4.723, perplexity 112.55
+INFO:root:	Batch 307267, loss 4.482, perplexity 88.46
+INFO:root:	Batch 307860, loss 4.657, perplexity 105.32
+INFO:root:	Batch 308464, loss 4.743, perplexity 114.73
+INFO:root:	Batch 309036, loss 4.523, perplexity 92.13
+INFO:root:	Batch 309626, loss 4.720, perplexity 112.20
+INFO:root:	Batch 310203, loss 4.650, perplexity 104.60
+INFO:root:	Batch 310805, loss 4.121, perplexity 61.64
+INFO:root:	Batch 311411, loss 4.255, perplexity 70.46
+INFO:root:	Batch 312007, loss 4.590, perplexity 98.48
+INFO:root:	Batch 312609, loss 4.639, perplexity 103.48
+INFO:root:	Batch 313213, loss 4.368, perplexity 78.91
+INFO:root:	Batch 313798, loss 4.705, perplexity 110.45
+INFO:root:	Batch 314384, loss 4.497, perplexity 89.77
+INFO:root:	Batch 314982, loss 4.385, perplexity 80.20
+INFO:root:	Batch 315554, loss 4.689, perplexity 108.75
+INFO:root:	Batch 316159, loss 4.502, perplexity 90.23
+INFO:root:	Batch 316738, loss 4.350, perplexity 77.46
+INFO:root:	Batch 317347, loss 4.977, perplexity 145.04
+INFO:root:	Batch 317957, loss 4.536, perplexity 93.31
+INFO:root:	Batch 318536, loss 4.751, perplexity 115.74
+INFO:root:	Batch 319106, loss 4.471, perplexity 87.41
+INFO:root:	Batch 319712, loss 4.793, perplexity 120.64
+INFO:root:	Batch 320283, loss 4.534, perplexity 93.15
+INFO:root:	Batch 320887, loss 4.534, perplexity 93.13
+INFO:root:	Batch 321454, loss 4.397, perplexity 81.23
+INFO:root:	Batch 322055, loss 4.270, perplexity 71.52
+INFO:root:	Batch 322659, loss 4.598, perplexity 99.32
+INFO:root:	Batch 323245, loss 4.506, perplexity 90.60
+INFO:root:	Batch 323806, loss 4.465, perplexity 86.89
+INFO:root:	Batch 324386, loss 4.810, perplexity 122.75
+INFO:root:	Batch 324996, loss 4.782, perplexity 119.38
+INFO:root:	Batch 325572, loss 4.481, perplexity 88.29
+INFO:root:	Batch 326149, loss 4.451, perplexity 85.70
+INFO:root:	Batch 326742, loss 4.673, perplexity 107.01
+INFO:root:	Batch 327350, loss 4.899, perplexity 134.17
+INFO:root:	Batch 327924, loss 4.565, perplexity 96.04
+INFO:root:	Batch 328485, loss 4.280, perplexity 72.25
+INFO:root:	Batch 329084, loss 4.904, perplexity 134.78
+INFO:root:	Batch 329665, loss 4.481, perplexity 88.28
+INFO:root:	Batch 330268, loss 4.476, perplexity 87.87
+INFO:root:	Batch 330873, loss 4.752, perplexity 115.83
+INFO:root:	Batch 331480, loss 4.591, perplexity 98.58
+INFO:root:	Batch 332068, loss 4.456, perplexity 86.17
+INFO:root:	Batch 332654, loss 4.705, perplexity 110.55
+INFO:root:	Batch 333232, loss 4.406, perplexity 81.95
+INFO:root:	Batch 333803, loss 4.515, perplexity 91.40
+INFO:root:	Batch 334412, loss 4.637, perplexity 103.20
+INFO:root:	Batch 334991, loss 4.706, perplexity 110.59
+INFO:root:	Batch 335603, loss 4.564, perplexity 95.98
+INFO:root:	Batch 336191, loss 4.325, perplexity 75.54
+INFO:root:	Batch 336794, loss 4.581, perplexity 97.60
+INFO:root:	Batch 337404, loss 4.621, perplexity 101.56
+INFO:root:	Batch 338012, loss 4.730, perplexity 113.27
+INFO:root:	Batch 338585, loss 4.652, perplexity 104.76
+INFO:root:	Batch 339159, loss 4.763, perplexity 117.15
+INFO:root:	Batch 339764, loss 4.445, perplexity 85.18
+INFO:root:	Batch 340347, loss 4.181, perplexity 65.40
+INFO:root:	Batch 340953, loss 4.276, perplexity 71.94
+INFO:root:	Batch 341559, loss 4.444, perplexity 85.12
+INFO:root:	Batch 342154, loss 4.525, perplexity 92.32
+INFO:root:	Batch 342756, loss 4.303, perplexity 73.92
+INFO:root:	Batch 343333, loss 4.351, perplexity 77.54
+INFO:root:	Batch 343927, loss 4.678, perplexity 107.54
+DEBUG:root:Validation perplexity: 87.2
+DEBUG:root:Test perplexity: 235.7
+DEBUG:root:BEST result
+DEBUG:root:END EPOCH now = 2020-01-08 13:34:50.520483
+DEBUG:root:END EPOCH now = 2020-01-08 13:34:50.520770
+DEBUG:root:Parameter embedding.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 300]) 
+DEBUG:root:Parameter False 
+DEBUG:root:Parameter lstm.weight_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 300]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.bias 
+DEBUG:root:Parameter shape torch.Size([300000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter embedding.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 300]) 
+DEBUG:root:Parameter False 
+DEBUG:root:Parameter lstm.weight_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 300]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l0 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.weight_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_ih_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter lstm.bias_hh_l1 
+DEBUG:root:Parameter shape torch.Size([2000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.weight 
+DEBUG:root:Parameter shape torch.Size([300000, 500]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Parameter fc1.bias 
+DEBUG:root:Parameter shape torch.Size([300000]) 
+DEBUG:root:Parameter True 
+DEBUG:root:Number parameters 153908000
+DEBUG:root:Scheduler.get_lr() [0.0005220062499999999]
+DEBUG:root:START EPOCH now = 2020-01-08 13:35:06.575418
+DEBUG:root:Training epoch 4
+INFO:root:	Batch 0, loss 4.410, perplexity 82.27
+INFO:root:	Batch 602, loss 4.699, perplexity 109.86
+INFO:root:	Batch 1211, loss 4.449, perplexity 85.58
+INFO:root:	Batch 1800, loss 4.249, perplexity 70.02
+INFO:root:	Batch 2392, loss 4.654, perplexity 105.05
+INFO:root:	Batch 2996, loss 4.271, perplexity 71.61
+INFO:root:	Batch 3601, loss 4.184, perplexity 65.60
+INFO:root:	Batch 4206, loss 3.887, perplexity 48.75
+INFO:root:	Batch 4772, loss 4.817, perplexity 123.54
+INFO:root:	Batch 5340, loss 4.381, perplexity 79.91
+INFO:root:	Batch 5955, loss 4.682, perplexity 108.02
+INFO:root:	Batch 6533, loss 4.579, perplexity 97.41
+INFO:root:	Batch 7138, loss 4.528, perplexity 92.55
+INFO:root:	Batch 7746, loss 4.677, perplexity 107.43
+INFO:root:	Batch 8315, loss 3.997, perplexity 54.45
+INFO:root:	Batch 8921, loss 4.770, perplexity 117.91
+INFO:root:	Batch 9486, loss 4.548, perplexity 94.45
+INFO:root:	Batch 10058, loss 4.192, perplexity 66.17
+INFO:root:	Batch 10667, loss 4.421, perplexity 83.22
+INFO:root:	Batch 11247, loss 4.601, perplexity 99.63
+INFO:root:	Batch 11858, loss 4.294, perplexity 73.25
+INFO:root:	Batch 12462, loss 4.501, perplexity 90.13
+INFO:root:	Batch 13068, loss 4.774, perplexity 118.34
+INFO:root:	Batch 13676, loss 4.480, perplexity 88.27
+INFO:root:	Batch 14271, loss 4.694, perplexity 109.29
+INFO:root:	Batch 14868, loss 4.420, perplexity 83.10
+INFO:root:	Batch 15469, loss 4.636, perplexity 103.08
+INFO:root:	Batch 16042, loss 4.894, perplexity 133.47
+INFO:root:	Batch 16636, loss 4.495, perplexity 89.55
+INFO:root:	Batch 17205, loss 4.563, perplexity 95.89
+INFO:root:	Batch 17801, loss 4.486, perplexity 88.75
+INFO:root:	Batch 18406, loss 4.091, perplexity 59.81
+INFO:root:	Batch 19011, loss 4.574, perplexity 96.97
+INFO:root:	Batch 19598, loss 4.505, perplexity 90.51
+INFO:root:	Batch 20200, loss 4.611, perplexity 100.59
+INFO:root:	Batch 20807, loss 4.413, perplexity 82.54
+INFO:root:	Batch 21379, loss 4.652, perplexity 104.82
+INFO:root:	Batch 21982, loss 4.260, perplexity 70.78
+INFO:root:	Batch 22568, loss 4.520, perplexity 91.84
+INFO:root:	Batch 23160, loss 4.854, perplexity 128.26
+INFO:root:	Batch 23748, loss 4.216, perplexity 67.74
+INFO:root:	Batch 24338, loss 4.754, perplexity 116.04
+INFO:root:	Batch 24948, loss 4.299, perplexity 73.66
+INFO:root:	Batch 25553, loss 4.661, perplexity 105.78
+INFO:root:	Batch 26141, loss 4.752, perplexity 115.79
+INFO:root:	Batch 26757, loss 4.732, perplexity 113.55
+INFO:root:	Batch 27350, loss 4.278, perplexity 72.09
+INFO:root:	Batch 27925, loss 4.727, perplexity 112.97
+INFO:root:	Batch 28522, loss 4.544, perplexity 94.06
+INFO:root:	Batch 29076, loss 4.533, perplexity 93.05
+INFO:root:	Batch 29668, loss 4.349, perplexity 77.44
+INFO:root:	Batch 30273, loss 4.901, perplexity 134.38
+INFO:root:	Batch 30857, loss 4.910, perplexity 135.60
+INFO:root:	Batch 31453, loss 4.779, perplexity 119.00
+INFO:root:	Batch 32058, loss 4.270, perplexity 71.55
+INFO:root:	Batch 32636, loss 4.519, perplexity 91.75
+INFO:root:	Batch 33231, loss 4.639, perplexity 103.49
+INFO:root:	Batch 33855, loss 4.703, perplexity 110.32
+INFO:root:	Batch 34441, loss 4.622, perplexity 101.67
+INFO:root:	Batch 35016, loss 4.436, perplexity 84.44
+INFO:root:	Batch 35625, loss 4.472, perplexity 87.52
+INFO:root:	Batch 36219, loss 4.564, perplexity 96.01
+INFO:root:	Batch 36826, loss 4.203, perplexity 66.91
+INFO:root:	Batch 37431, loss 4.512, perplexity 91.07
+INFO:root:	Batch 37998, loss 4.303, perplexity 73.94
+INFO:root:	Batch 38588, loss 4.683, perplexity 108.11
+INFO:root:	Batch 39159, loss 4.201, perplexity 66.78
+INFO:root:	Batch 39770, loss 4.598, perplexity 99.31
+INFO:root:	Batch 40348, loss 4.374, perplexity 79.38
+INFO:root:	Batch 40941, loss 4.215, perplexity 67.73
+INFO:root:	Batch 41547, loss 4.695, perplexity 109.35
+INFO:root:	Batch 42151, loss 4.342, perplexity 76.84
+INFO:root:	Batch 42717, loss 4.433, perplexity 84.20
+INFO:root:	Batch 43306, loss 4.531, perplexity 92.88
+INFO:root:	Batch 43917, loss 4.329, perplexity 75.89
+INFO:root:	Batch 44520, loss 4.469, perplexity 87.30
+INFO:root:	Batch 45128, loss 4.710, perplexity 111.05
+INFO:root:	Batch 45721, loss 4.375, perplexity 79.42
+INFO:root:	Batch 46326, loss 4.417, perplexity 82.82
+INFO:root:	Batch 46917, loss 4.667, perplexity 106.43
+INFO:root:	Batch 47502, loss 4.658, perplexity 105.43
+INFO:root:	Batch 48089, loss 4.758, perplexity 116.48
+INFO:root:	Batch 48694, loss 4.653, perplexity 104.91
+INFO:root:	Batch 49284, loss 4.336, perplexity 76.41
+INFO:root:	Batch 49873, loss 4.387, perplexity 80.38
+INFO:root:	Batch 50476, loss 4.546, perplexity 94.27
+INFO:root:	Batch 51056, loss 4.446, perplexity 85.29
+INFO:root:	Batch 51661, loss 4.619, perplexity 101.43
+INFO:root:	Batch 52254, loss 4.893, perplexity 133.41
+INFO:root:	Batch 52864, loss 4.662, perplexity 105.85
+INFO:root:	Batch 53446, loss 4.392, perplexity 80.80
+INFO:root:	Batch 54023, loss 4.394, perplexity 80.93
+INFO:root:	Batch 54585, loss 4.634, perplexity 102.96
+INFO:root:	Batch 55173, loss 4.423, perplexity 83.32
+INFO:root:	Batch 55752, loss 4.741, perplexity 114.52
+INFO:root:	Batch 56346, loss 4.588, perplexity 98.34
+INFO:root:	Batch 56933, loss 4.659, perplexity 105.54
+INFO:root:	Batch 57526, loss 4.368, perplexity 78.87
+INFO:root:	Batch 58132, loss 4.537, perplexity 93.45
+INFO:root:	Batch 58738, loss 4.832, perplexity 125.45
+INFO:root:	Batch 59330, loss 4.678, perplexity 107.59
+INFO:root:	Batch 59904, loss 4.636, perplexity 103.18
+INFO:root:	Batch 60514, loss 4.409, perplexity 82.17
+INFO:root:	Batch 61103, loss 4.440, perplexity 84.76
+INFO:root:	Batch 61707, loss 4.502, perplexity 90.24
+INFO:root:	Batch 62302, loss 4.432, perplexity 84.10
+INFO:root:	Batch 62905, loss 4.583, perplexity 97.85
+INFO:root:	Batch 63493, loss 4.674, perplexity 107.13
+INFO:root:	Batch 64099, loss 4.606, perplexity 100.06
+INFO:root:	Batch 64705, loss 4.525, perplexity 92.28
+INFO:root:	Batch 65299, loss 4.842, perplexity 126.72
+INFO:root:	Batch 65904, loss 4.341, perplexity 76.76
+INFO:root:	Batch 66509, loss 4.502, perplexity 90.24
+INFO:root:	Batch 67118, loss 4.729, perplexity 113.20
+INFO:root:	Batch 67724, loss 4.558, perplexity 95.40
+INFO:root:	Batch 68312, loss 4.566, perplexity 96.11
+INFO:root:	Batch 68918, loss 4.694, perplexity 109.34
+INFO:root:	Batch 69495, loss 4.601, perplexity 99.63
+INFO:root:	Batch 70102, loss 4.492, perplexity 89.27
+INFO:root:	Batch 70692, loss 4.303, perplexity 73.94
+INFO:root:	Batch 71303, loss 4.434, perplexity 84.29
+INFO:root:	Batch 71872, loss 4.574, perplexity 96.94
+INFO:root:	Batch 72480, loss 4.421, perplexity 83.19
+INFO:root:	Batch 73067, loss 4.596, perplexity 99.12
+INFO:root:	Batch 73672, loss 4.442, perplexity 84.95
+INFO:root:	Batch 74234, loss 4.615, perplexity 101.00
+INFO:root:	Batch 74826, loss 4.473, perplexity 87.65
+INFO:root:	Batch 75435, loss 4.373, perplexity 79.25
+INFO:root:	Batch 76035, loss 4.451, perplexity 85.70
+INFO:root:	Batch 76628, loss 4.688, perplexity 108.59
+INFO:root:	Batch 77234, loss 4.494, perplexity 89.52
+INFO:root:	Batch 77828, loss 4.628, perplexity 102.31
+INFO:root:	Batch 78435, loss 4.419, perplexity 83.03
+INFO:root:	Batch 79032, loss 4.801, perplexity 121.63
+INFO:root:	Batch 79629, loss 4.301, perplexity 73.80
+INFO:root:	Batch 80195, loss 4.965, perplexity 143.35
+INFO:root:	Batch 80782, loss 4.556, perplexity 95.22
+INFO:root:	Batch 81375, loss 4.584, perplexity 97.92
+INFO:root:	Batch 81959, loss 4.406, perplexity 81.92
+INFO:root:	Batch 82553, loss 4.406, perplexity 81.94
+INFO:root:	Batch 83160, loss 4.275, perplexity 71.87
+INFO:root:	Batch 83766, loss 4.652, perplexity 104.76
+INFO:root:	Batch 84372, loss 4.330, perplexity 75.95
+INFO:root:	Batch 84962, loss 4.518, perplexity 91.65
+INFO:root:	Batch 85569, loss 4.643, perplexity 103.84
+INFO:root:	Batch 86131, loss 5.012, perplexity 150.25
+INFO:root:	Batch 86751, loss 4.613, perplexity 100.79
+INFO:root:	Batch 87360, loss 4.713, perplexity 111.36
+INFO:root:	Batch 87972, loss 4.521, perplexity 91.96
+INFO:root:	Batch 88550, loss 4.464, perplexity 86.83
+INFO:root:	Batch 89145, loss 4.663, perplexity 105.90
+INFO:root:	Batch 89720, loss 4.669, perplexity 106.62
+INFO:root:	Batch 90316, loss 4.592, perplexity 98.70
+INFO:root:	Batch 90922, loss 4.992, perplexity 147.26
+INFO:root:	Batch 91496, loss 4.532, perplexity 92.93
+INFO:root:	Batch 92107, loss 4.211, perplexity 67.45
+INFO:root:	Batch 92714, loss 4.229, perplexity 68.67
+INFO:root:	Batch 93318, loss 4.595, perplexity 98.96
+INFO:root:	Batch 93889, loss 4.636, perplexity 103.12
+INFO:root:	Batch 94495, loss 4.385, perplexity 80.25
+INFO:root:	Batch 95094, loss 4.627, perplexity 102.22
+INFO:root:	Batch 95702, loss 4.521, perplexity 91.94
+INFO:root:	Batch 96302, loss 5.016, perplexity 150.80
+INFO:root:	Batch 96875, loss 4.598, perplexity 99.30
+INFO:root:	Batch 97447, loss 4.164, perplexity 64.30
+INFO:root:	Batch 98021, loss 4.488, perplexity 88.97
+INFO:root:	Batch 98618, loss 4.777, perplexity 118.69
+INFO:root:	Batch 99197, loss 4.669, perplexity 106.55
+INFO:root:	Batch 99792, loss 4.986, perplexity 146.33
+INFO:root:	Batch 100367, loss 4.671, perplexity 106.85
+INFO:root:	Batch 100961, loss 4.606, perplexity 100.09
+INFO:root:	Batch 101551, loss 4.427, perplexity 83.68
+INFO:root:	Batch 102141, loss 4.351, perplexity 77.56
+INFO:root:	Batch 102694, loss 4.598, perplexity 99.29
+INFO:root:	Batch 103291, loss 4.641, perplexity 103.67
+INFO:root:	Batch 103877, loss 4.608, perplexity 100.28
+INFO:root:	Batch 104452, loss 4.987, perplexity 146.44
+INFO:root:	Batch 105046, loss 4.608, perplexity 100.25
+INFO:root:	Batch 105632, loss 4.789, perplexity 120.14
+INFO:root:	Batch 106222, loss 4.555, perplexity 95.12
+INFO:root:	Batch 106769, loss 4.581, perplexity 97.65
+INFO:root:	Batch 107361, loss 4.445, perplexity 85.18
+INFO:root:	Batch 107963, loss 4.288, perplexity 72.84
+INFO:root:	Batch 108555, loss 4.628, perplexity 102.29
+INFO:root:	Batch 109149, loss 4.584, perplexity 97.93
+INFO:root:	Batch 109736, loss 4.452, perplexity 85.79
+INFO:root:	Batch 110328, loss 4.306, perplexity 74.14
+INFO:root:	Batch 110906, loss 5.089, perplexity 162.20
+INFO:root:	Batch 111481, loss 4.227, perplexity 68.49
+INFO:root:	Batch 112071, loss 4.547, perplexity 94.34
+INFO:root:	Batch 112643, loss 4.544, perplexity 94.08
+INFO:root:	Batch 113250, loss 4.290, perplexity 72.93
+INFO:root:	Batch 113842, loss 4.282, perplexity 72.40
+INFO:root:	Batch 114405, loss 4.735, perplexity 113.89
+INFO:root:	Batch 114995, loss 4.306, perplexity 74.15
+INFO:root:	Batch 115583, loss 4.428, perplexity 83.79
+INFO:root:	Batch 116176, loss 4.642, perplexity 103.74
+INFO:root:	Batch 116766, loss 4.350, perplexity 77.45
+INFO:root:	Batch 117355, loss 4.332, perplexity 76.06
+INFO:root:	Batch 117946, loss 4.336, perplexity 76.43
+INFO:root:	Batch 118538, loss 4.522, perplexity 92.00
+INFO:root:	Batch 119123, loss 4.771, perplexity 118.09
+INFO:root:	Batch 119688, loss 4.722, perplexity 112.40
+INFO:root:	Batch 120252, loss 4.585, perplexity 97.98
+INFO:root:	Batch 120850, loss 4.480, perplexity 88.22
+INFO:root:	Batch 121446, loss 4.633, perplexity 102.86
+INFO:root:	Batch 122038, loss 4.435, perplexity 84.32
+INFO:root:	Batch 122603, loss 4.621, perplexity 101.59
+INFO:root:	Batch 123199, loss 4.336, perplexity 76.39
+INFO:root:	Batch 123771, loss 4.593, perplexity 98.84
+INFO:root:	Batch 124356, loss 4.458, perplexity 86.30
+INFO:root:	Batch 124948, loss 4.172, perplexity 64.87
+INFO:root:	Batch 125519, loss 4.506, perplexity 90.57
+INFO:root:	Batch 126113, loss 4.637, perplexity 103.28
+INFO:root:	Batch 126681, loss 4.326, perplexity 75.61
+INFO:root:	Batch 127250, loss 4.694, perplexity 109.29
+INFO:root:	Batch 127854, loss 4.836, perplexity 125.93
+INFO:root:	Batch 128413, loss 4.094, perplexity 60.00
+INFO:root:	Batch 129010, loss 5.028, perplexity 152.64
+INFO:root:	Batch 129588, loss 4.570, perplexity 96.50
+INFO:root:	Batch 130165, loss 4.497, perplexity 89.78
+INFO:root:	Batch 130742, loss 4.274, perplexity 71.79
+INFO:root:	Batch 131342, loss 4.548, perplexity 94.41
+INFO:root:	Batch 131933, loss 4.186, perplexity 65.77
+INFO:root:	Batch 132499, loss 4.727, perplexity 112.92
+INFO:root:	Batch 133058, loss 4.233, perplexity 68.95
+INFO:root:	Batch 133652, loss 4.629, perplexity 102.41
+INFO:root:	Batch 134227, loss 4.385, perplexity 80.21
+INFO:root:	Batch 134797, loss 4.556, perplexity 95.22
+INFO:root:	Batch 135394, loss 4.661, perplexity 105.69
+INFO:root:	Batch 135985, loss 4.461, perplexity 86.56
+INFO:root:	Batch 136583, loss 4.553, perplexity 94.92
+INFO:root:	Batch 137165, loss 4.565, perplexity 96.08
+INFO:root:	Batch 137743, loss 4.491, perplexity 89.18
+INFO:root:	Batch 138324, loss 4.802, perplexity 121.79
+INFO:root:	Batch 138902, loss 4.605, perplexity 100.01
+INFO:root:	Batch 139489, loss 4.526, perplexity 92.43
+INFO:root:	Batch 140072, loss 4.634, perplexity 102.90
+INFO:root:	Batch 140649, loss 4.423, perplexity 83.31
+INFO:root:	Batch 141246, loss 4.247, perplexity 69.91
+INFO:root:	Batch 141837, loss 4.465, perplexity 86.88
+INFO:root:	Batch 142429, loss 4.833, perplexity 125.58
+INFO:root:	Batch 143004, loss 4.367, perplexity 78.82
+INFO:root:	Batch 143597, loss 4.237, perplexity 69.20
+INFO:root:	Batch 144184, loss 4.591, perplexity 98.60
+INFO:root:	Batch 144745, loss 4.775, perplexity 118.56
+INFO:root:	Batch 145316, loss 4.944, perplexity 140.28
+INFO:root:	Batch 145891, loss 4.686, perplexity 108.42
+INFO:root:	Batch 146462, loss 4.629, perplexity 102.46
+INFO:root:	Batch 147071, loss 4.539, perplexity 93.60
+INFO:root:	Batch 147649, loss 4.336, perplexity 76.38
+INFO:root:	Batch 148251, loss 4.702, perplexity 110.12
+INFO:root:	Batch 148843, loss 4.242, perplexity 69.55
+INFO:root:	Batch 149409, loss 4.064, perplexity 58.22
+INFO:root:	Batch 149975, loss 4.195, perplexity 66.34
+INFO:root:	Batch 150556, loss 4.635, perplexity 103.08
+INFO:root:	Batch 151133, loss 4.510, perplexity 90.90
+INFO:root:	Batch 151741, loss 4.141, perplexity 62.88
+INFO:root:	Batch 152324, loss 4.479, perplexity 88.14
+INFO:root:	Batch 152904, loss 4.283, perplexity 72.45
+INFO:root:	Batch 153490, loss 4.698, perplexity 109.78
+INFO:root:	Batch 154066, loss 4.487, perplexity 88.82
+INFO:root:	Batch 154669, loss 4.269, perplexity 71.47
+INFO:root:	Batch 155241, loss 4.510, perplexity 90.95
+INFO:root:	Batch 155842, loss 4.633, perplexity 102.87
+INFO:root:	Batch 156412, loss 4.583, perplexity 97.82
+INFO:root:	Batch 157003, loss 4.868, perplexity 130.10
+INFO:root:	Batch 157573, loss 4.658, perplexity 105.42
+INFO:root:	Batch 158136, loss 4.598, perplexity 99.26
+INFO:root:	Batch 158726, loss 4.174, perplexity 65.00
+INFO:root:	Batch 159298, loss 4.779, perplexity 118.95
+INFO:root:	Batch 159904, loss 4.756, perplexity 116.28
+INFO:root:	Batch 160501, loss 4.369, perplexity 78.99
+INFO:root:	Batch 161054, loss 4.276, perplexity 71.93
+INFO:root:	Batch 161645, loss 4.248, perplexity 69.98
+INFO:root:	Batch 162213, loss 4.397, perplexity 81.23
+INFO:root:	Batch 162779, loss 4.524, perplexity 92.18
+INFO:root:	Batch 163378, loss 4.439, perplexity 84.70
+INFO:root:	Batch 163934, loss 4.634, perplexity 102.88
+INFO:root:	Batch 164522, loss 4.403, perplexity 81.70
+INFO:root:	Batch 165118, loss 4.592, perplexity 98.66
+INFO:root:	Batch 165708, loss 4.807, perplexity 122.32
+INFO:root:	Batch 166305, loss 4.594, perplexity 98.89
+INFO:root:	Batch 166872, loss 4.424, perplexity 83.44
+INFO:root:	Batch 167427, loss 4.365, perplexity 78.62
+INFO:root:	Batch 168026, loss 4.728, perplexity 113.06
+INFO:root:	Batch 168608, loss 4.509, perplexity 90.87
+INFO:root:	Batch 169201, loss 4.303, perplexity 73.94
+INFO:root:	Batch 169778, loss 4.863, perplexity 129.46
+INFO:root:	Batch 170368, loss 4.593, perplexity 98.79
+INFO:root:	Batch 170959, loss 4.616, perplexity 101.10
+INFO:root:	Batch 171556, loss 4.837, perplexity 126.06
+INFO:root:	Batch 172150, loss 4.692, perplexity 109.03
+INFO:root:	Batch 172723, loss 4.346, perplexity 77.13
+INFO:root:	Batch 173288, loss 4.841, perplexity 126.63
+INFO:root:	Batch 173877, loss 4.585, perplexity 97.97
+INFO:root:	Batch 174457, loss 4.580, perplexity 97.49
+INFO:root:	Batch 175013, loss 4.517, perplexity 91.52
+INFO:root:	Batch 175598, loss 4.316, perplexity 74.86
+INFO:root:	Batch 176188, loss 4.852, perplexity 127.99
+INFO:root:	Batch 176762, loss 4.440, perplexity 84.77
+INFO:root:	Batch 177357, loss 4.472, perplexity 87.51
+INFO:root:	Batch 177924, loss 4.291, perplexity 73.04
+INFO:root:	Batch 178499, loss 4.669, perplexity 106.57
+INFO:root:	Batch 179089, loss 4.713, perplexity 111.44
+INFO:root:	Batch 179684, loss 4.512, perplexity 91.13
+INFO:root:	Batch 180272, loss 4.551, perplexity 94.75
+INFO:root:	Batch 180842, loss 4.546, perplexity 94.23
+INFO:root:	Batch 181407, loss 4.146, perplexity 63.21
+INFO:root:	Batch 181984, loss 4.760, perplexity 116.77
+INFO:root:	Batch 182540, loss 4.527, perplexity 92.52
+INFO:root:	Batch 183108, loss 4.651, perplexity 104.73
+INFO:root:	Batch 183699, loss 4.598, perplexity 99.25
+INFO:root:	Batch 184294, loss 4.492, perplexity 89.30
+INFO:root:	Batch 184866, loss 4.648, perplexity 104.35
+INFO:root:	Batch 185456, loss 4.452, perplexity 85.84
+INFO:root:	Batch 186036, loss 4.222, perplexity 68.20
+INFO:root:	Batch 186613, loss 4.313, perplexity 74.69
+INFO:root:	Batch 187212, loss 4.763, perplexity 117.07
+INFO:root:	Batch 187802, loss 4.371, perplexity 79.13
+INFO:root:	Batch 188367, loss 4.458, perplexity 86.30
+INFO:root:	Batch 188976, loss 4.636, perplexity 103.15
+INFO:root:	Batch 189548, loss 4.281, perplexity 72.28
+INFO:root:	Batch 190121, loss 4.432, perplexity 84.09
+INFO:root:	Batch 190715, loss 4.515, perplexity 91.35
+INFO:root:	Batch 191300, loss 4.850, perplexity 127.68
+INFO:root:	Batch 191890, loss 4.558, perplexity 95.39
+INFO:root:	Batch 192490, loss 4.644, perplexity 103.99
+INFO:root:	Batch 193085, loss 4.338, perplexity 76.55
+INFO:root:	Batch 193663, loss 4.757, perplexity 116.34
+INFO:root:	Batch 194254, loss 4.506, perplexity 90.56
+INFO:root:	Batch 194831, loss 4.707, perplexity 110.68
+INFO:root:	Batch 195405, loss 4.796, perplexity 121.02
+INFO:root:	Batch 195999, loss 4.569, perplexity 96.44
+INFO:root:	Batch 196566, loss 4.325, perplexity 75.53
+INFO:root:	Batch 197157, loss 4.549, perplexity 94.55
+INFO:root:	Batch 197719, loss 4.887, perplexity 132.49
+CRITICAL:root:CUDA out of memory. Tried to allocate 1.15 GiB (GPU 1; 10.76 GiB total capacity; 6.92 GiB already allocated; 1.03 GiB free; 1.95 GiB cached)
+Traceback (most recent call last):
+  File "LSTM-2l-Adam-fast-freez.py", line 109, in train_epoch
+    loss.backward()
+  File "/usr/local/lib/python3.6/dist-packages/torch/tensor.py", line 166, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "/usr/local/lib/python3.6/dist-packages/torch/autograd/__init__.py", line 99, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+RuntimeError: CUDA out of memory. Tried to allocate 1.15 GiB (GPU 1; 10.76 GiB total capacity; 6.92 GiB already allocated; 1.03 GiB free; 1.95 GiB cached)
+INFO:root:	Batch 198313, loss 4.211, perplexity 67.44
+INFO:root:	Batch 198866, loss 4.725, perplexity 112.71
+INFO:root:	Batch 199474, loss 4.570, perplexity 96.54
+INFO:root:	Batch 200049, loss 4.438, perplexity 84.57
+INFO:root:	Batch 200640, loss 4.447, perplexity 85.37
+INFO:root:	Batch 201186, loss 4.503, perplexity 90.32
+INFO:root:	Batch 201772, loss 4.246, perplexity 69.84
+INFO:root:	Batch 202325, loss 4.432, perplexity 84.06
+INFO:root:	Batch 202933, loss 4.307, perplexity 74.20
+INFO:root:	Batch 203495, loss 4.390, perplexity 80.67
+INFO:root:	Batch 204083, loss 4.562, perplexity 95.77
+INFO:root:	Batch 204661, loss 4.904, perplexity 134.85
+INFO:root:	Batch 205257, loss 4.769, perplexity 117.85
+INFO:root:	Batch 205814, loss 4.547, perplexity 94.34
+INFO:root:	Batch 206427, loss 4.495, perplexity 89.52
+INFO:root:	Batch 206999, loss 4.773, perplexity 118.31
+INFO:root:	Batch 207594, loss 4.851, perplexity 127.92
+INFO:root:	Batch 208201, loss 4.287, perplexity 72.75
+INFO:root:	Batch 208808, loss 4.604, perplexity 99.88
+INFO:root:	Batch 209406, loss 3.849, perplexity 46.96
+INFO:root:	Batch 209968, loss 4.291, perplexity 73.07
+CRITICAL:root:CUDA out of memory. Tried to allocate 1.13 GiB (GPU 1; 10.76 GiB total capacity; 6.96 GiB already allocated; 892.25 MiB free; 2.08 GiB cached)
+Traceback (most recent call last):
+  File "LSTM-2l-Adam-fast-freez.py", line 109, in train_epoch
+    loss.backward()
+  File "/usr/local/lib/python3.6/dist-packages/torch/tensor.py", line 166, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "/usr/local/lib/python3.6/dist-packages/torch/autograd/__init__.py", line 99, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+RuntimeError: CUDA out of memory. Tried to allocate 1.13 GiB (GPU 1; 10.76 GiB total capacity; 6.96 GiB already allocated; 892.25 MiB free; 2.08 GiB cached)
+INFO:root:	Batch 210574, loss 4.467, perplexity 87.07
+INFO:root:	Batch 211157, loss 4.350, perplexity 77.45
+INFO:root:	Batch 211757, loss 4.809, perplexity 122.58
+INFO:root:	Batch 212342, loss 4.395, perplexity 81.06
+INFO:root:	Batch 212954, loss 4.171, perplexity 64.77
+INFO:root:	Batch 213561, loss 4.671, perplexity 106.79
+INFO:root:	Batch 214150, loss 4.760, perplexity 116.71
+INFO:root:	Batch 214718, loss 4.780, perplexity 119.12
+INFO:root:	Batch 215322, loss 4.563, perplexity 95.88
+INFO:root:	Batch 215934, loss 4.454, perplexity 85.93
+INFO:root:	Batch 216508, loss 4.351, perplexity 77.57
+INFO:root:	Batch 217103, loss 4.544, perplexity 94.08
+INFO:root:	Batch 217712, loss 4.698, perplexity 109.78
+INFO:root:	Batch 218324, loss 4.495, perplexity 89.55
+INFO:root:	Batch 218913, loss 4.399, perplexity 81.39
+INFO:root:	Batch 219520, loss 4.771, perplexity 118.03
+INFO:root:	Batch 220121, loss 4.684, perplexity 108.18
+INFO:root:	Batch 220724, loss 4.503, perplexity 90.25
+INFO:root:	Batch 221328, loss 4.684, perplexity 108.23
+INFO:root:	Batch 221916, loss 4.726, perplexity 112.79
+INFO:root:	Batch 222519, loss 4.723, perplexity 112.53
+INFO:root:	Batch 223105, loss 4.746, perplexity 115.09
+INFO:root:	Batch 223700, loss 4.735, perplexity 113.82
+INFO:root:	Batch 224304, loss 4.542, perplexity 93.87
+INFO:root:	Batch 224873, loss 4.157, perplexity 63.91
+INFO:root:	Batch 225474, loss 4.385, perplexity 80.23
+INFO:root:	Batch 226077, loss 4.593, perplexity 98.80
+INFO:root:	Batch 226680, loss 4.334, perplexity 76.29
+INFO:root:	Batch 227258, loss 4.608, perplexity 100.27
+INFO:root:	Batch 227826, loss 4.501, perplexity 90.08
+INFO:root:	Batch 228419, loss 4.586, perplexity 98.14
+INFO:root:	Batch 229017, loss 4.536, perplexity 93.33
+INFO:root:	Batch 229626, loss 4.462, perplexity 86.70
+INFO:root:	Batch 230223, loss 4.945, perplexity 140.50
+INFO:root:	Batch 230803, loss 4.671, perplexity 106.77
+INFO:root:	Batch 231381, loss 4.411, perplexity 82.36
+INFO:root:	Batch 231990, loss 4.627, perplexity 102.17
+INFO:root:	Batch 232574, loss 4.121, perplexity 61.63
+INFO:root:	Batch 233179, loss 4.725, perplexity 112.71
+INFO:root:	Batch 233768, loss 4.746, perplexity 115.18
+INFO:root:	Batch 234372, loss 4.658, perplexity 105.39
+INFO:root:	Batch 234967, loss 4.458, perplexity 86.34
+INFO:root:	Batch 235537, loss 4.722, perplexity 112.42
+INFO:root:	Batch 236141, loss 4.529, perplexity 92.71
+INFO:root:	Batch 236731, loss 4.508, perplexity 90.76
+INFO:root:	Batch 237334, loss 4.757, perplexity 116.41
+INFO:root:	Batch 237937, loss 4.558, perplexity 95.39
+INFO:root:	Batch 238541, loss 4.618, perplexity 101.29
+INFO:root:	Batch 239139, loss 4.442, perplexity 84.94
+INFO:root:	Batch 239711, loss 4.228, perplexity 68.58
+INFO:root:	Batch 240306, loss 4.781, perplexity 119.17
+INFO:root:	Batch 240912, loss 4.252, perplexity 70.25
+INFO:root:	Batch 241514, loss 4.897, perplexity 133.85
+INFO:root:	Batch 242104, loss 4.265, perplexity 71.18
+INFO:root:	Batch 242705, loss 4.834, perplexity 125.67
+INFO:root:	Batch 243326, loss 4.385, perplexity 80.26
+INFO:root:	Batch 243917, loss 5.026, perplexity 152.25
+INFO:root:	Batch 244504, loss 4.580, perplexity 97.49
+INFO:root:	Batch 245079, loss 4.253, perplexity 70.33
+INFO:root:	Batch 245672, loss 4.644, perplexity 104.00
+INFO:root:	Batch 246277, loss 4.380, perplexity 79.84
+INFO:root:	Batch 246845, loss 4.636, perplexity 103.17
+INFO:root:	Batch 247450, loss 4.373, perplexity 79.26
+INFO:root:	Batch 248027, loss 4.165, perplexity 64.38
+INFO:root:	Batch 248627, loss 4.703, perplexity 110.25
+INFO:root:	Batch 249215, loss 4.648, perplexity 104.41
+INFO:root:	Batch 249806, loss 4.820, perplexity 123.92
+INFO:root:	Batch 250412, loss 4.931, perplexity 138.49
+INFO:root:	Batch 250999, loss 4.472, perplexity 87.57
+INFO:root:	Batch 251585, loss 4.299, perplexity 73.59
+INFO:root:	Batch 252185, loss 4.572, perplexity 96.73
+INFO:root:	Batch 252789, loss 4.263, perplexity 71.02
+INFO:root:	Batch 253385, loss 4.405, perplexity 81.87
+INFO:root:	Batch 253987, loss 4.446, perplexity 85.26
+INFO:root:	Batch 254586, loss 4.360, perplexity 78.24
+INFO:root:	Batch 255193, loss 4.919, perplexity 136.93
+INFO:root:	Batch 255768, loss 4.852, perplexity 127.95
+INFO:root:	Batch 256374, loss 4.263, perplexity 71.05
+INFO:root:	Batch 256944, loss 4.631, perplexity 102.58
+INFO:root:	Batch 257537, loss 4.261, perplexity 70.89
+INFO:root:	Batch 258120, loss 4.691, perplexity 108.96
+INFO:root:	Batch 258692, loss 4.388, perplexity 80.49
+INFO:root:	Batch 259282, loss 4.921, perplexity 137.08
+INFO:root:	Batch 259859, loss 4.962, perplexity 142.89
+INFO:root:	Batch 260456, loss 4.401, perplexity 81.57
+INFO:root:	Batch 261059, loss 4.850, perplexity 127.76
+INFO:root:	Batch 261655, loss 4.291, perplexity 73.02
+INFO:root:	Batch 262226, loss 4.588, perplexity 98.29
+INFO:root:	Batch 262811, loss 4.474, perplexity 87.72
+INFO:root:	Batch 263417, loss 4.778, perplexity 118.84
+INFO:root:	Batch 264018, loss 4.494, perplexity 89.47
+INFO:root:	Batch 264606, loss 4.541, perplexity 93.82
+INFO:root:	Batch 265202, loss 4.555, perplexity 95.08
+INFO:root:	Batch 265770, loss 4.476, perplexity 87.91
+INFO:root:	Batch 266379, loss 4.806, perplexity 122.29
+INFO:root:	Batch 266970, loss 4.603, perplexity 99.81
+INFO:root:	Batch 267574, loss 4.601, perplexity 99.61
+INFO:root:	Batch 268163, loss 4.578, perplexity 97.32
+INFO:root:	Batch 268729, loss 4.483, perplexity 88.53
+INFO:root:	Batch 269296, loss 4.215, perplexity 67.67
+INFO:root:	Batch 269901, loss 4.474, perplexity 87.69
+INFO:root:	Batch 270495, loss 4.369, perplexity 78.95
+INFO:root:	Batch 271104, loss 4.511, perplexity 91.01
+INFO:root:	Batch 271707, loss 4.591, perplexity 98.56
+INFO:root:	Batch 272303, loss 4.490, perplexity 89.10
+INFO:root:	Batch 272885, loss 4.613, perplexity 100.79
+INFO:root:	Batch 273486, loss 4.494, perplexity 89.51
+INFO:root:	Batch 274068, loss 4.385, perplexity 80.27
+INFO:root:	Batch 274666, loss 4.526, perplexity 92.40
+INFO:root:	Batch 275249, loss 4.894, perplexity 133.47
+INFO:root:	Batch 275854, loss 4.508, perplexity 90.76
+INFO:root:	Batch 276423, loss 4.151, perplexity 63.51
+INFO:root:	Batch 277030, loss 4.533, perplexity 93.01
+INFO:root:	Batch 277634, loss 4.747, perplexity 115.20
+INFO:root:	Batch 278222, loss 4.397, perplexity 81.17
+INFO:root:	Batch 278824, loss 4.325, perplexity 75.53
+INFO:root:	Batch 279408, loss 4.513, perplexity 91.23
+INFO:root:	Batch 279975, loss 4.594, perplexity 98.84
+INFO:root:	Batch 280582, loss 4.573, perplexity 96.82
+INFO:root:	Batch 281154, loss 4.326, perplexity 75.68
+INFO:root:	Batch 281752, loss 4.528, perplexity 92.55
+INFO:root:	Batch 282356, loss 4.691, perplexity 108.95
+INFO:root:	Batch 282942, loss 4.881, perplexity 131.74
+INFO:root:	Batch 283548, loss 4.636, perplexity 103.12
+INFO:root:	Batch 284146, loss 4.540, perplexity 93.66
+INFO:root:	Batch 284716, loss 4.634, perplexity 102.94
+INFO:root:	Batch 285308, loss 4.890, perplexity 132.96
+INFO:root:	Batch 285911, loss 4.492, perplexity 89.29
+CRITICAL:root:CUDA out of memory. Tried to allocate 1.10 GiB (GPU 1; 10.76 GiB total capacity; 6.89 GiB already allocated; 1.07 GiB free; 1.95 GiB cached)
+Traceback (most recent call last):
+  File "LSTM-2l-Adam-fast-freez.py", line 109, in train_epoch
+    loss.backward()
+  File "/usr/local/lib/python3.6/dist-packages/torch/tensor.py", line 166, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "/usr/local/lib/python3.6/dist-packages/torch/autograd/__init__.py", line 99, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+RuntimeError: CUDA out of memory. Tried to allocate 1.10 GiB (GPU 1; 10.76 GiB total capacity; 6.89 GiB already allocated; 1.07 GiB free; 1.95 GiB cached)
+INFO:root:	Batch 286502, loss 4.438, perplexity 84.63
+INFO:root:	Batch 287081, loss 4.442, perplexity 84.98
+INFO:root:	Batch 287688, loss 4.593, perplexity 98.80
+INFO:root:	Batch 288296, loss 4.560, perplexity 95.58
+INFO:root:	Batch 288861, loss 4.515, perplexity 91.39
+INFO:root:	Batch 289441, loss 4.631, perplexity 102.64
+INFO:root:	Batch 290049, loss 4.287, perplexity 72.72
+INFO:root:	Batch 290622, loss 4.546, perplexity 94.24
+INFO:root:	Batch 291202, loss 4.682, perplexity 108.04
+INFO:root:	Batch 291792, loss 4.513, perplexity 91.16
+INFO:root:	Batch 292400, loss 4.701, perplexity 110.10
+INFO:root:	Batch 292986, loss 4.478, perplexity 88.04
+INFO:root:	Batch 293590, loss 4.292, perplexity 73.14
+INFO:root:	Batch 294200, loss 4.824, perplexity 124.40
+INFO:root:	Batch 294768, loss 4.566, perplexity 96.14
+INFO:root:	Batch 295381, loss 4.510, perplexity 90.93
+INFO:root:	Batch 295950, loss 4.774, perplexity 118.36
+INFO:root:	Batch 296555, loss 4.442, perplexity 84.92
+INFO:root:	Batch 297165, loss 4.087, perplexity 59.55
+INFO:root:	Batch 297734, loss 4.258, perplexity 70.64
+INFO:root:	Batch 298301, loss 4.519, perplexity 91.76
+INFO:root:	Batch 298901, loss 4.526, perplexity 92.38
+INFO:root:	Batch 299502, loss 4.439, perplexity 84.73
+INFO:root:	Batch 300094, loss 4.351, perplexity 77.59
+INFO:root:	Batch 300676, loss 4.491, perplexity 89.23
+INFO:root:	Batch 301282, loss 4.595, perplexity 98.97
+INFO:root:	Batch 301848, loss 4.392, perplexity 80.84
+INFO:root:	Batch 302458, loss 4.205, perplexity 67.03
+INFO:root:	Batch 303048, loss 4.569, perplexity 96.45
+INFO:root:	Batch 303659, loss 4.388, perplexity 80.45
+INFO:root:	Batch 304253, loss 4.393, perplexity 80.92
+INFO:root:	Batch 304826, loss 4.531, perplexity 92.87
+INFO:root:	Batch 305397, loss 4.217, perplexity 67.82
+INFO:root:	Batch 305993, loss 4.522, perplexity 92.03
+INFO:root:	Batch 306566, loss 4.503, perplexity 90.31
+INFO:root:	Batch 307176, loss 4.482, perplexity 88.42
+INFO:root:	Batch 307772, loss 4.641, perplexity 103.61
+INFO:root:	Batch 308371, loss 4.304, perplexity 74.00
+INFO:root:	Batch 308942, loss 4.578, perplexity 97.35
+INFO:root:	Batch 309511, loss 4.532, perplexity 92.92
+INFO:root:	Batch 310124, loss 4.691, perplexity 109.01
+INFO:root:	Batch 310691, loss 4.803, perplexity 121.85
+INFO:root:	Batch 311288, loss 4.374, perplexity 79.33
+INFO:root:	Batch 311877, loss 4.651, perplexity 104.65
+INFO:root:	Batch 312481, loss 4.690, perplexity 108.89
+INFO:root:	Batch 313081, loss 4.923, perplexity 137.47
+INFO:root:	Batch 313635, loss 4.457, perplexity 86.22
+INFO:root:	Batch 314225, loss 4.268, perplexity 71.39
+INFO:root:	Batch 314833, loss 4.505, perplexity 90.46
+INFO:root:	Batch 315416, loss 4.275, perplexity 71.89
+INFO:root:	Batch 316025, loss 4.469, perplexity 87.28
+INFO:root:	Batch 316610, loss 4.106, perplexity 60.69
+INFO:root:	Batch 317215, loss 4.309, perplexity 74.36
+INFO:root:	Batch 317798, loss 4.410, perplexity 82.30
+INFO:root:	Batch 318388, loss 4.618, perplexity 101.29
+INFO:root:	Batch 318979, loss 4.266, perplexity 71.21
+INFO:root:	Batch 319582, loss 4.294, perplexity 73.28
+INFO:root:	Batch 320176, loss 4.542, perplexity 93.90
+INFO:root:	Batch 320779, loss 4.789, perplexity 120.13
+INFO:root:	Batch 321384, loss 4.615, perplexity 101.02
+INFO:root:	Batch 321992, loss 4.159, perplexity 63.98
+INFO:root:	Batch 322577, loss 4.367, perplexity 78.84
+INFO:root:	Batch 323181, loss 4.512, perplexity 91.08
+INFO:root:	Batch 323744, loss 4.672, perplexity 106.95
+INFO:root:	Batch 324307, loss 4.271, perplexity 71.59
+INFO:root:	Batch 324890, loss 4.450, perplexity 85.64
+INFO:root:	Batch 325499, loss 4.481, perplexity 88.34
+INFO:root:	Batch 326073, loss 4.338, perplexity 76.59
+INFO:root:	Batch 326689, loss 4.383, perplexity 80.04
+INFO:root:	Batch 327288, loss 4.661, perplexity 105.71
+INFO:root:	Batch 327880, loss 4.467, perplexity 87.06
+INFO:root:	Batch 328491, loss 4.740, perplexity 114.46
+INFO:root:	Batch 329077, loss 4.281, perplexity 72.34
+INFO:root:	Batch 329668, loss 4.477, perplexity 88.00
+INFO:root:	Batch 330255, loss 4.575, perplexity 97.04
+INFO:root:	Batch 330852, loss 4.182, perplexity 65.51
+INFO:root:	Batch 331456, loss 4.809, perplexity 122.64
+INFO:root:	Batch 332069, loss 4.574, perplexity 96.97
+INFO:root:	Batch 332673, loss 4.324, perplexity 75.47
+INFO:root:	Batch 333267, loss 4.866, perplexity 129.83
+INFO:root:	Batch 333872, loss 4.794, perplexity 120.80
+INFO:root:	Batch 334456, loss 4.637, perplexity 103.22
+INFO:root:	Batch 335066, loss 4.505, perplexity 90.51
+INFO:root:	Batch 335634, loss 4.246, perplexity 69.81
+INFO:root:	Batch 336193, loss 4.096, perplexity 60.12
+INFO:root:	Batch 336780, loss 4.336, perplexity 76.39
+INFO:root:	Batch 337340, loss 4.901, perplexity 134.48
+INFO:root:	Batch 337933, loss 4.154, perplexity 63.66
+INFO:root:	Batch 338541, loss 4.460, perplexity 86.47
+INFO:root:	Batch 339151, loss 4.688, perplexity 108.66
+INFO:root:	Batch 339755, loss 4.211, perplexity 67.41
+INFO:root:	Batch 340347, loss 4.514, perplexity 91.29
+INFO:root:	Batch 340956, loss 4.156, perplexity 63.80
+INFO:root:	Batch 341525, loss 4.362, perplexity 78.42
+INFO:root:	Batch 342136, loss 4.595, perplexity 98.99
+INFO:root:	Batch 342741, loss 4.638, perplexity 103.38
+INFO:root:	Batch 343328, loss 4.646, perplexity 104.15
+INFO:root:	Batch 343936, loss 4.640, perplexity 103.59
+DEBUG:root:Validation perplexity: 84.7
+DEBUG:root:Test perplexity: 235.2
+DEBUG:root:BEST result
+DEBUG:root:END EPOCH now = 2020-01-09 05:58:08.798597
+
